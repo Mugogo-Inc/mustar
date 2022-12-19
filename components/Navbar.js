@@ -1,4 +1,5 @@
 import React from "react";
+import LinkTag from "./Link";
 
 import Link from "next/link";
 import NavModal from "./NavModal";
@@ -11,18 +12,10 @@ const Navbar = () => {
         <Link href="/">Zanzibar</Link>
       </div>
       <div className="hidden sm:flex gap-2 ">
-        <Link href="" className=" btn-ghost rounded-sm p-2">
-          Phone
-        </Link>
-        <Link href="" className=" btn-ghost rounded-sm p-2">
-          Experiences
-        </Link>
-        <Link href="" className=" btn-ghost rounded-sm p-2">
-          Services
-        </Link>
-        <Link href="" className=" btn-ghost rounded-sm p-2">
-          Ab
-        </Link>
+        <LinkTag href="/contact">Contact</LinkTag>
+        <LinkTag href="/experiences">Experiences</LinkTag>
+        <LinkTag href="/services">Services</LinkTag>
+        <LinkTag href="/guides">Guides</LinkTag>
       </div>
       <div>
         <NavModal />
