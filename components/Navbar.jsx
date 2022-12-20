@@ -26,7 +26,7 @@ const Navbar = () => {
         <div
           className={
             isOpen
-              ? " block  p-8 h-80 m-auto text-center text-2xl sm:text-base bg-base-200 sm:bg-base-100"
+              ? " block translate-x-1  p-8 h-80 m-auto text-center text-2xl sm:text-base bg-base-200 sm:bg-base-100"
               : "hidden sm:flex"
           }
         >
