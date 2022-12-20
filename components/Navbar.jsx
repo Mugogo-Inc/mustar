@@ -7,7 +7,6 @@ const Navbar = () => {
 
   return (
     <div className="navbar bg-base-100 relative">
-      <div className="flex-none"></div>
       <div className={isOpen ? "hidden" : "flex-1"}>
         <button
           className={isOpen ? "hidden" : "btn btn-ghost normal-case text-xl"}
@@ -34,13 +33,17 @@ const Navbar = () => {
             {" "}
             <RxCross2 onClick={() => setIsOpen(!isOpen)} />
           </button>
-          <Link href=" " className={isOpen ? "block my-4 " : " m-2"}>
+          <Link href=" " className={isOpen ? "block my-4 " : " m-1"}>
             Learn More
           </Link>
-          <Link href="" className={isOpen ? "block my-4 " : " m-2"}>
+          <Link href="" className={isOpen ? "block my-4 " : " m-1"}>
             Services
           </Link>
-          <Link href="" className={isOpen ? "block my-4 " : " m-2"}>
+          <Link
+            href=""
+            onClick={() => setIsOpen(!isOpen)}
+            className={isOpen ? "block my-4 " : " m-1"}
+          >
             About
           </Link>
         </div>
