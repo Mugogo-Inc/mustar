@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { RxCross2 } from "react-icons/rx";
 
@@ -19,22 +19,32 @@ const Navbar = () => {
       <div
         className={
           isOpen
-            ? "  bg-base-200 border rounded-md border-green-400 w-full"
+            ? " bg-base-200 border rounded-md border-green-400 w-full"
             : " hidden sm:flex  "
         }
       >
-        <div className="block p-4 m-auto text-center text-2xl sm:text-base sm:flex bg-base-200 sm:bg-base-100">
-          <i className="sm:hidden">
+        <div
+          className={
+            isOpen
+              ? " block  p-8 h-80 m-auto text-center text-2xl sm:text-base bg-base-200 sm:bg-base-100"
+              : "hidden sm:flex"
+          }
+        >
+          <button className=" btn-ghost :hover: shadow-inner sm:hidden absolute bottom-10">
             {" "}
             <RxCross2 onClick={() => setIsOpen(!isOpen)} />
-          </i>
-          <Link href=" " className={isOpen ? "block " : " m-2"}>
-            About
+          </button>
+          <Link href=" " className={isOpen ? "block my-4 " : " m-2"}>
+            Learn More
           </Link>
-          <Link href="" className={isOpen ? "block " : " m-2"}>
-            About
+          <Link href="" className={isOpen ? "block my-4 " : " m-2"}>
+            Services
           </Link>
-          <Link href="" className={isOpen ? "block" : " m-2"}>
+          <Link
+            href=""
+            onClick={() => setIsOpen(!isOpen)}
+            className={isOpen ? "block my-4 " : " m-2"}
+          >
             About
           </Link>
         </div>
