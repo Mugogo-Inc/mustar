@@ -1,27 +1,29 @@
 import Image from "next/image";
 import React from "react";
-import photo from "./images/gallery4.jpeg";
+import photo from "./images/safaris.jpg";
 import { BsArrowRightShort } from "react-icons/bs";
 
 const Banner = () => {
   return (
-    <div className="relative">
+    <div className="relative bg-gray-900 sm:flex">
       <p className="absolute top-1/3 pl-3">
-        <h1 className="text-3xl  text-white">
-          Ready for an Experience? <br />
-          Welcome to <br />
-          <span className="text-4xl font-bold text-emerald-500">
-            {" "}
-            Zanzibar Experiences
-          </span>
-        </h1>
-        <button className="first-letter:uppercase transition-colors rounded-none bg-emerald-500 cursor-pointer border-none  text-white p-2 mt-2 text-lg font-semibold hover:bg-emerald-600">
+        <div className="text-3xl  text-white">
+          <h1>
+            Ready for an Experience? <br />
+            Welcome to <br />
+            <span className="text-4xl font-bold text-orange-500">
+              {" "}
+              Zanzibar Experiences
+            </span>
+          </h1>
+        </div>
+        <button className=" border-2 p-3 mt-6 text-white">
           {" "}
-          Explore
-          <BsArrowRightShort className="inline-block font-semibold text-2xl" />
+          Explore Experiences
+          <BsArrowRightShort className="inline-block font-bold text-3xl text-orange-600" />
         </button>
       </p>
-      <Image src={photo} height={500} alt="jacugaz" />
+      <Image src={photo} height="full" alt="jacugaz" />
     </div>
   );
 };
