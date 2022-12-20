@@ -8,11 +8,11 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 relative">
       <div className="flex-none"></div>
-      <div className="flex-1">
+      <div className={isOpen ? "hidden" : "flex-1"}>
         <button
           className={isOpen ? "hidden" : "btn btn-ghost normal-case text-xl"}
         >
-          Zanzibar
+          Visit Zanzibar
         </button>
       </div>
 
@@ -40,11 +40,7 @@ const Navbar = () => {
           <Link href="" className={isOpen ? "block my-4 " : " m-2"}>
             Services
           </Link>
-          <Link
-            href=""
-            onClick={() => setIsOpen(!isOpen)}
-            className={isOpen ? "block my-4 " : " m-2"}
-          >
+          <Link href="" className={isOpen ? "block my-4 " : " m-2"}>
             About
           </Link>
         </div>
