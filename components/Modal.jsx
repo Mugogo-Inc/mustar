@@ -28,12 +28,12 @@ export default function TransitionsModal({ heading }) {
 
   return (
     <div className="">
-      <div className="flex ">
+      <div className="inline-block ">
         <button
           onClick={handleOpen}
-          className="text-white text-base p-2 m-1 mt-4 border border-white flex justify-center items-center ml-24"
+          className="text-white text-base p-2 m-1 mt-4 border border-whiter items-center  "
         >
-          {heading} <TfiAngleRight className="" />
+          {heading} <TfiAngleRight className="inline" />
         </button>
       </div>
 
