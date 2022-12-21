@@ -1,6 +1,5 @@
 import React from "react";
 import { data } from "./tours/data";
-import Image from "next/image";
 
 import TransitionsModal from "./Modal";
 import Link from "next/link";
@@ -18,8 +17,8 @@ const ExperienceGrid = () => {
             key={img.id}
             className=" flex flex-col justify-center text-center m-4"
           >
-            <Gallery />
-            <TransitionsModal heading={img.btnInfo} />
+            <Gallery data={data} />
+            <TransitionsModal heading={img.btnInfo} data={data} />
           </div>
         ))}
       </div>

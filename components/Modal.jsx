@@ -3,7 +3,6 @@ import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { AiOutlineClose } from "react-icons/ai";
 import { TfiAngleRight } from "react-icons/tfi";
@@ -21,7 +20,7 @@ const style = {
   p: 4,
 };
 
-export default function TransitionsModal({ heading }) {
+export default function TransitionsModal({ heading, data }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -66,7 +65,7 @@ export default function TransitionsModal({ heading }) {
               id="transition-modal-description"
               sx={{ mt: 2 }}
             ></Typography>
-            <Gallery />
+            <Gallery data={data} />
           </Box>
         </Fade>
       </Modal>
