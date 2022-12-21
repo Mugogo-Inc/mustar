@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import photo from "./images/safaris.jpg";
+import photo from "./tours/nakupenda/nakupenda2.jpg";
 import { BsArrowRightShort } from "react-icons/bs";
 
 const Banner = () => {

@@ -1,9 +1,10 @@
 import React from "react";
-import { data } from "./images/data/img/data";
+import { data } from "./tours/data";
 import Image from "next/image";
 
 import TransitionsModal from "./Modal";
 import Link from "next/link";
+import Gallery from "./Gallery";
 
 const ExperienceGrid = () => {
   return (
@@ -11,15 +12,14 @@ const ExperienceGrid = () => {
       <h1 className="block m-auto text-center text-white p-4  ">
         Experiences{" "}
       </h1>
-      <div className="grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-4 grid-rows-2 gap-4  m-4 bg-gray-900">
+      <div className="grid grid-cols-1  sm:grid-cols-3 lg:grid-cols-3 grid-rows-2 gap-4  m-4 bg-gray-900">
         {data.map((img) => (
           <div
             key={img.id}
-            className=" flex flex-col justify-center text-center"
+            className=" flex flex-col justify-center text-center m-4"
           >
-            <Image height={200} width="" alt="gg" src={img.img} />
-
-            <TransitionsModal heading={img.desc} />
+            <Gallery />
+            <TransitionsModal heading={img.btnInfo} />
           </div>
         ))}
       </div>

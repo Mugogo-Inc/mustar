@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "./images/data/img/data";
+import { data } from "./tours/data";
 import Slider from "react-slick";
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
