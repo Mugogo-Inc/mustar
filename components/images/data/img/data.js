@@ -2,7 +2,7 @@
 import img1 from "../img/boat.jpeg";
 import img2 from "../img/carousel.jpg";
 import img3 from "../img/boat2.jpeg";
-import img4 from "../img/gallery2.jpeg";
+import img4 from "../img/boat2.jpeg";
 
 export const data = [
   {
@@ -12,7 +12,7 @@ export const data = [
   },
   {
     id: 2,
-    img: img2,
+    img: img1,
     desc: "Stonetown",
   },
 

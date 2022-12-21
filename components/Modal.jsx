@@ -27,14 +27,16 @@ export default function TransitionsModal({ heading }) {
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
-      <Button
-        sx={{ padding: "14x", border: "1px solid", margin: "12px" }}
-        onClick={handleOpen}
-        className=" text-white font-base border border-orange-500"
-      >
-        {heading} <TfiAngleRight className="m-2" />
-      </Button>
+    <div className="">
+      <div className="flex ">
+        <button
+          onClick={handleOpen}
+          className="text-white text-base p-2 m-1 mt-4 border border-white flex justify-center place-items-center ml-10"
+        >
+          {heading} <TfiAngleRight className="" />
+        </button>
+      </div>
+
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
