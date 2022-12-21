@@ -31,7 +31,7 @@ export default function TransitionsModal({ heading }) {
       <div className="flex ">
         <button
           onClick={handleOpen}
-          className="text-white text-base p-2 m-1 mt-4 border border-white flex justify-center place-items-center ml-10"
+          className="text-white text-base p-2 m-1 mt-4 border border-white flex justify-center items-center ml-24"
         >
           {heading} <TfiAngleRight className="" />
         </button>
