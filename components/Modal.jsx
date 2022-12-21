@@ -30,7 +30,7 @@ export default function TransitionsModal({ heading }) {
       <Button
         sx={{ padding: "14x", border: "1px solid", margin: "12px" }}
         onClick={handleOpen}
-        className=" text-gray-900 font-base border-2 border-gray-900"
+        className=" text-white font-base border border-orange-500"
       >
         {heading} <TfiAngleRight className="m-2" />
       </Button>
@@ -46,7 +46,10 @@ export default function TransitionsModal({ heading }) {
         }}
       >
         <Fade in={open}>
-          <Box sx={style} className=" border-none outline-none ">
+          <Box
+            sx={style}
+            className=" border-none outline-none rounded shadow-inner "
+          >
             <AiOutlineClose
               className=" absolute right-3 top-2 text-3xl"
               onClick={() => setOpen(!open)}

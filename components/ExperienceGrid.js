@@ -8,21 +8,19 @@ const ExperienceGrid = () => {
   return (
     <div className="m-4 text-4xl z-0">
       <h1 className="block m-auto text-center text-gray-900  ">Experiences </h1>
-      <div className="grid grid-cols-2 sm:grid-cols-5 grid-rows-3 gap-2  m-4 relative">
+      <div className="grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-4 grid-rows-3 gap-4  m-4 relative">
         {data.map((img) => (
-          <div key={img.id} className="z-0 relative">
-            <Image
-              key={img.id}
-              height=""
-              width=""
-              alt="msaki"
-              src={img.img}
-              className="rounded  z-0 md:w-96 col-span-2"
-            />
-            <div className="block m-auto text-center">
-              <TransitionsModal className="" heading={img.desc} />
+          <>
+            <div className="card card-compact sm:w-56 h-44  shadow-xl p-0 rounded-md bg-gray-900">
+              <figure>
+                <Image src={img.img} alt="Shoes" height="" width="" />
+              </figure>
+
+              <p>
+                <TransitionsModal heading={img.desc} />
+              </p>
             </div>
-          </div>
+          </>
         ))}
       </div>
     </div>
