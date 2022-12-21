@@ -8,17 +8,17 @@ export const data = [
   {
     id: 1,
     img: img1,
-    desc: "Lorem aroe sgdsss ffff dede arriai",
+    desc: "Nakupenda Tour",
   },
   {
     id: 2,
     img: img2,
-    desc: "Lorem aroe sgdsss ffff dede arriai",
+    desc: "Stonetown Tour",
   },
 
   {
     id: 3,
     img: img3,
-    desc: "Lorem aroe sgdsss ffff dede arriai",
+    desc: "Nungwi Island",
   },
 ];
