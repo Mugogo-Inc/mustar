@@ -48,8 +48,12 @@ export default function TransitionsModal({ heading }) {
           timeout: 500,
         }}
       >
-        <Fade in={open} className="rounded-2xl p-3 mr-20">
-          <Box style={{}} sx={style} className="m-4">
+        <Fade in={open} className="rounded p-3 border-none ">
+          <Box
+            style={{}}
+            sx={style}
+            className="border-none rounded outline-none p-2"
+          >
             <AiOutlineClose
               className=" absolute right-3 top-2 text-3xl"
               onClick={() => setOpen(!open)}
