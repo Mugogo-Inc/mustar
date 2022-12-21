@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { AiOutlineClose } from "react-icons/ai";
 import { TfiAngleRight } from "react-icons/tfi";
+import Gallery from "./Gallery";
 
 const style = {
   position: "absolute",
@@ -58,16 +59,11 @@ export default function TransitionsModal({ heading }) {
             <Typography id="transition-modal-title" variant="h6" component="h2">
               {heading}
             </Typography>
-            <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-              natus a consectetur ea quis tenetur atque alias adipisci iure
-              iusto, sit voluptatibus sunt aspernatur delectus eos velit amet
-              placeat eligendi? Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Quaerat molestias, harum praesentium
-              necessitatibus nihil error obcaecati ea ullam quis voluptatem
-              aliquid eius? Distinctio minus eum at laborum saepe,
-              exercitationem id.
-            </Typography>
+            <Typography
+              id="transition-modal-description"
+              sx={{ mt: 2 }}
+            ></Typography>
+            <Gallery />
           </Box>
         </Fade>
       </Modal>
