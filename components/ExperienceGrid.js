@@ -23,13 +23,15 @@ const ExperienceGrid = () => {
           </div>
         ))}
       </div>
-      <Link
-        href="/experiences"
-        className=" block m-auto text-base text-center text-white border border-white w-24 p-2 "
-      >
-        {" "}
-        View More
-      </Link>
+      <div className="pb-5">
+        <Link
+          href="/experiences"
+          className=" block m-auto text-base text-center text-white border border-white w-24 p-2 mb-5 "
+        >
+          {" "}
+          View More
+        </Link>
+      </div>
     </div>
   );
 };
