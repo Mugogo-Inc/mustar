@@ -15,7 +15,7 @@ const Banner = () => {
       <div className="sm:w-1/2 relative">
         <div className=" block absolute sm:top-20 left-3 text-3xl  text-white">
           <h1 className="block z-40 mt-28 text-4xl lg:text-6xl sm:mt-0 font-medium">
-            Ready for an{" "}
+            Ready for an <br />
             <span className="text-5xl lg:text-7xl text-orange-500 font-semibold">
               Experience
             </span>{" "}
