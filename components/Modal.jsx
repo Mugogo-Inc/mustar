@@ -6,6 +6,7 @@ import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { AiOutlineClose } from "react-icons/ai";
+import { TfiAngleRight } from "react-icons/tfi";
 
 const style = {
   position: "absolute",
@@ -26,8 +27,12 @@ export default function TransitionsModal({ heading }) {
 
   return (
     <div>
-      <Button onClick={handleOpen} className="text-orange-600 text-md">
-        {heading}
+      <Button
+        sx={{ padding: "14x", border: "1px solid", margin: "12px" }}
+        onClick={handleOpen}
+        className=" text-gray-900 font-base border-2 border-gray-900"
+      >
+        {heading} <TfiAngleRight className="m-2" />
       </Button>
       <Modal
         aria-labelledby="transition-modal-title"
@@ -54,7 +59,11 @@ export default function TransitionsModal({ heading }) {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
               natus a consectetur ea quis tenetur atque alias adipisci iure
               iusto, sit voluptatibus sunt aspernatur delectus eos velit amet
-              placeat eligendi?
+              placeat eligendi? Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Quaerat molestias, harum praesentium
+              necessitatibus nihil error obcaecati ea ullam quis voluptatem
+              aliquid eius? Distinctio minus eum at laborum saepe,
+              exercitationem id.
             </Typography>
           </Box>
         </Fade>

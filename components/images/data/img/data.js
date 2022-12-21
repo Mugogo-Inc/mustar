@@ -8,17 +8,17 @@ export const data = [
   {
     id: 1,
     img: img1,
-    desc: "Nakupenda Tour",
+    desc: "Nakupenda",
   },
   {
     id: 2,
     img: img2,
-    desc: "Stonetown Tour",
+    desc: "Stonetown",
   },
 
   {
     id: 3,
     img: img3,
-    desc: "Nungwi Island",
+    desc: "Nungwi",
   },
 ];
