@@ -1,9 +1,21 @@
 import React from "react";
-import { data, safari } from "./tours/data";
+import {
+  data,
+  safari,
+  dhows,
+  kuza,
+  stonetown,
+  kuzaa,
+  stonetownn,
+  dhow,
+  safarii,
+  nakupendaa,
+} from "./tours/data";
 
 import TransitionsModal from "./Modal";
 import Link from "next/link";
 import Gallery from "./Gallery";
+import Heading from "./Heading";
 
 const ExperienceGrid = () => {
   return (
@@ -11,17 +23,44 @@ const ExperienceGrid = () => {
       <h1 className="block m-auto text-center text-white p-4  ">
         Experiences{" "}
       </h1>
-      <div className="grid grid-cols-1  sm:grid-cols-3 lg:grid-cols-3 grid-rows-2 gap-4  m-4 bg-gray-900">
+      <div className="grid grid-cols-1  sm:grid-cols-3 lg:grid-cols-3  gap-4  m-4 bg-gray-900">
         <div className="m-3">
+          <Heading heading={nakupendaa} />
           <Gallery data={data} />
+
           <div className="block m-auto text-center">
-            <TransitionsModal data={data} heading="Nakupenda tour" />
+            <TransitionsModal data={data} heading=" Experience Nakupenda" />
           </div>
         </div>
         <div className="m-3">
+          <Heading heading={safarii} />
           <Gallery data={safari} />
           <div className="block m-auto text-center">
-            <TransitionsModal data={safari} heading="Safari Blue" />
+            <TransitionsModal data={safari} heading="Experience Safari Blue" />
+          </div>
+        </div>
+        <div className="m-3">
+          <Heading heading={dhow} />
+          <Gallery data={dhows} />
+          <div className="block m-auto text-center">
+            <TransitionsModal
+              data={dhows}
+              heading="Experience Sunset Dhowing"
+            />
+          </div>
+        </div>
+        <div className="m-3">
+          <Heading heading={kuzaa} />
+          <Gallery data={kuza} />
+          <div className="block m-auto text-center">
+            <TransitionsModal data={kuza} heading="Experience Kuza" />
+          </div>
+        </div>
+        <div className="m-3">
+          <Heading heading={stonetownn} />
+          <Gallery data={stonetown} />
+          <div className="block m-auto text-center">
+            <TransitionsModal data={stonetown} heading="Experience Stonetown" />
           </div>
         </div>
       </div>

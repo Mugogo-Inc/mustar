@@ -4,16 +4,37 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";
-import Script from "next/script";
-import Link from "next/link";
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "none", background: "red" }}
+      onClick={onClick}
+    />
+  );
+}
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "none" }}
+      onClick={onClick}
+    />
+  );
+}
 
 const Gallery = ({ data }) => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
   return (
     <>
@@ -34,7 +55,14 @@ const Gallery = ({ data }) => {
       <div>
         <Slider {...settings}>
           {data.map((img) => (
-            <Image alt="alt" height="" src={img.img} key={img.id} />
+            <Image
+              alt="alt"
+              height=""
+              loading="lazy"
+              src={img.img}
+              key={img.id}
+              className="max-h-96 rounded border-none outline-none overflow-hidden"
+            />
           ))}
         </Slider>
       </div>
