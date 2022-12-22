@@ -1,14 +1,17 @@
 import React from "react";
 import WorkCard from "./WorkCard";
 import { data } from "./tours/data";
+import Heading from "./Heading";
 
 const Work = () => {
   return (
-    <div>
-      <h1 className="block">g</h1>
-      {data.map((item) => (
-        <WorkCard key={item.id} heading={item.btnInfo} img={item.img} />
-      ))}
+    <div className=" mt-4 p-4">
+      <Heading heading="loves" />
+      <div className="">
+        {data.map((item) => (
+          <WorkCard key={item.id} heading={item.btnInfo} img={item.img} />
+        ))}
+      </div>
     </div>
   );
 };
