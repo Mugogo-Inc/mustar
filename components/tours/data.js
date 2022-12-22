@@ -11,7 +11,7 @@ import safari3 from "./safari/safari3.jpg";
 import safari4 from "./safari/safari4.jpg";
 
 //dhows
-import dhow1 from "./dhow/dhow1.jpeg";
+import dhow1 from "./dhow/dhow5.jpg";
 import dhow2 from "./dhow/dhow2.jpeg";
 import dhow3 from "./dhow/dhow3.jpg";
 import dhow4 from "./dhow/dhow4.jpg";

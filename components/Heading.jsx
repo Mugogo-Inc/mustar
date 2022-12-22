@@ -1,15 +1,9 @@
 import React from "react";
 const bg = false;
-const Heading = ({ heading }) => {
+const Heading = ({ children }) => {
   return (
-    <h1
-      className={
-        bg
-          ? "block m-auto text-center text-2xl text-white p-2"
-          : "block m-auto text-center text-2xl text-gray-900 p-2 "
-      }
-    >
-      {heading}
+    <h1 className="block m-auto text-center text-2xl text-white p-2">
+      {children}
     </h1>
   );
 };
