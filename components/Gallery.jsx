@@ -4,6 +4,8 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";
+import Script from "next/script";
+import Link from "next/link";
 
 const Gallery = ({ data }) => {
   const settings = {
@@ -16,18 +18,19 @@ const Gallery = ({ data }) => {
   return (
     <>
       <Head>
-        <link
+        <Link
           rel="stylesheet"
           type="text/css"
           charSet="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
-        <link
+        <Link
           rel="stylesheet"
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Head>
+
       <div>
         <Slider {...settings}>
           {data.map((img) => (
