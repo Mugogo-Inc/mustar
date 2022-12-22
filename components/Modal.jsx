@@ -30,7 +30,7 @@ export default function TransitionsModal({ heading, data }) {
       <div className="inline-block ">
         <button
           onClick={handleOpen}
-          className="text-white text-base p-2 m-1 mt-4 border border-whiter items-center  "
+          className="text-white text-base p-2 m-1 mt-6 border border-whiter items-center  "
         >
           {heading} <TfiAngleRight className="inline" />
         </button>
