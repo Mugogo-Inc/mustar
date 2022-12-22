@@ -34,7 +34,7 @@ const Gallery = ({ data }) => {
       <div>
         <Slider {...settings}>
           {data.map((img) => (
-            <Image alt="alt" height="" width={100} src={img.img} key={img.id} />
+            <Image alt="alt" height="" src={img.img} key={img.id} />
           ))}
         </Slider>
       </div>

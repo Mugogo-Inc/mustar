@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "./tours/data";
+import { data, safari } from "./tours/data";
 
 import TransitionsModal from "./Modal";
 import Link from "next/link";
@@ -12,15 +12,18 @@ const ExperienceGrid = () => {
         Experiences{" "}
       </h1>
       <div className="grid grid-cols-1  sm:grid-cols-3 lg:grid-cols-3 grid-rows-2 gap-4  m-4 bg-gray-900">
-        {data.map((img) => (
-          <div
-            key={img.id}
-            className=" flex flex-col justify-center text-center m-4"
-          >
-            <Gallery data={data} />
-            <TransitionsModal heading={img.btnInfo} data={data} />
+        <div className="m-3">
+          <Gallery data={data} />
+          <div className="block m-auto text-center">
+            <TransitionsModal data={data} heading="Nakupenda tour" />
           </div>
-        ))}
+        </div>
+        <div className="m-3">
+          <Gallery data={safari} />
+          <div className="block m-auto text-center">
+            <TransitionsModal data={safari} heading="Safari Blue" />
+          </div>
+        </div>
       </div>
       <div className="pb-5">
         <Link
