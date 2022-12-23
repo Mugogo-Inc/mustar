@@ -158,6 +158,29 @@ const stonetown = [
   },
 ];
 
+const services = [
+  {
+    service: "Tour Organization",
+    img: dhow1,
+    desc: "Born, raised and with explorer passion, Our Team will organize the best Adventures for you and your Family",
+  },
+  {
+    service: "Trip Planning",
+    img: dhow2,
+    desc: "Born, raised and with explorer passion, Our Team will organize the best Adventures for you and your Family",
+  },
+  {
+    service: "Tour Guiding",
+    img: dhow3,
+    desc: "Born, raised and with explorer passion, Our Team will organize the best Adventures for you and your Family",
+  },
+  {
+    service: "Hotel Bookings",
+    img: dhow4,
+    desc: "Born, raised and with explorer passion, Our Team will organize the best Adventures for you and your Family",
+  },
+];
+
 export {
   safari,
   dhows,
@@ -169,4 +192,5 @@ export {
   kuzaa,
   safarii,
   dhow,
+  services,
 };
