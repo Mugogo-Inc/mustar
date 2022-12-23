@@ -23,43 +23,43 @@ const ExperienceGrid = () => {
       <h1 className="block m-auto text-center text-white p-4  ">
         Experiences{" "}
       </h1>
-      <div className="grid grid-cols-1  sm:grid-cols-3 lg:grid-cols-3  gap-4  m-4 bg-gray-900">
-        <div className="m-3">
+      <div className="grid grid-cols-1  sm:grid-cols-3 lg:grid-cols-3  gap-1 m-3  bg-gray-900  ">
+        <div className="m-3 relative ">
           <Heading>{nakupendaa}</Heading>
           <Gallery data={data} />
 
-          <div className="block m-auto text-center">
+          <div className="block m-auto text-center absolute centered top-1/2 left-1/2">
             <TransitionsModal data={data} heading=" Experience Nakupenda" />
           </div>
         </div>
-        <div className="m-3">
+        <div className="m-3 relative">
           <Heading>{safarii}</Heading>
           <Gallery data={safari} />
-          <div className="block m-auto text-center">
+          <div className="block m-auto text-center absolute centered">
             <TransitionsModal data={safari} heading="Experience Safari Blue" />
           </div>
         </div>
-        <div className="m-3">
+        <div className="m-3 relative">
           <Heading>{dhow}</Heading>
           <Gallery data={dhows} />
-          <div className="block m-auto text-center">
+          <div className=" text-center absolute centered">
             <TransitionsModal
               data={dhows}
               heading="Experience Sunset Dhowing"
             />
           </div>
         </div>
-        <div className="m-3">
+        <div className="m-3 relative">
           <Heading>{kuzaa}</Heading>
           <Gallery data={kuza} />
-          <div className="block m-auto text-center">
+          <div className="centered absolute ">
             <TransitionsModal data={kuza} heading="Experience Kuza" />
           </div>
         </div>
-        <div className="m-3">
+        <div className="m-3 relative">
           <Heading>{stonetownn}</Heading>
           <Gallery data={stonetown} />
-          <div className="block m-auto text-center">
+          <div className="block m-auto text-center absolute centered">
             <TransitionsModal data={stonetown} heading="Experience Stonetown" />
           </div>
         </div>

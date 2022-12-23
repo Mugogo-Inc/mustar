@@ -22,10 +22,10 @@ import kuza2 from "./kuza/kuza2.jpg";
 import kuza3 from "./kuza/kuza3.jpg";
 import kuza4 from "./kuza/kuza4.jpg";
 //stonetown
-import stonetown1 from "./stonetown/stonetown1.jpg";
-import stonetown2 from "./stonetown/stonetown5.jpg";
-import stonetown3 from "./stonetown/stonetown3.jpg";
-import stonetown4 from "./stonetown/stonetown4.jpg";
+import stonetown1 from "./stonetown/stonetown8.jpg";
+import stonetown2 from "./stonetown/stonetown15.jpg";
+import stonetown6 from "./stonetown/stonetown9.jpg";
+import stonetown4 from "./stonetown/stonetown13.jpg";
 
 const nakupendaa = "Nakupenda Tour";
 const kuzaa = "Kuza Tour";
@@ -49,16 +49,7 @@ const data = [
     img: nakupenda3,
     desc: " You Probably Dont Need Derived State",
   },
-  {
-    id: 4,
-    img: nakupenda4,
-    desc: " You Probably Dont Need Derived State",
-  },
-  {
-    id: 5,
-    img: nakupenda5,
-    desc: " You Probably Dont Need Derived State",
-  },
+
   {
     id: 6,
     img: nakupenda6,
@@ -72,11 +63,7 @@ const safari = [
     img: safari1,
     desc: " You Probably Dont Need Derived State",
   },
-  {
-    id: 2,
-    img: safari2,
-    desc: " You Probably Dont Need Derived State",
-  },
+
   {
     id: 3,
     img: safari3,
@@ -118,11 +105,7 @@ const kuza = [
     img: kuza1,
     desc: " You Probably Dont Need Derived State",
   },
-  {
-    id: 2,
-    img: kuza2,
-    desc: " You Probably Dont Need Derived State",
-  },
+
   {
     id: 3,
     img: kuza3,
@@ -143,16 +126,16 @@ const stonetown = [
   },
   {
     id: 2,
+    img: stonetown6,
+    desc: " You Probably Dont Need Derived State",
+  },
+  {
+    id: 1,
     img: stonetown2,
     desc: " You Probably Dont Need Derived State",
   },
   {
-    id: 3,
-    img: stonetown3,
-    desc: " You Probably Dont Need Derived State",
-  },
-  {
-    id: 4,
+    id: 2,
     img: stonetown4,
     desc: " You Probably Dont Need Derived State",
   },

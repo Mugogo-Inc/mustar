@@ -27,12 +27,19 @@ export default function TransitionsModal({ heading, data }) {
 
   return (
     <div className="">
-      <div className="inline-block ">
+      <div className=" inline-block">
         <button
           onClick={handleOpen}
-          className="text-white text-base p-2 m-1 mt-6 border border-whiter items-center  "
+          className="text-white text-base p-2 font-semibold sm:p-2 m-3  border border-white  items-center  block rounded "
         >
-          {heading} <TfiAngleRight className="inline" />
+          {heading}{" "}
+          <i className="text-orange-500 font-bold">
+            {" "}
+            <TfiAngleRight
+              className="inline font-bold text"
+              style={{ fontWeight: "500" }}
+            />
+          </i>
         </button>
       </div>
 

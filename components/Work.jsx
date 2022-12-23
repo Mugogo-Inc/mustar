@@ -3,7 +3,7 @@ import WorkCard from "./WorkCard";
 import { services } from "./tours/data";
 import Heading from "./Heading";
 
-const l = ["1", "2", "3", "4", "5"];
+const flow = false;
 
 const Work = ({}) => {
   return (

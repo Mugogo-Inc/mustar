@@ -7,7 +7,7 @@ import Head from "next/head";
 
 const Gallery = ({ data }) => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 400,
     slidesToShow: 1,
@@ -41,7 +41,7 @@ const Gallery = ({ data }) => {
               loading="lazy"
               src={img.img}
               key={img.id}
-              className="max-h-96 rounded border-none outline-none overflow-hidden"
+              className="max-h-90 rounded border-none outline-none overflow-hidden"
             />
           ))}
         </Slider>
