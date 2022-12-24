@@ -53,7 +53,7 @@ const ExperienceGrid = () => {
           <Heading>{kuzaa}</Heading>
           <Gallery data={kuza} />
           <div className="centered absolute ">
-            <TransitionsModal data={kuza} heading="Experience Kuza" />
+            <TransitionsModal data={kuza} heading="Experience Kuza Caves" />
           </div>
         </div>
         <div className="m-3 relative">

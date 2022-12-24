@@ -23,7 +23,7 @@ const Work = ({}) => {
                 {item.service}
               </h1>
               <p className="p-4">{item.desc}</p>
-              <button className="text-white bg-gray-900  sm:block hidden text-center m-auto  shadow-2xl p-3 border border-white hover:border-orange-500">
+              <button className="text-white bg-gray-900  sm:block hidden text-center m-auto  shadow-2xl p-3 border border-white hover:border-orange-500 button-animation">
                 Learn More
               </button>
             </div>

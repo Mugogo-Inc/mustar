@@ -18,7 +18,7 @@ const WorkCard = ({ img }) => {
           />
         </div>
 
-        <button className="absolute top-1/2 left-1/2 text-white  outline-none rounded  block text-center m-auto  font-bold p-3 border border-white hover:border-white-500 centered sm:hidden">
+        <button className="absolute top-1/2 left-1/2 text-white  outline-none rounded  block text-center m-auto  font-bold p-3 border border-white hover:border-white-500 centered sm:hidden button-animation">
           Learn More
         </button>
       </div>

@@ -9,3 +9,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.button-animation {
+    transition: .3s;
+    
+}
+.button-animation:hover{
+    scale: 1.1;
+
+}

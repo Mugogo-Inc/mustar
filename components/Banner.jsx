@@ -25,7 +25,7 @@ const Banner = () => {
               Zanzibar
             </span>
           </h1>
-          <button className="text-lg border-2 border-white rounded flex justify-center items-center outline-none p-2 mt-7 cursor-pointer sm:mt-10 ">
+          <button className="text-lg border-2 border-white rounded flex justify-center items-center outline-none p-2 mt-7 cursor-pointer sm:mt-10 button-animation">
             Explore Experiences
             <BsArrowRightShort className="inline-block ml-2 text-2xl font-bold text-orange-600" />
           </button>

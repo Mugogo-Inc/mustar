@@ -30,7 +30,7 @@ export default function TransitionsModal({ heading, data }) {
       <div className=" inline-block">
         <button
           onClick={handleOpen}
-          className="text-white text-base p-2 font-semibold sm:p-2 m-3  border border-white  items-center  block rounded "
+          className="text-white text-base p-2 font-semibold sm:p-2 m-3  border border-white  items-center  block button-animation rounded "
         >
           {heading}{" "}
           <i className="text-orange-500 font-bold">
