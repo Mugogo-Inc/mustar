@@ -1,19 +1,22 @@
+
+
 {
-  "feedback": [
-    {
-      "id": 1,
-      "rating": 10,
-      "text": "This is feedback item 1 coming from the json file"
-    },
-    {
-      "id": 2,
-      "rating": 8,
-      "text": "This is feedback item 2 coming from the json file"
-    },
-    {
-      "text": "Test Subject edited twice",
-      "rating": 7,
-      "id": 3
-    }
+  "experiences": [
+    { "id": 1, "title": "Kuza Caves", "author": "typicode" , "desc" : "JSON Server is an exceptional library and it’s utilities go way beyond whatever was mentioned in this article. I encourage everyone to read their documentation.", "images":[
+        " https://ibb.co/fMJrm1K",
+        "https://ibb.co/2Ymv03Z",
+        "https://ibb.co/wLKwj1G"
+
+
+    ]},
+     { "id": 2, "title": "Safari blue", "author": "typicode" , "desc" : "JSON Server is an exceptional library and it’s utilities go way beyond whatever was mentioned in this article. I encourage everyone to read their documentation.", "images":[
+        " https://ibb.co/fMJrm1K",
+        "https://ibb.co/2Ymv03Z",
+        "https://ibb.co/wLKwj1G"
+
+
+    ]}
+    
   ]
+ 
 }
