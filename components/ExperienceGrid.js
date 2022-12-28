@@ -25,7 +25,7 @@ export const getStaticProps = async () => {
   return { props: { posts } };
 };
 
-const ExperienceGrid = ({ posts }) => {
+const ExperienceGrid = ({}) => {
   return (
     <div className=" text-4xl z-0 bg-gray-900">
       <h1 className="block m-auto text-center text-white p-4  ">
