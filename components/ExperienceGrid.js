@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
   data,
   safari,
@@ -13,11 +14,18 @@ import {
 } from "./tours/data";
 
 import TransitionsModal from "./Modal";
-import Link from "next/link";
+
 import Gallery from "./Gallery";
 import Heading from "./Heading";
 
-const ExperienceGrid = () => {
+export const getStaticProps = async () => {
+  const API_URL = "http://localhost:5000/experiences";
+  const request = await fetch(API_URL);
+  const posts = await request.json();
+  return { props: { posts } };
+};
+
+const ExperienceGrid = ({ posts }) => {
   return (
     <div className=" text-4xl z-0 bg-gray-900">
       <h1 className="block m-auto text-center text-white p-4  ">

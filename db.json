@@ -2,20 +2,10 @@
 
 {
   "experiences": [
-    { "id": 1, "title": "Kuza Caves", "author": "typicode" , "desc" : "JSON Server is an exceptional library and it’s utilities go way beyond whatever was mentioned in this article. I encourage everyone to read their documentation.", "images":[
-        " https://ibb.co/fMJrm1K",
-        "https://ibb.co/2Ymv03Z",
-        "https://ibb.co/wLKwj1G"
-
-
-    ]},
-     { "id": 2, "title": "Safari blue", "author": "typicode" , "desc" : "JSON Server is an exceptional library and it’s utilities go way beyond whatever was mentioned in this article. I encourage everyone to read their documentation.", "images":[
-        " https://ibb.co/fMJrm1K",
-        "https://ibb.co/2Ymv03Z",
-        "https://ibb.co/wLKwj1G"
-
-
-    ]}
+    { "id": 1, "title": "Kuza Caves", "author": "typicode" , "desc" : "JSON Server is an exceptional library and it’s utilities go way beyond whatever was mentioned in this article. I encourage everyone to read their documentation.",
+    "image" : ["https://iili.io/HTYfEOl.th.jpg","https://iili.io/HTYfEOl.th.jpg","https://iili.io/HTYfEOl.th.jpg","https://iili.io/HTYfEOl.th.jpg" ]
+  },
+     { "id": 2, "title": "Safari blue", "author": "typicode" , "desc" : "JSON Server is an exceptional library and it’s utilities go way beyond whatever was mentioned in this article. I encourage everyone to read their documentation.",  "image" : ["https://iili.io/HTYfEOl.th.jpg","https://iili.io/HTYfEOl.th.jpg","https://iili.io/HTYfEOl.th.jpg","https://iili.io/HTYfEOl.th.jpg" ] }
     
   ]
  

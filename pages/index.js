@@ -7,8 +7,14 @@ import ExperienceGrid from "../components/ExperienceGrid";
 import Work from "../components/Work";
 
 const inter = Inter({ subsets: ["latin"] });
+export const getStaticProps = async () => {
+  const API_URL = "http://localhost:5000/experiences";
+  const request = await fetch(API_URL);
+  const experiences = await request.json();
+  return { props: { experiences } };
+};
 
-export default function Home() {
+export default function Home({ experiences }) {
   return (
     <div>
       <Head>
@@ -16,7 +22,7 @@ export default function Home() {
       </Head>
       <Navbar className="p-5 sm:p-10" />
       <Banner />
-      <ExperienceGrid />
+      <ExperienceGrid experiences={experiences} />
       <Work />
     </div>
   );
