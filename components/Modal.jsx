@@ -89,7 +89,20 @@ export default function TransitionsModal({ heading, data }) {
               environment of nakupenda islands is very exotic and natural.
               During this tour, the travelers would be able to taste all
               seasonal fruits available in Zanzibar, taste the Swahili Arabian
-              cuisine and drinks.
+              cuisine and drinks. <br /> <br /> The environment of nakupenda
+              islands is veryThe environment of nakupenda islands is very exotic
+              and natural. During this tour, the travelers would be able to
+              taste all seasonal fruits available in Zanzibar, taste the Swahili
+              Arabian cuisine and drinks. • Local wooden boat will be used for
+              the tour • Swimming and snorkeling • Fresh tropical fruits at the
+              sandbank exotic and natural. During this tour, the travelers would
+              be able to taste all seasonal fruits available in Zanzibar, taste
+              the Swahili Arabian cuisine and drinks. <br /> <br />
+              <ul className="list-disc">
+                <li>Local wooden boat will be used for the tour</li>
+                <li>Swimming and snorkeling</li>
+                <li>Fresh tropical fruits at the sandbank</li>
+              </ul>
             </Typography>
           </Box>
         </Fade>
