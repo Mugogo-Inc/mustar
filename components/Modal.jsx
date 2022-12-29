@@ -59,7 +59,6 @@ export default function TransitionsModal({ heading, data }) {
         sx={{
           outline: "none",
           marginBottom: 7,
-          width: "fit",
         }}
         className="border-none outline-none"
       >
@@ -71,6 +70,7 @@ export default function TransitionsModal({ heading, data }) {
               border: "none",
               borderRadius: "4px",
               overflow: "scroll",
+              width: "screen",
             }}
           >
             <AiOutlineClose
