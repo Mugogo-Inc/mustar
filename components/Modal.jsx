@@ -53,12 +53,17 @@ export default function TransitionsModal({ heading, data }) {
         BackdropProps={{
           timeout: 500,
         }}
+        sx={{
+          overflow: "scroll",
+
+          outline: "none",
+        }}
+        className="border-none outline-none"
       >
         <Fade in={open} className="rounded p-3 border-none ">
           <Box
             style={{}}
-            sx={style}
-            className="border-none rounded outline-none p-2"
+            sx={{ ...style, border: "none", borderRadius: "4px" }}
           >
             <AiOutlineClose
               className=" absolute right-3 top-2 text-3xl"
@@ -68,11 +73,24 @@ export default function TransitionsModal({ heading, data }) {
             <Typography id="transition-modal-title" variant="h6" component="h2">
               {heading}
             </Typography>
-            <Typography
-              id="transition-modal-description"
-              sx={{ mt: 2 }}
-            ></Typography>
+
             <Gallery data={data} />
+            <Typography id="transition-modal-description" sx={{ mt: 2 }}>
+              <h2 className="text-bold text-4xl m-2">Overview</h2>
+              Nakupenda Beach (In Swahili, means I love you) it is a half day
+              tour that start from seafront local port of stone town to prison
+              island, from prison island to Nakupenda Sand Bank, around 20
+              minutes local boat ride from stone town. <br /> <br /> Nakupenda
+              is the most beautiful beach in Zanzibar islands, the beaches has
+              clear blue water and pure white sands beach. The water are
+              suitable for swimming and snorkeling, in case you visit in the
+              morning you may see dolphin roaming around the water. Nakupenda
+              island beach is located in Unguja island close to stone town. The
+              environment of nakupenda islands is very exotic and natural.
+              During this tour, the travelers would be able to taste all
+              seasonal fruits available in Zanzibar, taste the Swahili Arabian
+              cuisine and drinks.
+            </Typography>
           </Box>
         </Fade>
       </Modal>

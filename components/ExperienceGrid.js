@@ -18,13 +18,6 @@ import TransitionsModal from "./Modal";
 import Gallery from "./Gallery";
 import Heading from "./Heading";
 
-export const getStaticProps = async () => {
-  const API_URL = "http://localhost:5000/experiences";
-  const request = await fetch(API_URL);
-  const posts = await request.json();
-  return { props: { posts } };
-};
-
 const ExperienceGrid = ({}) => {
   return (
     <div className=" text-4xl z-0 bg-gray-900">
