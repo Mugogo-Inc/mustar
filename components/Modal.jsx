@@ -75,34 +75,41 @@ export default function TransitionsModal({ heading, data }) {
             </Typography>
 
             <Gallery data={data} />
-            <Typography id="transition-modal-description" sx={{ mt: 2 }}>
+            <Typography
+              id="transition-modal-description"
+              sx={{
+                mt: 2,
+                display: "block",
+                margin: "auto",
+                textAlign: "center",
+              }}
+            >
               <h2 className="text-bold text-4xl m-2">Overview</h2>
-              Nakupenda Beach (In Swahili, means I love you) it is a half day
-              tour that start from seafront local port of stone town to prison
-              island, from prison island to Nakupenda Sand Bank, around 20
-              minutes local boat ride from stone town. <br /> <br /> Nakupenda
-              is the most beautiful beach in Zanzibar islands, the beaches has
-              clear blue water and pure white sands beach. The water are
-              suitable for swimming and snorkeling, in case you visit in the
-              morning you may see dolphin roaming around the water. Nakupenda
-              island beach is located in Unguja island close to stone town. The
-              environment of nakupenda islands is very exotic and natural.
-              During this tour, the travelers would be able to taste all
-              seasonal fruits available in Zanzibar, taste the Swahili Arabian
-              cuisine and drinks. <br /> <br /> The environment of nakupenda
-              islands is veryThe environment of nakupenda islands is very exotic
-              and natural. During this tour, the travelers would be able to
-              taste all seasonal fruits available in Zanzibar, taste the Swahili
-              Arabian cuisine and drinks. • Local wooden boat will be used for
-              the tour • Swimming and snorkeling • Fresh tropical fruits at the
-              sandbank exotic and natural. During this tour, the travelers would
-              be able to taste all seasonal fruits available in Zanzibar, taste
-              the Swahili Arabian cuisine and drinks. <br /> <br />
-              <ul className="list-disc">
-                <li>Local wooden boat will be used for the tour</li>
-                <li>Swimming and snorkeling</li>
-                <li>Fresh tropical fruits at the sandbank</li>
-              </ul>
+              <p className="text-lg">
+                Nakupenda Beach (In Swahili, means I love you) it is a half day
+                tour that start from seafront local port of stone town to prison
+                island, from prison island to Nakupenda Sand Bank, around 20
+                minutes local boat ride from stone town. <br /> <br /> Nakupenda
+                is the most beautiful beach in Zanzibar islands, the beaches has
+                clear blue water and pure white sands beach. The water are
+                suitable for swimming and snorkeling, in case you visit in the
+                morning you may see dolphin roaming around the water. <br />{" "}
+                <br /> Nakupenda island beach is located in Unguja island close
+                to stone town. The environment of nakupenda islands is very
+                exotic and natural. During this tour, the travelers would be
+                able to taste all seasonal fruits available in Zanzibar, taste
+                the Swahili Arabian cuisine and drinks. <br /> <br />
+                <ul className="list-disc">
+                  <li>Local wooden boat will be used for the tour</li>
+                  <li>Swimming and snorkeling</li>
+                  <li>Fresh tropical fruits at the sandbank</li>
+                </ul>
+                <br />
+                <br />
+                <p>
+                  <h1 className="text-2xl">Included</h1>
+                </p>
+              </p>
             </Typography>
           </Box>
         </Fade>
