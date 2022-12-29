@@ -13,10 +13,13 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 400,
+  width: 450,
+  height: 600,
   bgcolor: "background.paper",
   border: "2px solid #000",
   boxShadow: 24,
+  marginTop: 5,
+
   p: 4,
 };
 
@@ -54,16 +57,21 @@ export default function TransitionsModal({ heading, data }) {
           timeout: 500,
         }}
         sx={{
-          overflow: "scroll",
-
           outline: "none",
+          marginBottom: 7,
+          width: "fit",
         }}
         className="border-none outline-none"
       >
         <Fade in={open} className="rounded p-3 border-none ">
           <Box
             style={{}}
-            sx={{ ...style, border: "none", borderRadius: "4px" }}
+            sx={{
+              ...style,
+              border: "none",
+              borderRadius: "4px",
+              overflow: "scroll",
+            }}
           >
             <AiOutlineClose
               className=" absolute right-3 top-2 text-3xl"
@@ -108,7 +116,68 @@ export default function TransitionsModal({ heading, data }) {
                 <br />
                 <p>
                   <h1 className="text-2xl">Included</h1>
+                  <ul className="list-disc">
+                    <li> Hotel pickup and drop off</li>{" "}
+                    <li>All taxes, fees and handling charges</li>{" "}
+                    <li>Mixed sea food lunch`</li>{" "}
+                    <li> Soft drinks and fresh fruits </li>{" "}
+                    <li>Snorkeling equipment</li>
+                    <li>Experienced professional tour guide</li>
+                  </ul>
                 </p>
+                <div className="my-4">
+                  <h1 className="text-2xl font-bold mb-4">What to Expect</h1>
+                  <p>
+                    It’s a half day tour The underwater world at Nakupenda is
+                    unbelievably spectacular. There are countless colorful
+                    fishes and other sea creatures that survive among the coral
+                    reefs and underwater plants which together form the barrier
+                    reef ecosystem. The travelers will have also opportunity to
+                    enjoy wonderful weather from the beach, snorkeling, and even
+                    get fresh fruits like bananas, pineapples, watermelon,
+                    mangoes, and other fruits. Also soft drinks and Swahili food
+                    will be available during the tour.
+                  </p>
+                </div>
+                <div className="my-4">
+                  <h1 className="text-2xl my-2 font-bold">Additional Info </h1>
+                  <p>
+                    <ul className="list-disc">
+                      <li>
+                        {" "}
+                        Confirmation will be received at time of booking Child
+                      </li>
+                      <li>
+                        Rate ate applies only when sharing with 2 paying adults
+                      </li>
+                      <li> Not wheelchair accessible </li>
+                      <li> Most travelers can participate</li>
+                      <li>
+                        This is a private tour /activity. Only your group will
+                        participate.
+                      </li>
+                      <li> $72 per adult price varies by group size</li>
+                      <li> Age requirement is 5-99 years old.</li>
+                    </ul>
+                  </p>
+                </div>
+                <div className="my-4">
+                  <h1 className="text-2xl font-bold">FAQS</h1>
+                  <p>
+                    The answers provided below are based on answers previously
+                    given by the tour provider to customer’s questions
+                    <span className="p-4">
+                      Q: What is the policy on sanitization during Nakupenda
+                      tour?
+                    </span>
+                    <br />
+                    <span className="font-semibold ">
+                      A: The policies on sanitization are: Hand sanitizer
+                      available to travelers and staff transportation vehicles
+                      regularly sanitized.
+                    </span>
+                  </p>
+                </div>
               </p>
             </Typography>
           </Box>
