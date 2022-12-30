@@ -164,6 +164,58 @@ const services = [
   },
 ];
 
+const descriptions = {
+  nakupenda_desc: {
+    heading: "NAKUPENDA TOUR",
+    subheading: "Overview",
+    paragraph1:
+      "Nakupenda Beach (In Swahili, means I love you) it is a half day tour that start from seafront local port of stone town to prison island, from prison island to Nakupenda Sand Bank, around 20 minutes local boat ride from stone town.",
+    paragraph2:
+      "Nakupenda is the most beautiful beach in Zanzibar islands, the beaches has clear blue water and pure white sands beach. The water are suitable for swimming and snorkeling, in case you visit in the morning you may see dolphin roaming around the water.",
+
+    paragraph3:
+      "Nakupenda island beach is located in Unguja island close to stone town. The environment of nakupenda islands is very exotic and natural. During this tour, the travelers would be able to taste all seasonal fruits available in Zanzibar, taste the Swahili Arabian cuisine and drinks",
+    info: {
+      1: "Local wooden boat will be used for the tour",
+      2: "Swimming and snorkeling",
+      3: "Fresh tropical fruits at the sandbank",
+    },
+    included: {
+      heading: "Included",
+      1: "Hotel pickup and drop off",
+      2: "All taxes, fees and handling charges",
+      3: "Mixed sea food lunch`",
+      4: "Soft drinks and fresh fruits",
+      5: "Snorkeling equipment",
+      6: "Experienced professional tour guide",
+    },
+
+    expect: {
+      heading: "What to Expect",
+      paragraph:
+        "It’s a half day tour The underwater world at Nakupenda is unbelievably spectacular. There are countless colorful fishes and other sea creatures that survive among the coral reefs and underwater plants which together form the barrier reef ecosystem. The travelers will have also opportunity to enjoy wonderful weather from the beach, snorkeling, and even get fresh fruits like bananas, pineapples, watermelon, mangoes, and other fruits. Also soft drinks and Swahili food will be available during the tour.",
+    },
+    additional_info: {
+      heading: "Additional Info",
+      1: "Confirmation will be received at time of booking Child",
+      2: "Rate ate applies only when sharing with 2 paying adults",
+      3: "Not wheelchair accessible",
+      4: "Most travelers can participate",
+      5: "This is a private tour /activity. Only your group will participate.",
+      6: "$72 per adult price varies by group size",
+      7: "Age requirement is 5-99 years old.",
+    },
+
+    FAQS: {
+      heading:
+        "The answers provided below are based on answers previously given by the tour provider to customer’s questions",
+      question: "Q: What is the policy on sanitization during Nakupenda tour?",
+      answer:
+        "A: The policies on sanitization are: Hand sanitizer available to travelers and staff transportation vehicles regularly sanitized.",
+    },
+  },
+};
+
 export {
   safari,
   dhows,
@@ -176,4 +228,5 @@ export {
   safarii,
   dhow,
   services,
+  descriptions,
 };

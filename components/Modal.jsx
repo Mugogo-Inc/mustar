@@ -23,7 +23,7 @@ const style = {
   p: 4,
 };
 
-export default function TransitionsModal({ heading, data }) {
+export default function TransitionsModal({ heading, data, descriptions }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -70,7 +70,6 @@ export default function TransitionsModal({ heading, data }) {
               border: "none",
               borderRadius: "4px",
               overflow: "scroll",
-              width: "screen",
             }}
           >
             <AiOutlineClose
@@ -79,7 +78,7 @@ export default function TransitionsModal({ heading, data }) {
             />
 
             <Typography id="transition-modal-title" variant="h6" component="h2">
-              {heading}
+              {descriptions}
             </Typography>
 
             <Gallery data={data} />

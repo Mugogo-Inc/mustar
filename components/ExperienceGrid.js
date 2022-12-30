@@ -11,6 +11,7 @@ import {
   dhow,
   safarii,
   nakupendaa,
+  descriptions,
 } from "./tours/data";
 
 import TransitionsModal from "./Modal";
@@ -30,7 +31,11 @@ const ExperienceGrid = ({}) => {
           <Gallery data={data} />
 
           <div className="block m-auto text-center absolute centered top-1/2 left-1/2">
-            <TransitionsModal data={data} heading=" Experience Nakupenda" />
+            <TransitionsModal
+              data={data}
+              heading=" Experience Nakupenda"
+              descriptions={descriptions.nakupenda_desc.heading}
+            />
           </div>
         </div>
         <div className="m-3 relative">
