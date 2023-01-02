@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
-    <div>
+    <div className="bg-gray-900 text-white">
       <div>
         <h1 className="text-6xl block m-auto text-center p-4">
           Visit Zanzibar.
@@ -19,7 +19,7 @@ const Footer = () => {
                 key={img}
                 alt="alt"
                 src={img}
-                className="w-36  h-28 p-1 button-animation button-transition rounded"
+                className="w-36  h-28 p-1 button-animation button-transition rounded-md"
               />
             </Link>
           ))}
