@@ -27,7 +27,7 @@ const Banner = () => {
             </span>
           </h1>
           <Link
-            href="/experiences"
+            href="#experiences"
             className="text-lg border-2 border-white rounded flex justify-center items-center outline-none p-2 mt-7 cursor-pointer sm:mt-10 button-animation"
           >
             Explore Experiences

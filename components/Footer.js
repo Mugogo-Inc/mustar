@@ -11,7 +11,7 @@ const Footer = () => {
         <h1 className="text-6xl block m-auto text-center p-4">
           Visit Zanzibar.
         </h1>
-        <div className="flex">
+        <div className="flex my-5">
           {" "}
           {footerImages.map((img) => (
             <Link href="#experiences" key={img} className="grid">
