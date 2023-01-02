@@ -33,18 +33,14 @@ const Navbar = () => {
             {" "}
             <RxCross2 onClick={() => setIsOpen(!isOpen)} />
           </button>
-          <Link href=" " className={isOpen ? "block my-4 " : " m-1"}>
-            Learn More
+          <Link href="#experiences" className={isOpen ? "block my-4 " : " m-1"}>
+            Experiences
           </Link>
-          <Link href="" className={isOpen ? "block my-4 " : " m-1"}>
+          <Link href="#work" className={isOpen ? "block my-4 " : " m-1"}>
             Services
           </Link>
-          <Link
-            href=""
-            onClick={() => setIsOpen(!isOpen)}
-            className={isOpen ? "block my-4 " : " m-1"}
-          >
-            About
+          <Link href="#contact" className={isOpen ? "block mx-6 " : " m-1"}>
+            Contact Us
           </Link>
         </div>
       </div>

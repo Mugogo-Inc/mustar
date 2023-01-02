@@ -7,7 +7,7 @@ const flow = false;
 
 const Work = ({}) => {
   return (
-    <div className=" mt-4 p-4">
+    <div className=" mt-4 p-4" id="work">
       <Heading>
         <span className="text-gray-900 text-4xl">What We Do</span>
       </Heading>

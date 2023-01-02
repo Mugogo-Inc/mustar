@@ -166,7 +166,7 @@ const services = [
 
 const descriptions = {
   nakupenda_desc: {
-    heading: "NAKUPENDA TOUR",
+    heading: "Experience Nakupenda Tour",
     subheading: "Overview",
     paragraph1:
       "Nakupenda Beach (In Swahili, means I love you) it is a half day tour that start from seafront local port of stone town to prison island, from prison island to Nakupenda Sand Bank, around 20 minutes local boat ride from stone town.",
@@ -208,6 +208,8 @@ const descriptions = {
   },
 };
 
+const footerImages = [nakupenda, dhow2, safari1, kuza1];
+
 export {
   safari,
   dhows,
@@ -221,4 +223,5 @@ export {
   dhow,
   services,
   descriptions,
+  footerImages,
 };

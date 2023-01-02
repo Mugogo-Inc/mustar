@@ -21,7 +21,7 @@ import Heading from "./Heading";
 
 const ExperienceGrid = () => {
   return (
-    <div className=" text-4xl z-0 bg-gray-900">
+    <div className=" text-4xl z-0 bg-gray-900" id="experiences">
       <h1 className="block m-auto text-center text-white p-4  ">
         Experiences{" "}
       </h1>
