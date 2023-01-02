@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import { footerImages } from "./tours/data";
 import Link from "next/link";
-import { dark } from "@mui/material/styles/createPalette";
 
 const Footer = () => {
   const date = new Date().getFullYear();
