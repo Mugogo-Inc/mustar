@@ -175,44 +175,36 @@ const descriptions = {
 
     paragraph3:
       "Nakupenda island beach is located in Unguja island close to stone town. The environment of nakupenda islands is very exotic and natural. During this tour, the travelers would be able to taste all seasonal fruits available in Zanzibar, taste the Swahili Arabian cuisine and drinks",
-    info: {
-      1: "Local wooden boat will be used for the tour",
-      2: "Swimming and snorkeling",
-      3: "Fresh tropical fruits at the sandbank",
-    },
-    included: {
-      heading: "Included",
-      1: "Hotel pickup and drop off",
-      2: "All taxes, fees and handling charges",
-      3: "Mixed sea food lunch`",
-      4: "Soft drinks and fresh fruits",
-      5: "Snorkeling equipment",
-      6: "Experienced professional tour guide",
-    },
 
-    expect: {
-      heading: "What to Expect",
-      paragraph:
-        "It’s a half day tour The underwater world at Nakupenda is unbelievably spectacular. There are countless colorful fishes and other sea creatures that survive among the coral reefs and underwater plants which together form the barrier reef ecosystem. The travelers will have also opportunity to enjoy wonderful weather from the beach, snorkeling, and even get fresh fruits like bananas, pineapples, watermelon, mangoes, and other fruits. Also soft drinks and Swahili food will be available during the tour.",
-    },
-    additional_info: {
-      heading: "Additional Info",
-      1: "Confirmation will be received at time of booking Child",
-      2: "Rate ate applies only when sharing with 2 paying adults",
-      3: "Not wheelchair accessible",
-      4: "Most travelers can participate",
-      5: "This is a private tour /activity. Only your group will participate.",
-      6: "$72 per adult price varies by group size",
-      7: "Age requirement is 5-99 years old.",
-    },
+    info1: "Local wooden boat will be used for the tour",
+    info2: "Swimming and snorkeling",
+    info3: "Fresh tropical fruits at the sandbank",
 
-    FAQS: {
-      heading:
-        "The answers provided below are based on answers previously given by the tour provider to customer’s questions",
-      question: "Q: What is the policy on sanitization during Nakupenda tour?",
-      answer:
-        "A: The policies on sanitization are: Hand sanitizer available to travelers and staff transportation vehicles regularly sanitized.",
-    },
+    included1: "Hotel pickup and drop off",
+    included2: "All taxes, fees and handling charges",
+    included3: "Mixed sea food lunch`",
+    included4: "Soft drinks and fresh fruits",
+    included5: "Snorkeling equipment",
+    included6: "Experienced professional tour guide",
+
+    expectparagraph:
+      "It’s a half day tour The underwater world at Nakupenda is unbelievably spectacular. There are countless colorful fishes and other sea creatures that survive among the coral reefs and underwater plants which together form the barrier reef ecosystem. The travelers will have also opportunity to enjoy wonderful weather from the beach, snorkeling, and even get fresh fruits like bananas, pineapples, watermelon, mangoes, and other fruits. Also soft drinks and Swahili food will be available during the tour.",
+
+    additional_info1: "Confirmation will be received at time of booking ",
+    additional_info2:
+      "Child Rate ate applies only when sharing with 2 paying adults",
+    additional_info3: "Not wheelchair accessible",
+    additional_info4: "Most travelers can participate",
+    additional_info5:
+      "This is a private tour /activity. Only your group will participate.",
+    additional_info6: "$72 per adult price varies by group size",
+    additional_info7: "Age requirement is 5-99 years old.",
+
+    FAQheading:
+      "The answers provided below are based on answers previously given by the tour provider to customer’s questions",
+    question: "Q: What is the policy on sanitization during Nakupenda tour?",
+    FAQanswer:
+      "A: The policies on sanitization are: Hand sanitizer available to travelers and staff transportation vehicles regularly sanitized.",
   },
 };
 

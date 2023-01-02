@@ -19,7 +19,7 @@ import TransitionsModal from "./Modal";
 import Gallery from "./Gallery";
 import Heading from "./Heading";
 
-const ExperienceGrid = ({}) => {
+const ExperienceGrid = () => {
   return (
     <div className=" text-4xl z-0 bg-gray-900">
       <h1 className="block m-auto text-center text-white p-4  ">
@@ -33,8 +33,31 @@ const ExperienceGrid = ({}) => {
           <div className="block m-auto text-center absolute centered top-1/2 left-1/2">
             <TransitionsModal
               data={data}
-              heading=" Experience Nakupenda"
-              descriptions={descriptions.nakupenda_desc.heading}
+              heading={descriptions.nakupenda_desc.heading}
+              subheading={descriptions.nakupenda_desc.subheading}
+              paragraph1={descriptions.nakupenda_desc.paragraph1}
+              paragraph2={descriptions.nakupenda_desc.paragraph2}
+              paragraph3={descriptions.nakupenda_desc.paragraph3}
+              expect={descriptions.nakupenda_desc.expectparagraph}
+              faq={descriptions.nakupenda_desc.FAQS}
+              info1={descriptions.nakupenda_desc.info1}
+              info2={descriptions.nakupenda_desc.info2}
+              info3={descriptions.nakupenda_desc.info3}
+              included1={descriptions.nakupenda_desc.included1}
+              included2={descriptions.nakupenda_desc.included2}
+              included3={descriptions.nakupenda_desc.included3}
+              included4={descriptions.nakupenda_desc.included4}
+              included5={descriptions.nakupenda_desc.included5}
+              included6={descriptions.nakupenda_desc.included6}
+              additionalinfo1={descriptions.nakupenda_desc.additional_info1}
+              additionalinfo2={descriptions.nakupenda_desc.additional_info2}
+              additionalinfo3={descriptions.nakupenda_desc.additional_info3}
+              additionalinfo4={descriptions.nakupenda_desc.additional_info4}
+              additionalinfo5={descriptions.nakupenda_desc.additional_info5}
+              additionalinfo6={descriptions.nakupenda_desc.additional_info6}
+              additionalinfo7={descriptions.nakupenda_desc.additional_info7}
+              FAQ={descriptions.nakupenda_desc.question}
+              FAQanswer={descriptions.nakupenda_desc.FAQanswer}
             />
           </div>
         </div>

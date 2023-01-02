@@ -23,7 +23,7 @@ const style = {
   p: 4,
 };
 
-export default function TransitionsModal({ heading, data, descriptions }) {
+export default function TransitionsModal(props) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -35,7 +35,7 @@ export default function TransitionsModal({ heading, data, descriptions }) {
           onClick={handleOpen}
           className="text-white text-base p-2 font-semibold sm:p-2 m-3  border border-white  items-center  block button-animation rounded "
         >
-          {heading}{" "}
+          {props.heading}{" "}
           <i className="text-orange-500 font-bold">
             {" "}
             <TfiAngleRight
@@ -78,10 +78,10 @@ export default function TransitionsModal({ heading, data, descriptions }) {
             />
 
             <Typography id="transition-modal-title" variant="h6" component="h2">
-              {descriptions}
+              {props.heading}
             </Typography>
 
-            <Gallery data={data} />
+            <Gallery data={props.data} />
             <Typography
               id="transition-modal-description"
               sx={{
@@ -91,72 +91,41 @@ export default function TransitionsModal({ heading, data, descriptions }) {
                 textAlign: "center",
               }}
             >
-              <h2 className="text-bold text-4xl m-2">Overview</h2>
+              <h2 className="text-bold text-4xl m-2">{props.subheading}</h2>
               <p className="text-lg">
-                Nakupenda Beach (In Swahili, means I love you) it is a half day
-                tour that start from seafront local port of stone town to prison
-                island, from prison island to Nakupenda Sand Bank, around 20
-                minutes local boat ride from stone town. <br /> <br /> Nakupenda
-                is the most beautiful beach in Zanzibar islands, the beaches has
-                clear blue water and pure white sands beach. The water are
-                suitable for swimming and snorkeling, in case you visit in the
-                morning you may see dolphin roaming around the water. <br />{" "}
-                <br /> Nakupenda island beach is located in Unguja island close
-                to stone town. The environment of nakupenda islands is very
-                exotic and natural. During this tour, the travelers would be
-                able to taste all seasonal fruits available in Zanzibar, taste
-                the Swahili Arabian cuisine and drinks. <br /> <br />
+                {props.paragraph1} <br /> <br /> {props.paragraph2} <br />{" "}
+                <br /> {props.paragraph3} <br /> <br />
                 <ul className="list-disc">
-                  <li>Local wooden boat will be used for the tour</li>
-                  <li>Swimming and snorkeling</li>
-                  <li>Fresh tropical fruits at the sandbank</li>
+                  <li>{props.info1}</li>
+                  <li>{props.info2}</li>
+                  <li>{props.info3}</li>
                 </ul>
                 <br />
                 <br />
                 <p>
                   <h1 className="text-2xl">Included</h1>
                   <ul className="list-disc">
-                    <li> Hotel pickup and drop off</li>{" "}
-                    <li>All taxes, fees and handling charges</li>{" "}
-                    <li>Mixed sea food lunch`</li>{" "}
-                    <li> Soft drinks and fresh fruits </li>{" "}
-                    <li>Snorkeling equipment</li>
-                    <li>Experienced professional tour guide</li>
+                    <li>{props.included1}</li> <li>{props.included2}</li>{" "}
+                    <li> {props.included3} </li> <li>{props.included4}</li>
+                    <li>{props.included5}</li>
+                    <li>{props.included6}</li>
                   </ul>
                 </p>
                 <div className="my-4">
                   <h1 className="text-2xl font-bold mb-4">What to Expect</h1>
-                  <p>
-                    It’s a half day tour The underwater world at Nakupenda is
-                    unbelievably spectacular. There are countless colorful
-                    fishes and other sea creatures that survive among the coral
-                    reefs and underwater plants which together form the barrier
-                    reef ecosystem. The travelers will have also opportunity to
-                    enjoy wonderful weather from the beach, snorkeling, and even
-                    get fresh fruits like bananas, pineapples, watermelon,
-                    mangoes, and other fruits. Also soft drinks and Swahili food
-                    will be available during the tour.
-                  </p>
+                  <p>{props.expect}</p>
                 </div>
                 <div className="my-4">
                   <h1 className="text-2xl my-2 font-bold">Additional Info </h1>
                   <p>
                     <ul className="list-disc">
-                      <li>
-                        {" "}
-                        Confirmation will be received at time of booking Child
-                      </li>
-                      <li>
-                        Rate ate applies only when sharing with 2 paying adults
-                      </li>
-                      <li> Not wheelchair accessible </li>
-                      <li> Most travelers can participate</li>
-                      <li>
-                        This is a private tour /activity. Only your group will
-                        participate.
-                      </li>
-                      <li> $72 per adult price varies by group size</li>
-                      <li> Age requirement is 5-99 years old.</li>
+                      <li> {props.additionalinfo1}</li>
+                      <li>{props.additionalinfo2}</li>
+                      <li> {props.additionalinfo3} </li>
+                      <li> {props.additionalinfo4}</li>
+                      <li>{props.additionalinfo5}</li>
+                      <li> {props.additionalinfo6}</li>
+                      <li> {props.additionalinfo7}</li>
                     </ul>
                   </p>
                 </div>
@@ -165,17 +134,10 @@ export default function TransitionsModal({ heading, data, descriptions }) {
                   <p>
                     The answers provided below are based on answers previously
                     given by the tour provider to customer’s questions
-                    <span className="p-4">
-                      Q: What is the policy on sanitization during Nakupenda
-                      tour?
-                    </span>
-                    <br />
-                    <span className="font-semibold ">
-                      A: The policies on sanitization are: Hand sanitizer
-                      available to travelers and staff transportation vehicles
-                      regularly sanitized.
-                    </span>
                   </p>
+                  <p className="p-2">{props.FAQ}</p>
+                  <br />
+                  <p className="font-semibold ">{props.FAQanswer}</p>
                 </div>
               </p>
             </Typography>
