@@ -1,4 +1,5 @@
 import { Dialog, Transition } from "@headlessui/react";
+import CloseIcon from "@mui/icons-material/Close";
 
 import { Fragment, useState } from "react";
 import Gallery from "./Gallery";
@@ -105,7 +106,12 @@ export default function MyModal({
                         <h1 className="text-3xl font-semibold py-2">
                           {heading[4]}
                         </h1>
-                        <p>{expect}</p>
+
+                        {expect.map((item, index) => (
+                          <p key={index}>
+                            {item} <br /> <br />
+                          </p>
+                        ))}
                       </div>
                       <div className="block m-auto text-center p-3">
                         <h1 className="text-3xl font-semibold py-2">
@@ -146,10 +152,10 @@ export default function MyModal({
                   <div className="mt-4">
                     <button
                       type="button"
-                      className="inline-flex  absolute right-1 top-2 justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                      className="inline-flex  absolute right-2 top-2 justify-center rounded-md border border-transparent bg-blue-100  text-sm font-medium text-gray-900 p-1 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                       onClick={closeModal}
                     >
-                      close
+                      <CloseIcon />
                     </button>
                   </div>
                 </Dialog.Panel>

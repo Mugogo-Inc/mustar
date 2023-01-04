@@ -35,7 +35,7 @@ const Gallery = ({ data }) => {
       <div>
         <Slider {...settings}>
           {data.map((img, index) => (
-            <div className="m-auto block text-center " key={index}>
+            <div className="m-auto block text-center p-2" key={index}>
               <Image
                 alt="alt"
                 loading="lazy"

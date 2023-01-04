@@ -27,6 +27,13 @@ import stonetown2 from "./stonetown/stonetown15.jpg";
 import stonetown6 from "./stonetown/stonetown9.jpg";
 import stonetown4 from "./stonetown/stonetown13.jpg";
 
+//mnemba Island
+import mnemba1 from "./mnemba/mnemba.jpg";
+import mnemba2 from "./mnemba/mnemba2.jpg";
+import mnemba3 from "./mnemba/mnemba1.jpg";
+import mnemba4 from "./mnemba/mnemba4.jpg";
+import mnemba5 from "./mnemba/mnemba5.jpg";
+
 const nakupendaa = "Nakupenda Tour";
 const kuzaa = "Kuza Tour";
 const safarii = "Safari Blue Tour ";
@@ -64,8 +71,9 @@ const experienceData = [
         "Snorkeling equipment",
         "Experienced professional tour guide",
       ],
-      expectparagraph:
+      expectparagraph: [
         "It’s a half day tourThe underwater world at Nakupenda is unbelievably spectacular. There are countless colorful fishes and other sea creatures that survive among the coral reefs and underwater plants which together form the barrier reef ecosystem.The travelers will have also opportunity to enjoy wonderful weather from the beach, snorkeling, and even get fresh fruits like bananas, pineapples, watermelon, mangoes, and other fruits. Also soft drinks and Swahili food will be available during the tour.",
+      ],
       additional: [
         " Confirmation will be received at time of booking",
         "Child rate applies only when sharing with 2 paying adults",
@@ -106,8 +114,9 @@ const experienceData = [
         "Swimming in the hidden mangrove lagoon",
         "Enjoy sea food and soft drinks",
       ],
-      expectparagraph:
+      expectparagraph: [
         "It is a 6 hours trip,Safari blue tour is a full day seafaring around mangroves and snorkeling along menai bay. The foremost activities are visiting the beautiful island of kwale, sandbank relaxing, swimming and snorkeling. The price for safari blue tour differs based on the number of group, the higher number of people makes the coast low. The tour comes with two options either private or sharing that depends on your interest and budget.",
+      ],
       additional: [
         "Confirmation will be received at time of booking",
         "Most travelers can participate",
@@ -118,7 +127,7 @@ const experienceData = [
       ],
     },
     kuza: {
-      images: [kuza1, kuza2, kuza3, kuza4],
+      images: [kuza1, kuza3, kuza4],
       safari: " Kuza Caves",
       Heading: [
         "Experience Kuza Caves",
@@ -147,8 +156,9 @@ const experienceData = [
         "Swimming in the hidden mangrove lagoon",
         "Enjoy sea food and soft drinks",
       ],
-      expectparagraph:
+      expectparagraph: [
         "It is a 6 hours trip,Safari blue tour is a full day seafaring around mangroves and snorkeling along menai bay. The foremost activities are visiting the beautiful island of kwale, sandbank relaxing, swimming and snorkeling. The price for safari blue tour differs based on the number of group, the higher number of people makes the coast low. The tour comes with two options either private or sharing that depends on your interest and budget.",
+      ],
       additional: [
         "Confirmation will be received at time of booking",
         "Most travelers can participate",
@@ -156,6 +166,145 @@ const experienceData = [
         "This experience requires a minimum number of travelers. If the number did not reach the target, there will be cancellation and refund will be available or another date will be setting.",
         "This trip will have 15 maximum numbers of travelers.",
         "Age requirements 5-79 years old",
+      ],
+    },
+    sunset: {
+      images: [dhow1, dhow2, dhow3, dhow4],
+      sunset: " Sunset Dhowing",
+      Heading: [
+        "Experience Sunset Dhowing",
+        "Overview",
+        "Tour highlight",
+        "Included",
+        "What to expect",
+        "Additional Info...",
+        "Frequently Asked Questions",
+      ],
+      info: [
+        "Beautiful view of stone town waterfront historical buildings.",
+        "Cruising with wooden traditional Arabian dhow.",
+        "Best technique to view the coast of stone town.",
+        "Finest way to see the sunset in Zanzibar.",
+        "Traditional coastal music",
+      ],
+      paragraphs: [
+        "Cruising around small islands and along the coast line on a dhow is a fantastic and memorable experience. The sunset views from the dhow are reminiscent and timeless. Beverages, fruits and snacks served on the dhow are usually included.",
+        "Dhow sunset cruise starts at 4:30 or 5:00 pm from stone town to any other beach and end around 7:00 pm.",
+      ],
+      included: [
+        "have the peacefulness of the Indian ocean in traditional dhow ",
+        "enjoy mouthwatering drinks while cruising",
+        "Watching dolphins",
+        "the snacks refreshments",
+        "The very best experienced tour guide",
+      ],
+      expectparagraph: [
+        "The Zanzibar sunset cruise begins when you board a dhow near the beach. Different kinds of snacks, bear and soft drinks are served.  The guides will point attractions from the boat. Information and different narrations at the same time, moreover the beautiful sound of music makes the dhow cruise on point.",
+        "On the board of dhow the personal guide will accompany you on your cruise and give you a tour of stone town from the water as well, the guide also will have answers for all of your questions.",
+        "Let’s make your evening remarkable, enlightening the lovely views of the sun on your way to stone town, kendwa and beach with us.",
+      ],
+      additional: [
+        "Tour maybe operated by a multilingual guide",
+        "Not recommended for participants with heart problems or other serious medical condition",
+        "Booking can only be accepted for person under 15 years of age when accompanied by an adult who will be responsible for them.",
+        "Age requirements 5-79 years old",
+      ],
+    },
+    stonetown: {
+      images: [stonetown1, stonetown2, stonetown6, stonetown4],
+      stonetown: " Stonetown",
+      Heading: [
+        "Experience Stonetown",
+        "Overview",
+        "Tour highlight",
+        "Included",
+        "What to expect",
+        "Additional Info...",
+        "Frequently Asked Questions",
+      ],
+      info: [
+        "Get your bearings in the maze-like UNESCO.",
+        "Site See top landmarks and lesser-known areas ",
+        "Door-to-door transport from hotels in Zanzibar",
+        "The very best experienced tour guide",
+      ],
+      paragraphs: [
+        "Discover Zanzibar’s aromatic history on a half-day walking tour of Stone Town, setting out on foot so you can see Stone Town’s narrow, car-free streets and atmospheric corners.",
+        "After convenient pickup at Zanzibar hotels, you’ll cover some of Stone Town’s highlights, from colonial landmarks to the Old Fort, the house where Freddy Mercury was born, and an Anglican Cathedral that marks the former site of a slave market. Stone Town walking tour with Zanzibar spice trade history .",
+      ],
+      included: [
+        "Hotel pickup and drop-off",
+        "Professional art historian guide",
+        "Bottled water",
+        "No Food or Snacks",
+      ],
+      expectparagraph: [
+        "3 hours",
+        "Admission Ticket Not Included ",
+        "Memories of Zanzibar Town Market, Slave Market, Slave Chambers, National Museum of Zanzibar, High Court Building, Old German Consulate, Africa House (former English Club), Tippu Tip House, Kele Kele Square, Old British Consulate, Orphanage Home, Old Fort, Forodhani Gardens, House of Wonders, Sultan Palace (now Palace Museum), Custom House, Old Dispensary, Old Harbour, Dr. David Livingstone House, Maruhubi Palace (Ruins), are among the interesting sites on this guided tour of Zanzibar.",
+        "The Three hours guided tour begins and ends at your hotel. The tour commences at the City Market and covers all the above places. You are then driven or walk (optional) to the Natural Museum: a library that includes books on Zanzibar and East Africa. The exhibits also include stuffed specimens of local birds, a small but useful herbarium of native plants, and a collection of shells.",
+        "You leave and head along the waterfront to Shangani – Old British Consulate (the late Dr. Livingstone body remained here and later sent to Britain), the Arab Fort (built in the 1700), the House of Wonders (built in 1883). From here, you proceed on a leisure walk through the Narrow Streets of Stone Town (old part of Zanzibar town) where most houses date back to more than one hundred and fifty years. In this part of the town, you will find a lot of small and exotic bazaars and curio shops. ",
+        "The tour continuous and ends with a visit to Maruhubi Palace Ruins (1880) en-route Dr. David Livingstone House (1866). Return to your hotel.",
+        "Advisable – Please dress conservatively when walking through Stone Town, women should cover their shoulders and wear long skirts or trousers. – Comfortable closed walking or hiking shoes and pants.",
+      ],
+      additional: [
+        "Tour maybe operated by a multilingual guide",
+        "Confirmation will be received at time of booking",
+        "A minimum of 2 people per booking is required.",
+        "Not wheelchair accessible ",
+        "Near public transportation Infant seats available",
+        "Most travelers can participate This is a private tour/activity.",
+        "Only your group will participate",
+        "Operated by Zanzibar Travel &  Tours",
+      ],
+    },
+    mnemba: {
+      images: [mnemba1, mnemba2, mnemba3, mnemba4, mnemba5],
+      mnemba: " Mnemba Island",
+      Heading: [
+        "Experience Mnemba Island",
+        "Overview",
+        "Tour highlight",
+        "Included",
+        "What to expect",
+        "Additional Info...",
+        "Frequently Asked Questions",
+      ],
+      info: [
+        "It’s a toll marine reserve",
+        "It’s swim and snorkel most popular area",
+        "Its opportunities to see yellow snappers, barracuda, turtles and much more ",
+        "Hotel pickup and drop off included",
+        "fresh fruit snacks included",
+      ],
+      paragraphs: [
+        "Mnemba is a single small island located about 3km of the northeast coast. It is surrounded by an oval reef seven by four kilometer in length. These reefs have been declared a Marine conservation area. It has approximately 600 categories of coral reef fish. Dolphins, crabs, starfish, butterfly fish, lobsters, shrimps   and so on are the most common species you can spot while snorkeling in Mnemba Island.",
+        "It is the most popular snorkeling place in Zanzibar. You can reach in Mnemba by boat, mainly from Nungwi beach and Muyuni landing place. It’s a 1 hour from Nungwi.",
+        "Mnemba is a private island with access restricted to guests of the sumptuous and beyond Mnemba Island. The boat will drop you off directly at the reef, which lies a few dozen meters from the small island.",
+      ],
+      included: [
+        "All taxes, fees and handling charges",
+        "Hotel pickup and drop off",
+        "Use of snorkeling equipments",
+        "Fresh fruits will be served",
+        "Bottle of water will also be included",
+        "Professional tour guide",
+        "Lunch and snacks",
+      ],
+      expectparagraph: [
+        "Snorkeling is a fun activity for young and old people, and it does not require any previous experiences.",
+        "There is different marine life to explore during Mnemba tour like fish, huge corals and dolphins.",
+        "Also swimming is one among the most activity during your tour to the spot. Besides with low tide it clears the chance to visit the sandbank neighboring to Mnemba.",
+        "In addition during the trip lunch will be served. Water, snacks and some fresh fruits will be available to make your day very excitement.",
+      ],
+      additional: [
+        "Confirmation will be received at time of booking",
+        "Not wheelchair accessible",
+        "Age requirement is 2-90 years old.",
+        "Minimum of 2 adults per booking is required.",
+        "Children must be accompanied by an adult.",
+        "Most travelers can participate",
+        "This is a private tour only your group will participate",
       ],
     },
   },
