@@ -37,8 +37,6 @@ const Gallery = ({ data }) => {
           {data.map((img, index) => (
             <div className="m-auto block text-center " key={index}>
               <Image
-                height={400}
-                width={350}
                 alt="alt"
                 loading="lazy"
                 src={img}
