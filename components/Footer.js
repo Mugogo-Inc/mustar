@@ -11,10 +11,10 @@ const Footer = () => {
         <h1 className="text-6xl block m-auto text-center p-4">
           Visit Zanzibar.
         </h1>
-        <div className="flex my-5">
+        <div className="flex my-5 justify-center">
           {" "}
-          {footerImages.map((img) => (
-            <Link href="#experiences" key={img} className="grid">
+          {footerImages.map((img, index) => (
+            <Link href="#experiences" key={index} className="grid">
               <Image
                 key={img}
                 alt="alt"

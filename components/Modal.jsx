@@ -1,149 +1,104 @@
-import * as React from "react";
-import Backdrop from "@mui/material/Backdrop";
-import Box from "@mui/material/Box";
-import Modal from "@mui/material/Modal";
-import Fade from "@mui/material/Fade";
-import Typography from "@mui/material/Typography";
-import { AiOutlineClose } from "react-icons/ai";
-import { TfiAngleRight } from "react-icons/tfi";
+import { Dialog, Transition } from "@headlessui/react";
+
+import { Fragment, useState } from "react";
 import Gallery from "./Gallery";
 
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 450,
-  height: 600,
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  marginTop: 5,
+export default function MyModal({ data, heading, paragraphs, info }) {
+  let [isOpen, setIsOpen] = useState(false);
 
-  p: 4,
-};
+  function closeModal() {
+    setIsOpen(false);
+  }
 
-export default function TransitionsModal(props) {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  function openModal() {
+    setIsOpen(true);
+  }
 
   return (
-    <div className="">
-      <div className=" inline-block">
+    <>
+      <div className="relative centered inset-0 flex items-center justify-center">
         <button
-          onClick={handleOpen}
-          className="text-white text-base p-2 font-semibold sm:p-2 m-3  border border-white  items-center  block button-animation rounded "
+          type="button"
+          onClick={openModal}
+          className="absolute centered rounded p-2 font-bold  border border-white bg-opacity-20  text-lg text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 "
         >
-          {props.heading}{" "}
-          <i className="text-orange-500 font-bold">
-            {" "}
-            <TfiAngleRight
-              className="inline font-bold text"
-              style={{ fontWeight: "500" }}
-            />
-          </i>
+          {heading[0]}
         </button>
       </div>
 
-      <Modal
-        aria-labelledby="transition-modal-title"
-        aria-describedby="transition-modal-description"
-        open={open}
-        onClose={handleClose}
-        closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
-        sx={{
-          outline: "none",
-          marginBottom: 7,
-        }}
-        className="border-none outline-none"
-      >
-        <Fade in={open} className="rounded p-3 border-none ">
-          <Box
-            style={{}}
-            sx={{
-              ...style,
-              border: "none",
-              borderRadius: "4px",
-              overflow: "scroll",
-            }}
+      <Transition appear show={isOpen} as={Fragment}>
+        <Dialog as="div" className="relative z-10" onClose={closeModal}>
+          <Transition.Child
+            as={Fragment}
+            enter="ease-out duration-300"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="ease-in duration-200"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
           >
-            <AiOutlineClose
-              className=" absolute right-3 top-2 text-3xl"
-              onClick={() => setOpen(!open)}
-            />
+            <div className="fixed inset-0 bg-black bg-opacity-25" />
+          </Transition.Child>
 
-            <Typography id="transition-modal-title" variant="h6" component="h2">
-              {props.heading}
-            </Typography>
+          <div className="fixed inset-0 overflow-y-auto">
+            <div className="flex min-h-full items-center justify-center p-4 text-center">
+              <Transition.Child
+                as={Fragment}
+                enter="ease-out duration-300"
+                enterFrom="opacity-0 scale-95"
+                enterTo="opacity-100 scale-100"
+                leave="ease-in duration-200"
+                leaveFrom="opacity-100 scale-100"
+                leaveTo="opacity-0 scale-95"
+              >
+                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                  <Dialog.Title
+                    as="h3"
+                    className=" font-medium leading-6 text-gray-900 block p-3 text-center text-3xl m-auto"
+                  >
+                    {heading[0]}
+                  </Dialog.Title>
+                  <div className="mt-2  inset-0 ">
+                    <div className="text-lg text-gray-500 overflow-y-scroll">
+                      <Gallery data={data} />
+                      <h1 className="text-3xl font-semibold p-3 block m-auto text-center">
+                        {heading[1]}
+                      </h1>
+                      {paragraphs.map((paragraph, index) => (
+                        <div key={index}>
+                          <p className="text-xl block m-auto text-center ">
+                            {paragraph}
+                          </p>{" "}
+                          <br />
+                        </div>
+                      ))}
 
-            <Gallery data={props.data} />
-            <Typography
-              id="transition-modal-description"
-              sx={{
-                mt: 2,
-                display: "block",
-                margin: "auto",
-                textAlign: "center",
-              }}
-            >
-              <h2 className="text-bold text-4xl m-2">{props.subheading}</h2>
-              <p className="text-lg">
-                {props.paragraph1} <br /> <br /> {props.paragraph2} <br />{" "}
-                <br /> {props.paragraph3} <br /> <br />
-                <ul className="list-disc">
-                  <li>{props.info1}</li>
-                  <li>{props.info2}</li>
-                  <li>{props.info3}</li>
-                </ul>
-                <br />
-                <br />
-                <p>
-                  <h1 className="text-2xl">Included</h1>
-                  <ul className="list-disc">
-                    <li>{props.included1}</li> <li>{props.included2}</li>{" "}
-                    <li> {props.included3} </li> <li>{props.included4}</li>
-                    <li>{props.included5}</li>
-                    <li>{props.included6}</li>
-                  </ul>
-                </p>
-                <div className="my-4">
-                  <h1 className="text-2xl font-bold mb-4">What to Expect</h1>
-                  <p>{props.expect}</p>
-                </div>
-                <div className="my-4">
-                  <h1 className="text-2xl my-2 font-bold">Additional Info </h1>
-                  <p>
-                    <ul className="list-disc">
-                      <li> {props.additionalinfo1}</li>
-                      <li>{props.additionalinfo2}</li>
-                      <li> {props.additionalinfo3} </li>
-                      <li> {props.additionalinfo4}</li>
-                      <li>{props.additionalinfo5}</li>
-                      <li> {props.additionalinfo6}</li>
-                      <li> {props.additionalinfo7}</li>
-                    </ul>
-                  </p>
-                </div>
-                <div className="my-4">
-                  <h1 className="text-2xl font-bold">FAQS</h1>
-                  <p>
-                    The answers provided below are based on answers previously
-                    given by the tour provider to customer’s questions
-                  </p>
-                  <p className="p-2">{props.FAQ}</p>
-                  <br />
-                  <p className="font-semibold ">{props.FAQanswer}</p>
-                </div>
-              </p>
-            </Typography>
-          </Box>
-        </Fade>
-      </Modal>
-    </div>
+                      <ul className="list-disc block m-auto text-center p-6">
+                        <h1 className="text-3xl font-semibold py-3">
+                          {heading[2]}
+                        </h1>
+                        {info.map((item, index) => (
+                          <li key={index}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="mt-4">
+                    <button
+                      type="button"
+                      className="inline-flex  absolute right-1 top-2 justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                      onClick={closeModal}
+                    >
+                      close
+                    </button>
+                  </div>
+                </Dialog.Panel>
+              </Transition.Child>
+            </div>
+          </div>
+        </Dialog>
+      </Transition>
+    </>
   );
 }

@@ -34,15 +34,15 @@ const Gallery = ({ data }) => {
 
       <div>
         <Slider {...settings}>
-          {data.map((img) => (
-            <Image
-              alt="alt"
-              height=""
-              loading="lazy"
-              src={img.img}
-              key={img.id}
-              className="max-h-90 rounded border-none outline-none overflow-hidden"
-            />
+          {data.map((img, index) => (
+            <div className="m-auto block text-center p-2" key={index}>
+              <Image
+                alt="alt"
+                loading="lazy"
+                src={img}
+                className="max-h-80 rounded border-none outline-none overflow-hidden block m-auto text-center "
+              />
+            </div>
           ))}
         </Slider>
       </div>

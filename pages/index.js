@@ -7,6 +7,7 @@ import ExperienceGrid from "../components/ExperienceGrid";
 import Work from "../components/Work";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import { DataProvider } from "../components/tours/DataContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,9 +17,12 @@ export default function Home({}) {
       <Head>
         <title>Visit Zanzibar</title>
       </Head>
+
       <Navbar className="p-5 sm:p-10" />
       <Banner />
-      <ExperienceGrid />
+      <DataProvider>
+        <ExperienceGrid />
+      </DataProvider>
       <Work />
       <Contact />
       <Footer />
