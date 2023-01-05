@@ -10,7 +10,7 @@ import safari2 from "./safari/safari2.jpg";
 import safari3 from "./safari/safari3.jpg";
 import safari4 from "./safari/safari4.jpg";
 
-//dhows
+//sunset dhow cruising
 import dhow1 from "./dhow/dhow5.jpg";
 import dhow2 from "./dhow/dhow2.jpeg";
 import dhow3 from "./dhow/dhow3.jpg";
@@ -33,6 +33,19 @@ import mnemba2 from "./mnemba/mnemba2.jpg";
 import mnemba3 from "./mnemba/mnemba1.jpg";
 import mnemba4 from "./mnemba/mnemba4.jpg";
 import mnemba5 from "./mnemba/mnemba5.jpg";
+
+// village tour
+import village1 from "./village/village1.jpg";
+import village2 from "./village/village2.jpg";
+import village3 from "./village/village3.jpg";
+import village4 from "./village/village4.jpg";
+import village5 from "./village/village5.jpg";
+
+//game deep sea
+import game1 from "./gamedeep/game1.jpg";
+import game2 from "./gamedeep/game2.jpg";
+import game3 from "./gamedeep/game3.jpg";
+import game4 from "./gamedeep/game4.jpg";
 
 const nakupendaa = "Nakupenda Tour";
 const kuzaa = "Kuza Tour";
@@ -305,6 +318,97 @@ const experienceData = [
         "Children must be accompanied by an adult.",
         "Most travelers can participate",
         "This is a private tour only your group will participate",
+      ],
+    },
+    village: {
+      images: [village1, village2, village3, village4, village5],
+      village: " Village",
+      Heading: [
+        "Experience Village Tour",
+        "Overview",
+        "Tour highlight",
+        "Included",
+        "What to expect",
+        "Additional Info...",
+        "Frequently Asked Questions",
+      ],
+      info: [
+        "The guide will gives you the stories and directions about Zanzibar village life.",
+        "Visit a seaweed farm.",
+        "Rope making lesson from the indigenous.",
+        "Enjoy traditional Zanzibar cuisine",
+      ],
+      paragraphs: [
+        "The village tour:  is a trip around the villages of Zanzibar, to experience the life of the people who live in the villages.",
+        " The tour takes you to Jambian village, during this tour you will visit schools, meet locals, and walk on a seaweed farm.",
+        "In this trip you will also learn how to make rope from coconut fiber, the women pottery groups are very famous in the village like Jambiani, you will explore about their hand works.",
+        " In addition, after the tour, you will enjoy with very taste Zanzibar traditional cuisine for lunch.",
+      ],
+      included: [
+        "Local guide",
+        "Lunch",
+        "Bottle of water",
+        "Donations to visited places",
+        "Hotel pickup and drop off",
+        "Gratuities",
+      ],
+      expectparagraph: [
+        "It’s 3 to 4 hrs tour,",
+        "On this tour you will be able to see while walking through the village and capitalizing on the village life of the local carrying on with their daily activities like grinding millet with mortar pestles, thatching coconut palms and preparation of bread for evening meal.",
+        "During Jambiani village tour we may also see locals climbing coconut trees, the  visitors can drink coconut madafu milk if they are interested, also can spot coconut products like baskets, rope, poles coconut palm caps.",
+        "Also in this village tour we visit cassava plantations and banana plantation to see and taste their products. Since this is Jambiani village tour it can be hard to tear yourself away from the gently lapping waves and soft white sands of eastern Zanzibar, this coastline is wonderful place to relax.",
+      ],
+      additional: [
+        "Confirmation will be received at time of booking.",
+        "Travelers should have a moderate physical fitness level.",
+        "Not wheelchair accessible.",
+        "Children must be accompanied by an adults.",
+        "This is a private tour /activity. only your group will participate.",
+        "Please advise any  specific dietary requirements at time of booking.",
+        "Age requirement is 1-99 year’s old, maximum of 10 people per group.",
+      ],
+    },
+    game: {
+      images: [game1, game2, game3],
+      game: " Game Deep Sea Fishing",
+      Heading: [
+        "Experience Deep Sea Fishing",
+        "Overview",
+        "Tour highlight",
+        "Included",
+        "What to expect",
+        "Additional Info...",
+        "Frequently Asked Questions",
+      ],
+      info: [
+        "Deep sea fishing adventure off the coast of  Nungwi and Bwejuu fishing villages.",
+        "Large variety of fish can be caught including kingfish, tuna, marlin, barracuda and billfish.",
+        "Beer, soda and fishing equipment all included.",
+        "Hotel pick up and drop off",
+      ],
+      paragraphs: [
+        "Zanzibar is fortunate in having superb fishing almost the whole year. Fishing in Zanzibar is synonymous as some of the most exhilarating and challenging deep sea fishing is available. It gets more interesting when the North east monsoon blows, the billfish arrive in great numbers.",
+        " The deep sea fishing in Zanzibar is located at the northern tip in Nungwi , a fishing village, which is the most fishing grounds of  Zanzibar.",
+        "Explore deep water in Zanzibar from the boat and enjoy fishing activity, sailing and relax on the board.",
+        " Fishing is wonderful experience while you are in Zanzibar for both professionals and non professional fisherman; choose from different boat types and sizes.  Different types of equipments are included in the board. Boats are available for half day and full day tour.",
+      ],
+      included: [
+        "Hotel pickup and drop off",
+        "Bottle of water",
+        "All entrances fees ",
+        "Soft drinks like soda, coffee, tea etc.",
+        "Fruits and some snacks",
+      ],
+      expectparagraph: [
+        "Deep sea fishing tour it is wonderful tour that will give you a fishing experience like no other",
+        "For early morning fishing in the water of Zanzibar, you will go out on a local boat from the island, the local captain knows the area well and professional anglers. Black and blue marlin, acrobatic sailfish, Dorado, yellow fin tuna, and kingfish, all provide endless hours of active game fishing out of the Indian Ocean.",
+        "You will be trailing a combination of lures, naturally dead or alive baits. February to April is excellent time to catch kingfish, tuna and blue marlin, June to August it is the best time to see whales, August to October is the peak season for tuna, and November to March for marlin and sailfish, following the pattern of the monsoon.",
+      ],
+      additional: [
+        "Tour maybe operated by a multilingual guide",
+        "It recommended to bring some equipments like sunscreen, towels, swimming suit, water sport shoes, and waterproof camera.",
+        "Not recommended for the people with serious medical conditions.",
+        "Booking can only be accepted for persons under 15 years of age when accompanied by an adult who will be responsible for them",
       ],
     },
   },

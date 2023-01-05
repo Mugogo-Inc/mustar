@@ -30,7 +30,7 @@ export default function MyModal({
         <button
           type="button"
           onClick={openModal}
-          className="absolute centered rounded p-2 font-bold  border border-white bg-opacity-20  text-lg text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 "
+          className="absolute centered rounded px-4 py-2 w-44 font-bold  border border-white bg-opacity-20  text-lg text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 "
         >
           {heading[0]}
         </button>

@@ -113,6 +113,42 @@ const Experiences = ({ experienceData }) => {
           </div>
         ))}
       </div>
+      {/* village */}
+      <div className="relative">
+        {experienceData.map((experience, index) => (
+          <div key={index}>
+            <Gallery data={experience.village.images} key={experience} />
+            <MyModal
+              info={experience.village.info}
+              data={experience.village.images}
+              heading={experience.village.Heading}
+              paragraphs={experience.village.paragraphs}
+              included={experience.village.included}
+              expect={experience.village.expectparagraph}
+              additional={experience.village.additional}
+              tour={experience.village.village}
+            />
+          </div>
+        ))}
+      </div>
+      {/* game deep diving */}
+      <div className="relative">
+        {experienceData.map((experience, index) => (
+          <div key={index}>
+            <Gallery data={experience.game.images} key={experience} />
+            <MyModal
+              info={experience.game.info}
+              data={experience.game.images}
+              heading={experience.game.Heading}
+              paragraphs={experience.game.paragraphs}
+              included={experience.game.included}
+              expect={experience.game.expectparagraph}
+              additional={experience.game.additional}
+              tour={experience.game.game}
+            />
+          </div>
+        ))}
+      </div>
     </>
   );
 };
