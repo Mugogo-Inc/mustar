@@ -149,6 +149,23 @@ const Experiences = ({ experienceData }) => {
           </div>
         ))}
       </div>
+      <div className="relative">
+        {experienceData.map((experience, index) => (
+          <div key={index}>
+            <Gallery data={experience.dolphin.images} key={experience} />
+            <MyModal
+              info={experience.dolphin.info}
+              data={experience.dolphin.images}
+              heading={experience.dolphin.Heading}
+              paragraphs={experience.dolphin.paragraphs}
+              included={experience.dolphin.included}
+              expect={experience.dolphin.expectparagraph}
+              additional={experience.dolphin.additional}
+              tour={experience.dolphin.dolphin}
+            />
+          </div>
+        ))}
+      </div>
     </>
   );
 };

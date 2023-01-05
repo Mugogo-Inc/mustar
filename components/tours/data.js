@@ -47,11 +47,12 @@ import game2 from "./gamedeep/game2.jpg";
 import game3 from "./gamedeep/game3.jpg";
 import game4 from "./gamedeep/game4.jpg";
 
-const nakupendaa = "Nakupenda Tour";
-const kuzaa = "Kuza Tour";
-const safarii = "Safari Blue Tour ";
-const dhow = "Sunset Dhowing Tour";
-const stonetownn = "Stonetown Swahilitown Tour";
+//dolphin tour
+
+import dolphin1 from "./dolphin/dolphin1.jpeg";
+import dolphin2 from "./dolphin/dolphin2.jpeg";
+import dolphin3 from "./dolphin/dolphin3.jpeg";
+import dolphin4 from "./dolphin/dolphin4.jpeg";
 
 const experienceData = [
   {
@@ -411,10 +412,53 @@ const experienceData = [
         "Booking can only be accepted for persons under 15 years of age when accompanied by an adult who will be responsible for them",
       ],
     },
+    dolphin: {
+      images: [dolphin1, dolphin2, dolphin3, dolphin4],
+      dolphin: " Dolphin Tour",
+      Heading: [
+        "Experience Dolphin Tour",
+        "Overview",
+        "Tour highlight",
+        "Included",
+        "What to expect",
+        "Additional Info...",
+        "Frequently Asked Questions",
+      ],
+      info: [
+        "See the dolphins in their natural environment",
+        "Visit the oldest mosque in East Africa",
+        "Swim with dolphins if it’s possible",
+      ],
+      paragraphs: [
+        "Zanzibar dolphin tour is unique tour premeditated for visitors to incident the best environment of kizimkazi village, to see mammals, swimming, snorkeling, to enjoy the very best prepared sea foods and soft drinks, watching birds and other enjoyment which could left them to have the best familiarity in their Zanzibar tour.",
+        "This dolphin watching tour is a morning boat trip at the famous old village of kizimkazi, the tour takes 2 to 3 hours in the sea, the snorkeling also included. Dolphin trip offers you the experience to spot dolphins, the dolphins are officially protected by the 420 km2 Menai bay conservation area, which was set up in 1997 to stop the brisk weakening of fish stocks.",
+      ],
+      included: [
+        "Lunch",
+        "Private transportation",
+        "Uses of snorkeling tools",
+        "Menai bay entrances fee",
+        "Age requirement  is 5-79 years old",
+      ],
+      expectparagraph: [
+        "This is a half day trip,",
+        "The dolphin tour is one of the most trending excursions in the islands. The trip will bring you into swimming alongside the dolphin.",
+        "The tour takes place in the southernmost part of the island, in this part the dolphin breathe happily in a natural setting. The visitors will be able to see them in the best possible scenario. The dolphins can simply be seen while you cruise the boat from the village.",
+        "The tour is carried out in the early morning and afternoon, due weather conditions. The tour will also bring you to the kizimkazi village to see the old historical mosque of kizimkazi, more over kizimkazi village offer best cultural attraction.",
+      ],
+      additional: [
+        "Confirmation will be received at time of booking",
+        "Not recommended for travelers with back problems",
+        "Not wheelchair accessible.",
+        "Not recommended for pregnant travelers",
+        "Most travelers can participate.",
+        "This is a private tour /activity only your group will participate",
+        "Not recommended for any person with serious medical cases.",
+      ],
+    },
   },
 ];
 
-const descriptions = [];
 const services = [
   {
     service: "Tour Organization",
@@ -440,14 +484,4 @@ const services = [
 
 const footerImages = [nakupenda1, dhow2, safari1, kuza1];
 
-export {
-  nakupendaa,
-  stonetownn,
-  kuzaa,
-  safarii,
-  dhow,
-  descriptions,
-  footerImages,
-  services,
-  experienceData,
-};
+export { footerImages, services, experienceData };
