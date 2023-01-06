@@ -22,7 +22,7 @@ const Menu = () => {
         {menuInfo.map((item, index) => (
           <SwiperSlide key={index} className="  p-3 relative">
             <div className="text-3xl  p-3 ">
-              <h1 className="p-2 kbd m-2">{item.heading}</h1>
+              <h1 className="p-2 kbd m-2 font-semibold">{item.heading}</h1>
               <p className="p-2">{item.experiences}</p>
               <p className=" absolute top-0 right-2 badge p-2 badge-lg">
                 {item.info}

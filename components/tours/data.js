@@ -487,21 +487,21 @@ const menuInfo = [
     heading: "Combine full Day Tour",
     experiences: "Mnemba Snorkeling ➕️ Nungwi Aquarium and Sunset dhow cruise",
     info: "Lunch Excluded",
-    price: "$120",
+    price: " $120",
   },
   {
     heading: "Combine full Day Tour",
     experiences:
       "Spice Tour with swahili lunch ➕️ stone town tour and Prison Island",
     info: "Lunch Included",
-    price: "$125",
+    price: " $125",
   },
   {
     heading: "Combine full Day Tour",
     experiences:
       "Jozani Forest ➕️ Kuza cave ➕️ Mtende Beach and the Rock Restaurant",
     info: "Lunch Excluded",
-    price: "$95",
+    price: " $95",
   },
 ];
 
