@@ -8,6 +8,7 @@ import Work from "../components/Work";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import { DataProvider } from "../components/tours/DataContext";
+import Menu from "../components/Menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function Home({}) {
         <ExperienceGrid />
       </DataProvider>
       <Work />
+      <Menu />
       <Contact />
       <Footer />
     </div>
