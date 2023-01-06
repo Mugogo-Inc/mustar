@@ -4,17 +4,42 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { ArrowBack, ArrowBackIos } from "@mui/icons-material";
 
-const Gallery = ({ data }) => {
+const ModalGallery = ({ data }) => {
+  function SamplePrevArrow(props) {
+    const { onClick } = props;
+    return (
+      <div
+        className=" absolute left-3 top-1/2 bg-white opacity-50 z-40 px-4 py-2 rounded-3xl"
+        onClick={onClick}
+      >
+        <ArrowBackIos className="" />
+      </div>
+    );
+  }
+  function SampleNextArrow(props) {
+    const { onClick } = props;
+    return (
+      <div
+        className="absolute right-3 top-1/2 bg-white opacity-50 px-5 rounded-3xl py-2 "
+        onClick={onClick}
+      >
+        <ArrowForwardIosIcon className=" " />
+      </div>
+    );
+  }
+
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 700,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 2000,
+
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
   return (
     <>
@@ -40,7 +65,7 @@ const Gallery = ({ data }) => {
                 alt="alt"
                 loading="lazy"
                 src={img}
-                className="   rounded border-none outline-none overflow-hidden block m-auto text-center "
+                className="rounded border-none outline-none overflow-hidden block m-auto text-center mb-6 "
               />
             </div>
           ))}
@@ -50,4 +75,4 @@ const Gallery = ({ data }) => {
   );
 };
 
-export default Gallery;
+export default ModalGallery;

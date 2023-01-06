@@ -3,6 +3,7 @@ import CloseIcon from "@mui/icons-material/Close";
 
 import { Fragment, useState } from "react";
 import Gallery from "./Gallery";
+import ModalGallery from "./ModalGallery";
 
 export default function MyModal({
   data,
@@ -24,6 +25,10 @@ export default function MyModal({
     setIsOpen(true);
   }
 
+  const settings = {
+    dots: true,
+    slidesToShow: 2,
+  };
   return (
     <>
       <div className="relative centered inset-0 flex items-center justify-center">
@@ -101,6 +106,12 @@ export default function MyModal({
                             <li key={index}>{item}</li>
                           ))}
                         </ul>
+                      </div>
+                      <div className="block m-auto text-center ">
+                        <h1 className="text-3xl font-bold p-3">
+                          More Photos of {tour} Tour
+                        </h1>
+                        <ModalGallery data={data} />
                       </div>
                       <div className="block m-auto text-center p-3">
                         <h1 className="text-3xl font-semibold py-2">

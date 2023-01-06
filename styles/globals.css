@@ -18,3 +18,15 @@
     scale: 1.1;
 
 }
+
+.leftt {
+    top: 50%;
+    left: 1;
+    transform: translate(-50%, -50%);
+   
+}
+
+.right{
+    transform: translate(-50%, -50%);
+       
+}
