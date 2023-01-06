@@ -60,12 +60,12 @@ const ModalGallery = ({ data }) => {
       <div>
         <Slider {...settings}>
           {data.map((img, index) => (
-            <div className="m-auto block text-center p-2" key={index}>
+            <div className="m-auto block text-center p-2 max-h-80" key={index}>
               <Image
                 alt="alt"
                 loading="lazy"
                 src={img}
-                className="rounded border-none outline-none overflow-hidden block m-auto text-center mb-6 "
+                className="rounded border-none outline-none overflow-hidden block m-auto text-center mb-6 object-cover h-72 "
               />
             </div>
           ))}

@@ -40,7 +40,7 @@ const Gallery = ({ data }) => {
                 alt="alt"
                 loading="lazy"
                 src={img}
-                className=" px-6 py-4  rounded-md border-none outline-none overflow-hidden block m-auto text-center "
+                className=" px-6 py-4  rounded-md border-none outline-none overflow-hidden block m-auto text-center h-80  "
               />
             </div>
           ))}

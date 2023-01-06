@@ -14,6 +14,7 @@ export default function MyModal({
   expect,
   additional,
   tour,
+  gallery,
 }) {
   let [isOpen, setIsOpen] = useState(false);
 
@@ -111,7 +112,7 @@ export default function MyModal({
                         <h1 className="text-3xl font-bold p-3">
                           More Photos of {tour} Tour
                         </h1>
-                        <ModalGallery data={data} />
+                        <ModalGallery data={gallery} />
                       </div>
                       <div className="block m-auto text-center p-3">
                         <h1 className="text-3xl font-semibold py-2">

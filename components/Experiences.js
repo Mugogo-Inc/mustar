@@ -19,6 +19,7 @@ const Experiences = ({ experienceData }) => {
               expect={experience.nakupenda.expectparagraph}
               additional={experience.nakupenda.additional}
               tour={experience.nakupenda.nakupenda}
+              gallery={experience.nakupenda.gallery}
             />
           </div>
         ))}
@@ -37,6 +38,7 @@ const Experiences = ({ experienceData }) => {
               expect={experience.safari.expectparagraph}
               additional={experience.safari.additional}
               tour={experience.safari.safari}
+              gallery={experience.safari.gallery}
             />
           </div>
         ))}
@@ -55,6 +57,7 @@ const Experiences = ({ experienceData }) => {
               expect={experience.safari.expectparagraph}
               additional={experience.safari.additional}
               tour={experience.safari.safari}
+              gallery={experience.kuza.gallery}
             />
           </div>
         ))}
@@ -73,6 +76,7 @@ const Experiences = ({ experienceData }) => {
               expect={experience.sunset.expectparagraph}
               additional={experience.sunset.additional}
               tour={experience.sunset.sunset}
+              gallery={experience.sunset.gallery}
             />
           </div>
         ))}
@@ -91,6 +95,7 @@ const Experiences = ({ experienceData }) => {
               expect={experience.stonetown.expectparagraph}
               additional={experience.stonetown.additional}
               tour={experience.stonetown.stonetown}
+              gallery={experience.stonetown.gallery}
             />
           </div>
         ))}
@@ -109,6 +114,7 @@ const Experiences = ({ experienceData }) => {
               expect={experience.mnemba.expectparagraph}
               additional={experience.mnemba.additional}
               tour={experience.mnemba.mnemba}
+              gallery={experience.mnemba.gallery}
             />
           </div>
         ))}
@@ -127,6 +133,7 @@ const Experiences = ({ experienceData }) => {
               expect={experience.village.expectparagraph}
               additional={experience.village.additional}
               tour={experience.village.village}
+              gallery={experience.village.gallery}
             />
           </div>
         ))}
@@ -145,6 +152,7 @@ const Experiences = ({ experienceData }) => {
               expect={experience.game.expectparagraph}
               additional={experience.game.additional}
               tour={experience.game.game}
+              gallery={experience.village.gallery}
             />
           </div>
         ))}
@@ -162,6 +170,7 @@ const Experiences = ({ experienceData }) => {
               expect={experience.dolphin.expectparagraph}
               additional={experience.dolphin.additional}
               tour={experience.dolphin.dolphin}
+              gallery={experience.dolphin.gallery}
             />
           </div>
         ))}
