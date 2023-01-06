@@ -10,7 +10,7 @@ import { menuInfo } from "./tours/data";
 
 const Menu = () => {
   return (
-    <div className="border-2 p-2 ">
+    <div className=" p-2 ">
       <h1 className="block m-auto text-center text-gray-900 text-5xl p-2 font-semibold">
         Special Offers
       </h1>
