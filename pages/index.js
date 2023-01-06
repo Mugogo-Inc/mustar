@@ -21,11 +21,10 @@ export default function Home({}) {
 
       <Navbar className="p-5 sm:p-10" />
       <Banner />
-      <DataProvider>
-        <ExperienceGrid />
-      </DataProvider>
-      <Work />
+      <ExperienceGrid />
       <Menu />
+      <Work />
+
       <Contact />
       <Footer />
     </div>
