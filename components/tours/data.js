@@ -5,6 +5,10 @@ import nakupenda4 from "./nakupenda/nakupenda4.jpg";
 import nakupenda5 from "./nakupenda/nakupenda5.jpg";
 import nakupenda6 from "./nakupenda/nakupenda6.jpg";
 import nakupenda7 from "./nakupenda/nakupenda7.jpg";
+
+//rock restaurant
+import rock from "./rock/rock1.jpg";
+import rock2 from "./rock/rock2.jpeg";
 //safari imports
 import safari1 from "./safari/safari1.jpg";
 import safari2 from "./safari/safari2.jpg";
@@ -543,6 +547,18 @@ const experienceData = [
   },
 ];
 
+const tours = [
+  { img: nakupenda6, tour: "Spice Tour", price: "$40" },
+  { img: village1, tour: "Village Tour", price: "$55" },
+  { img: mnemba3, tour: "Mnemba Snorkeling", price: "$85" },
+  { img: safari4, tour: "Safari Blue", price: "$90" },
+  { img: safari8, tour: "Jozani Forest", price: "$55" },
+  { img: nakupenda7, tour: "Prison Island", price: "$65" },
+  { img: dolphin3, tour: "Dolphin Tour", price: "$90" },
+  { img: rock, tour: "The Rock Restaurant", price: "$60" },
+  { img: rock2, tour: "Combined Spice Tour & Jozani Forest", price: "$70" },
+];
+
 const services = [
   {
     service: "Tour Organization",
@@ -591,4 +607,4 @@ const menuInfo = [
 
 const footerImages = [nakupenda1, dhow2, safari1, kuza1];
 
-export { footerImages, services, experienceData, menuInfo };
+export { footerImages, services, experienceData, menuInfo, tours };
