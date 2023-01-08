@@ -80,7 +80,7 @@ export default function MyModal({
                       <h1 className="text-3xl font-semibold p-3 block m-auto text-center">
                         {heading[1]}
                       </h1>
-                      {paragraphs.map((paragraph, index) => (
+                      {paragraphs?.map((paragraph, index) => (
                         <div key={index}>
                           <p className="text-xl block m-auto text-center ">
                             {paragraph}
@@ -93,17 +93,19 @@ export default function MyModal({
                         <h1 className="text-3xl font-semibold py-3">
                           {heading[2]}
                         </h1>
-                        {info.map((item, index) => (
+                        {info?.map((item, index) => (
                           <li key={index}>{item}</li>
                         ))}
                       </ul>
 
                       <div className="block m-auto text-center">
-                        <h1 className="text-3xl font-semibold py-2">
-                          {heading[3]}
-                        </h1>
+                        {included && (
+                          <h1 className="text-3xl font-semibold py-2">
+                            {heading[3]}
+                          </h1>
+                        )}
                         <ul className="list-disc p-5">
-                          {included.map((item, index) => (
+                          {included?.map((item, index) => (
                             <li key={index}>{item}</li>
                           ))}
                         </ul>
@@ -115,22 +117,26 @@ export default function MyModal({
                         <ModalGallery data={gallery} />
                       </div>
                       <div className="block m-auto text-center p-3">
-                        <h1 className="text-3xl font-semibold py-2">
-                          {heading[4]}
-                        </h1>
+                        {expect && (
+                          <h1 className="text-3xl font-semibold py-2">
+                            {heading[4]}
+                          </h1>
+                        )}
 
-                        {expect.map((item, index) => (
+                        {expect?.map((item, index) => (
                           <p key={index}>
                             {item} <br /> <br />
                           </p>
                         ))}
                       </div>
                       <div className="block m-auto text-center p-3">
-                        <h1 className="text-3xl font-semibold py-2">
-                          {heading[5]}
-                        </h1>
+                        {additional && (
+                          <h1 className="text-3xl font-semibold py-2">
+                            {heading[5]}
+                          </h1>
+                        )}
                         <ul className="list-disc p-5">
-                          {additional.map((item, index) => (
+                          {additional?.map((item, index) => (
                             <li key={index}>{item}</li>
                           ))}
                         </ul>

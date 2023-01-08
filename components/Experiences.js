@@ -121,7 +121,7 @@ const Experiences = ({ experienceData }) => {
       </div>
       {/* village */}
       <div className="relative">
-        {experienceData.map((experience, index) => (
+        {experienceData?.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.village.images} key={experience} />
             <MyModal
@@ -171,6 +171,21 @@ const Experiences = ({ experienceData }) => {
               additional={experience.dolphin.additional}
               tour={experience.dolphin.dolphin}
               gallery={experience.dolphin.gallery}
+            />
+          </div>
+        ))}
+      </div>
+      {/* safari Tanzania */}
+      <div className="relative">
+        {experienceData.map((experience, index) => (
+          <div key={index}>
+            <Gallery data={experience.tanzania.images} key={experience} />
+            <MyModal
+              data={experience.tanzania.images}
+              heading={experience.tanzania.Heading}
+              paragraphs={experience.tanzania.paragraphs}
+              tour={experience.tanzania.tanzania}
+              gallery={experience.tanzania.gallery}
             />
           </div>
         ))}

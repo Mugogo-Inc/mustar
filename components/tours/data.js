@@ -6,6 +6,10 @@ import nakupenda5 from "./nakupenda/nakupenda5.jpg";
 import nakupenda6 from "./nakupenda/nakupenda6.jpg";
 import nakupenda7 from "./nakupenda/nakupenda7.jpg";
 
+//spice tour
+import spice from "./mnemba/spice.jpeg";
+import jozani from "./mnemba/forest.jpeg";
+
 //rock restaurant
 import rock from "./rock/rock1.jpg";
 import rock2 from "./rock/rock2.jpeg";
@@ -37,6 +41,16 @@ import kuza3 from "./kuza/kuza3.jpg";
 import kuza4 from "./kuza/kuza4.jpg";
 import kuza5 from "./kuza/kuza5.jpg";
 import kuza6 from "./kuza/kuza6.jpg";
+
+//safari tanzania
+
+import tanzania1 from "./tanzania/tanzania1.jpg";
+import tanzania2 from "./tanzania/tanzania2.jpg";
+import tanzania3 from "./tanzania/tanzania3.jpg";
+import tanzania4 from "./tanzania/tanzania4.jpg";
+import tanzania5 from "./tanzania/tanzania5.jpg";
+import tanzania6 from "./tanzania/tanzania6.jpg";
+import tanzania7 from "./tanzania/tanzania7.jpg";
 
 //stonetown
 import stonetown1 from "./stonetown/stonetown1.jpg";
@@ -544,42 +558,40 @@ const experienceData = [
         "Not recommended for any person with serious medical cases.",
       ],
     },
+    tanzania: {
+      tanzania: "Safari Tanzania",
+      images: [tanzania1, tanzania2, tanzania3],
+      gallery: [
+        tanzania7,
+        tanzania6,
+        tanzania5,
+        tanzania4,
+        tanzania3,
+        tanzania2,
+        tanzania1,
+      ],
+      tanzania: "Safari Tanzania ",
+      Heading: ["Experience Safari Tanzania", "Overview"],
+
+      paragraphs: [
+        "Tanzania is one of Africa top safari destinations. The wildlife viewing is out of this world and big cats are especially easy to see.",
+        "All members of the big five can be found in various Tanzanian parks and reserves, and all five are present in the Ngorongoro crater and Serengeti National Park",
+        "Almost 40% of the country is protected and set for conservation, which means that its easy for tourists to go on a tanzania safari for 2 full weeks and drive from park to park while rarely leaving the bush",
+      ],
+    },
   },
 ];
 
 const tours = [
-  { img: nakupenda6, tour: "Spice Tour", price: "$40" },
+  { img: spice, tour: "Spice Tour", price: "$40" },
   { img: village1, tour: "Village Tour", price: "$55" },
   { img: mnemba3, tour: "Mnemba Snorkeling", price: "$85" },
   { img: safari4, tour: "Safari Blue", price: "$90" },
-  { img: safari8, tour: "Jozani Forest", price: "$55" },
+  { img: jozani, tour: "Jozani Forest", price: "$55" },
   { img: nakupenda7, tour: "Prison Island", price: "$65" },
   { img: dolphin3, tour: "Dolphin Tour", price: "$90" },
   { img: rock, tour: "The Rock Restaurant", price: "$60" },
-  { img: rock2, tour: "Combined Spice Tour & Jozani Forest", price: "$70" },
-];
-
-const services = [
-  {
-    service: "Tour Organization",
-    img: dhow1,
-    desc: "Born, raised and with explorer passion, Our Team will organize the best Adventures for you and your Family",
-  },
-  {
-    service: "Trip Planning",
-    img: dhow2,
-    desc: "Born, raised and with explorer passion, Our Team will organize the best Adventures for you and your Family",
-  },
-  {
-    service: "Tour Guiding",
-    img: dhow3,
-    desc: "Born, raised and with explorer passion, Our Team will organize the best Adventures for you and your Family",
-  },
-  {
-    service: "Hotel Bookings",
-    img: dhow4,
-    desc: "Born, raised and with explorer passion, Our Team will organize the best Adventures for you and your Family",
-  },
+  { img: spice, tour: "Combined Spice Tour & Jozani Forest", price: "$70" },
 ];
 
 const menuInfo = [
@@ -607,4 +619,4 @@ const menuInfo = [
 
 const footerImages = [nakupenda1, dhow2, safari1, kuza1];
 
-export { footerImages, services, experienceData, menuInfo, tours };
+export { footerImages, experienceData, menuInfo, tours };

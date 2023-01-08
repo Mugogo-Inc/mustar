@@ -3,8 +3,6 @@ import WorkCard from "./WorkCard";
 import { tours } from "./tours/data";
 import Heading from "./Heading";
 
-const flow = false;
-
 const Work = ({}) => {
   return (
     <div className=" mt-4 p-4" id="work">
