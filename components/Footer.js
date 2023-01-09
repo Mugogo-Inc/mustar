@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-gray-900 text-white">
       <div>
         <h1 className="text-6xl block m-auto text-center p-4">
-          Visit Zanzibar.
+          Tour Zanzibar.
         </h1>
         <div className="flex my-5 justify-center">
           {" "}

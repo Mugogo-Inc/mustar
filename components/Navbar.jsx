@@ -11,7 +11,7 @@ const Navbar = () => {
         <button
           className={isOpen ? "hidden" : "btn btn-ghost normal-case text-xl"}
         >
-          Visit Zanzibar
+          Tour Zanzibar
         </button>
       </div>
 
