@@ -615,6 +615,24 @@ const menuInfo = [
     info: "Lunch Excluded",
     price: " $95",
   },
+  {
+    heading: "Combine Tour",
+    experiences: "Stonetown ➕️ Kuza cave ",
+    info: "Lunch Excluded",
+    price: " $75",
+  },
+  {
+    heading: "Combine Tour",
+    experiences: "Jozani Forest ➕️ The Rock Restaurant ",
+    info: "Lunch Excluded",
+    price: " $75",
+  },
+  {
+    heading: "Combine Tour",
+    experiences: "Stonetown ➕️ Spice Tour ",
+    info: "Lunch Excluded",
+    price: " $65",
+  },
 ];
 
 const footerImages = [nakupenda1, dhow2, safari1, kuza1];
