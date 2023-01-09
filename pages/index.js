@@ -16,7 +16,8 @@ export default function Home({}) {
   return (
     <div>
       <Head>
-        <title>Visit Zanzibar</title>
+        <title>Tour Zanzibar</title>
+        <meta name="Tour Zanzibar" content="Tour Zanzibar" />
       </Head>
 
       <Navbar className="p-5 sm:p-10" />
