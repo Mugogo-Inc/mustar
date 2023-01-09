@@ -16,7 +16,7 @@ export default function Home({}) {
   return (
     <div>
       <Head>
-        <title>Tour Zanzibar</title>
+        <title>Tours Zanzibar</title>
         <meta name="Tour Zanzibar" content="Tour Zanzibar" />
       </Head>
 
