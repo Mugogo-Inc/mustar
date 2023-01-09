@@ -584,11 +584,12 @@ const experienceData = [
 
 const tours = [
   { img: spice, tour: "Spice Tour", price: "$40" },
+  { img: nakupenda1, tour: "Nakupenda Tour", price: "$85" },
   { img: village1, tour: "Village Tour", price: "$55" },
   { img: mnemba3, tour: "Mnemba Snorkeling", price: "$85" },
   { img: safari4, tour: "Safari Blue", price: "$90" },
   { img: jozani, tour: "Jozani Forest", price: "$55" },
-  { img: nakupenda7, tour: "Prison Island", price: "$85" },
+  { img: nakupenda2, tour: "Prison Island", price: "$85" },
   { img: dolphin3, tour: "Dolphin Tour", price: "$90" },
   { img: rock, tour: "The Rock Restaurant", price: "$60" },
   { img: spice, tour: "Combined Spice Tour & Jozani Forest", price: "$70" },
