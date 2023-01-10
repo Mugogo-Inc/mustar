@@ -589,7 +589,7 @@ const tours = [
   { img: mnemba3, tour: "Mnemba Snorkeling", price: "$85" },
   { img: safari4, tour: "Safari Blue", price: "$90" },
   { img: jozani, tour: "Jozani Forest", price: "$55" },
-  { img: nakupenda2, tour: "Prison Island", price: "$85" },
+  { img: nakupenda2, tour: "Prison Island", price: "$70" },
   { img: dolphin3, tour: "Dolphin Tour", price: "$90" },
   { img: rock, tour: "The Rock Restaurant", price: "$60" },
   { img: spice, tour: "Combined Spice Tour & Jozani Forest", price: "$70" },
@@ -618,9 +618,9 @@ const menuInfo = [
   },
   {
     heading: "Combine Tour",
-    experiences: "Stonetown ➕️ Kuza cave ",
+    experiences: "Stonetown ➕️ Prison Island",
     info: "Lunch Excluded",
-    price: " $75",
+    price: " $65",
   },
   {
     heading: "Combine Tour",

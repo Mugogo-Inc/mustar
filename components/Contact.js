@@ -9,7 +9,6 @@ const Contact = () => {
           src="https://whatsform.com/cTVIve"
           width="100%"
           height="600"
-          frameBorder="0"
           className="bg-gray-900"
         ></iframe>
       </div>
