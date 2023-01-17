@@ -9,7 +9,7 @@ const Transfers = () => {
         Travel like <span className="font-bold text-orange-500">home</span> with
         us
         <br />
-        <span className="text-orange-500 "> Check out our Amazing prices</span>
+        Check out our<span className="text-orange-500 "> Amazing prices</span>
       </h1>
 
       <div className="py-4">
