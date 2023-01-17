@@ -9,6 +9,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import { DataProvider } from "../components/tours/DataContext";
 import Menu from "../components/Menu";
+import Transfers from "../components/Transfers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function Home({}) {
       <Banner />
       <ExperienceGrid />
       <Menu />
+      <Transfers />
       <Work />
 
       <Contact />

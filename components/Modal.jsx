@@ -75,7 +75,7 @@ export default function MyModal({
                     {heading[0]}
                   </Dialog.Title>
                   <div className="mt-2  inset-0 ">
-                    <div className="text-lg text-gray-500 overflow-y-scroll">
+                    <div className="text-lg text-gray-500 overflow-y-auto">
                       <Gallery data={data} />
                       <h1 className="text-3xl font-semibold p-3 block m-auto text-center">
                         {heading[1]}

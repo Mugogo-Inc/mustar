@@ -635,7 +635,100 @@ const menuInfo = [
     price: " $65",
   },
 ];
+const transfers = [
+  {
+    to: "Stone Town / Bububu",
+    price: " $20",
+  },
+  {
+    to: "Manga Pwani",
+    price: " $30",
+  },
+  {
+    to: "Kendwa",
+    price: " $50",
+  },
+  {
+    to: "Nungwi Bay",
+    price: " $50",
+  },
+  {
+    to: "Matemwe",
+    price: " $45",
+  },
+  {
+    to: "Pwani Mchangani",
+    price: " $45",
+  },
+  {
+    to: "Kiwengwa/ Matemwe",
+    price: " $45",
+  },
+  {
+    to: "Uroa/ Pongwe",
+    price: " $45",
+  },
+  {
+    to: "Michamvi",
+    price: " $50",
+  },
+  {
+    to: "Bwejuu/ Paje/ Jambiani",
+    price: " $50",
+  },
+  {
+    to: "Kizimkazi",
+    price: " $50",
+  },
+  {
+    to: "Makunduchi",
+    price: " $50",
+  },
+];
+
+const beaches = [
+  {
+    to: "Paje to Nungwi",
+    price: " $50",
+  },
+  {
+    to: "Paje to Kendwa",
+    price: " $50",
+  },
+  {
+    to: "Jambiani to Nungwi",
+    price: " $50",
+  },
+  {
+    to: "Matemwe to Nungwi",
+    price: " $30",
+  },
+  {
+    to: "Stone Town to Nungwi",
+    price: " $50",
+  },
+  {
+    to: "Stone Town to Paje",
+    price: " $50",
+  },
+  {
+    to: "Kizimkazi to Kendwa",
+    price: " $60",
+  },
+  {
+    to: "Kizimkazi to Nungwi",
+    price: " $50",
+  },
+  {
+    to: "Stone Town to Kendwa",
+    price: " $50",
+  },
+  {
+    to: "Kendwa to Michamvi",
+    price: " $50",
+  },
+];
 
 const footerImages = [nakupenda1, dhow2, safari1, kuza1];
 
-export { footerImages, experienceData, menuInfo, tours };
+export { footerImages, experienceData, menuInfo, tours, transfers, beaches };
