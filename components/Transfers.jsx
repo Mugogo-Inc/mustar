@@ -3,11 +3,11 @@ import { transfers, beaches } from "./tours/data";
 import TransferComponent from "./TransferComponent";
 
 const Transfers = () => {
-  const width = true;
   return (
-    <div className="block m-auto text-center p-6">
-      <h1 className="p-2 text-gray-800 font-sem text-4xl font-semibold">
-        We also offer transfer services across the island at an affordable rate
+    <div className="block m-auto text-center p-6" id="transfer">
+      <h1 className="p-2 text-gray-800  text-4xl font-semibold">
+        Travel like <span className="font-bold text-orange-500">home</span> with
+        us
         <br />
         <span className="text-orange-500 "> Check out our Amazing prices</span>
       </h1>

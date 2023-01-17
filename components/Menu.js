@@ -7,6 +7,7 @@ import { MenuItem } from "@mui/material";
 // import required modules
 import { Navigation } from "swiper";
 import { menuInfo } from "./tours/data";
+import Link from "next/link";
 
 const Menu = () => {
   return (
@@ -34,6 +35,25 @@ const Menu = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="block m-auto text-center p-6" id="transfers">
+        <h1 className="p-2 text-white font-sem text-4xl font-semibold">
+          We also offer transfer services across the island at an affordable
+          rate
+          <br />
+          <span className="text-orange-500 ">
+            {" "}
+            Check out our Amazing Catalogue
+          </span>
+        </h1>
+        <div className="my-5">
+          <Link
+            href="#transfer"
+            className="rounded p-3 font-bold  border border-white bg-opacity-20  text-lg text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 "
+          >
+            Learn More
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

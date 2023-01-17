@@ -25,9 +25,9 @@ export default function Home({}) {
       <Banner />
       <ExperienceGrid />
       <Menu />
-      <Transfers />
-      <Work />
 
+      <Work />
+      <Transfers />
       <Contact />
       <Footer />
     </div>
