@@ -2,7 +2,7 @@ import React from "react";
 
 const TransferComponent = ({ transfers, width }) => {
   return (
-    <div className={width ? "px-0 " : "p-4"}>
+    <div className={width ? "px-1 " : "p-4"}>
       {transfers.map((item, index) => (
         <p
           key={index}

@@ -7,7 +7,7 @@ const Transfers = () => {
   return (
     <div className="block m-auto text-center p-6">
       <h1 className="p-2 text-gray-800 font-sem text-4xl font-semibold">
-        We also offer transfer services across the island at an affordable rate{" "}
+        We also offer transfer services across the island at an affordable rate
         <br />
         <span className="text-orange-500 "> Check out our Amazing prices</span>
       </h1>
