@@ -1,8 +1,40 @@
 import React from "react";
 import MyModal from "./Modal";
 import Gallery from "./Gallery";
+import { useRouter } from "next/router";
+import en from "./locales/en";
+import fr from "./locales/fr";
+import de from "./locales/de";
 
 const Experiences = ({ experienceData }) => {
+  const router = useRouter();
+  const { locale } = router;
+
+  const t =
+    locale === "en"
+      ? en
+      : locale === "de"
+      ? de
+      : locale === "fr"
+      ? fr
+      : locale === en;
+  const {
+    safariBtn,
+    nakupendaBtn,
+    mnembaBtn,
+    kuzaBtn,
+    villageBtn,
+    stonetownBtn,
+    deepBtn,
+    safaritzBtn,
+    dolphinBtn,
+    sunsetBtn,
+    nakupendaParagraphs,
+    nakupendaInfos,
+    nakupendaIncluded,
+    nakupendaExpect,
+    nakupendaAdditional,
+  } = t;
   return (
     <>
       {/* nakupenda tour */}
@@ -11,15 +43,15 @@ const Experiences = ({ experienceData }) => {
           <div key={index}>
             <Gallery data={experience.nakupenda.images} key={experience} />
             <MyModal
-              info={experience.nakupenda.info}
+              info={nakupendaInfos}
               data={experience.nakupenda.images}
-              heading={experience.nakupenda.Heading}
-              paragraphs={experience.nakupenda.paragraphs}
-              included={experience.nakupenda.included}
-              expect={experience.nakupenda.expectparagraph}
-              additional={experience.nakupenda.additional}
+              paragraphs={nakupendaParagraphs}
+              included={nakupendaIncluded}
+              expect={nakupendaExpect}
+              additional={nakupendaAdditional}
               tour={experience.nakupenda.nakupenda}
               gallery={experience.nakupenda.gallery}
+              modalBtn={nakupendaBtn}
             />
           </div>
         ))}
@@ -39,6 +71,7 @@ const Experiences = ({ experienceData }) => {
               additional={experience.safari.additional}
               tour={experience.safari.safari}
               gallery={experience.safari.gallery}
+              modalBtn={safariBtn}
             />
           </div>
         ))}
@@ -58,6 +91,7 @@ const Experiences = ({ experienceData }) => {
               additional={experience.safari.additional}
               tour={experience.safari.safari}
               gallery={experience.kuza.gallery}
+              modalBtn={kuzaBtn}
             />
           </div>
         ))}
@@ -77,6 +111,7 @@ const Experiences = ({ experienceData }) => {
               additional={experience.sunset.additional}
               tour={experience.sunset.sunset}
               gallery={experience.sunset.gallery}
+              modalBtn={sunsetBtn}
             />
           </div>
         ))}
@@ -96,6 +131,7 @@ const Experiences = ({ experienceData }) => {
               additional={experience.stonetown.additional}
               tour={experience.stonetown.stonetown}
               gallery={experience.stonetown.gallery}
+              modalBtn={stonetownBtn}
             />
           </div>
         ))}
@@ -115,6 +151,7 @@ const Experiences = ({ experienceData }) => {
               additional={experience.mnemba.additional}
               tour={experience.mnemba.mnemba}
               gallery={experience.mnemba.gallery}
+              modalBtn={mnembaBtn}
             />
           </div>
         ))}
@@ -134,6 +171,7 @@ const Experiences = ({ experienceData }) => {
               additional={experience.village.additional}
               tour={experience.village.village}
               gallery={experience.village.gallery}
+              modalBtn={villageBtn}
             />
           </div>
         ))}
@@ -153,6 +191,7 @@ const Experiences = ({ experienceData }) => {
               additional={experience.game.additional}
               tour={experience.game.game}
               gallery={experience.village.gallery}
+              modalBtn={deepBtn}
             />
           </div>
         ))}
@@ -171,6 +210,7 @@ const Experiences = ({ experienceData }) => {
               additional={experience.dolphin.additional}
               tour={experience.dolphin.dolphin}
               gallery={experience.dolphin.gallery}
+              modalBtn={dolphinBtn}
             />
           </div>
         ))}
@@ -186,6 +226,7 @@ const Experiences = ({ experienceData }) => {
               paragraphs={experience.tanzania.paragraphs}
               tour={experience.tanzania.tanzania}
               gallery={experience.tanzania.gallery}
+              modalBtn={safaritzBtn}
             />
           </div>
         ))}

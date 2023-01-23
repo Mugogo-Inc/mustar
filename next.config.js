@@ -3,6 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   optimizeFonts: true,
+  i18n: {
+    locales: ["en", "fr", "de"],
+    defaultLocale: "en",
+  },
   images: {
     remotePatterns: [
       {

@@ -1,9 +1,29 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { RxCross2 } from "react-icons/rx";
-
+import { useRouter } from "next/router";
+import en from "./locales/en";
+import de from "./locales/de";
+import fr from "./locales/fr";
+import { info } from "daisyui/src/colors/colorNames";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
+  const { locale } = router;
+
+  const t =
+    locale === "en"
+      ? en
+      : locale === "de"
+      ? de
+      : locale === "fr"
+      ? fr
+      : locale === en;
+  const handleChange = (e) => {
+    const locale = e.target.value;
+    router.push(router.pathname, router.asPath, { locale });
+    console.log(e.target.value);
+  };
 
   return (
     <div className="navbar bg-base-100 relative">
@@ -13,6 +33,13 @@ const Navbar = () => {
         >
           Tours Zanzibar
         </button>
+        <select name="" id="" className="select" onChange={handleChange}>
+          <option value="en" className="">
+            EN
+          </option>
+          <option value="fr">FR</option>
+          <option value="de">GER</option>
+        </select>
       </div>
 
       <div
@@ -33,14 +60,15 @@ const Navbar = () => {
             {" "}
             <RxCross2 onClick={() => setIsOpen(!isOpen)} />
           </button>
+
           <Link href="#experiences" className={isOpen ? "block my-4 " : " m-1"}>
-            Experiences
+            {t.link1}
           </Link>
           <Link href="#work" className={isOpen ? "block my-4 " : " m-1"}>
-            Services
+            {t.link2}
           </Link>
           <Link href="#contact" className={isOpen ? "block mx-6 " : " m-1"}>
-            Contact Us
+            {t.link3}
           </Link>
         </div>
       </div>
