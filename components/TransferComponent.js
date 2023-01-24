@@ -1,6 +1,6 @@
 import React from "react";
 
-const TransferComponent = ({ transfers, width }) => {
+const TransferComponent = ({ transfers, width, price }) => {
   return (
     <div className={width ? "px-1 " : "p-4"}>
       {transfers.map((item, index) => (
@@ -12,7 +12,7 @@ const TransferComponent = ({ transfers, width }) => {
           <h1>.....</h1>
           <h1 className="label">
             {" "}
-            Price
+      {price}
             <span className="mx-2 badge p-3 border-none shadow-xl text-lg bg-orange-500 ">
               {item.price}
             </span>

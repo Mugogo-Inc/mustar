@@ -3,7 +3,7 @@ export default {
   ready: "Prêt pour une",
   experience: "De l'expérience",
   karibu: "Bienvenue",
-  link1: "expériences",
+  link1: "Expériences",
   link2: "Prestations de service",
   link3: "Contacter",
   bannerBtn: "Explorez les expériences",
@@ -18,6 +18,22 @@ export default {
   dolphinBtn: "De l'expérience Dolphin Tour",
   safaritzBtn: "De l'expérience Safari Tanzania",
   more: "Plus de photos de",
+  special: "Offres spéciales",
+  price: "Prix",
+  perPerson: "par personne",
+  learnMore: "apprendre encore plus",
+  from: "Depuis l'aéroport/ferry",
+  to: "pour",
+  beach: "Plage à plage",
+  menu: "Notre Carte",
+  services:
+    "Nous offrons également des services de transfert à travers l'île à un tarif abordable",
+  check: "Découvrez notre incroyable catalogue",
+  travel: "voyager comme ",
+  home: "Domicile",
+  with: "avec nous",
+  Amazing: "prix incroyable",
+  checkOut: "consultez notre",
   heading: {
     overview: "Aperçu",
     tours: "Point culminant de la visite",
@@ -332,6 +348,47 @@ export default {
     "La Tanzanie est l'une des meilleures destinations de safari en Afrique. L'observation de la faune est hors de ce monde et les grands félins sont particulièrement faciles à voir.",
     "Tous les membres des cinq grands se trouvent dans divers parcs et réserves tanzaniens, et tous les cinq sont présents dans le cratère du Ngorongoro et le parc national du Serengeti",
     "Près de 40 % du pays est protégé et destiné à la conservation, ce qui signifie qu'il est facile pour les touristes de faire un safari en Tanzanie pendant 2 semaines complètes et de conduire de parc en parc en quittant rarement la brousse",
+  ],
+  menuInfo: [
+    {
+      heading: "Combinez une journée complète",
+      experiences:
+        "Mnemba Snorkeling ➕️ Nungwi Aquarium et Sunset dhow cruise",
+      info: "Déjeuner exclu",
+      price: " 120$",
+    },
+    {
+      heading: "Combinez une journée complète",
+      experiences:
+        "Spice Tour avec déjeuner swahili ➕️ stone town tour en Prison Island",
+      info: "Déjeuner inclus",
+      price: " 125$",
+    },
+    {
+      heading: "Combinez une journée complète",
+      experiences:
+        "Jozani Forest ➕️ Kuza cave ➕️ Mtende Beach et le Rock Restaurant",
+      info: "Déjeuner exclu",
+      price: " 95$",
+    },
+    {
+      heading: "Circuit combiné",
+      experiences: "Stonetown ➕️ Prison Island",
+      info: "Déjeuner exclu",
+      price: " 65$",
+    },
+    {
+      heading: "Circuit combiné",
+      experiences: "Jozani Forest ➕️ The Rock Restaurant ",
+      info: "Déjeuner exclu",
+      price: " 75$",
+    },
+    {
+      heading: "Circuit combiné",
+      experiences: "Stonetown ➕️ Spice Tour ",
+      info: "Déjeuner exclu",
+      price: " 65$",
+    },
   ],
 
   FAQ: {

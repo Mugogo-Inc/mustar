@@ -19,10 +19,28 @@ export default {
   dolphinBtn: "Erfahrungen Dolphin Tour",
   safaritzBtn: "Erfahrungen Safari Tanzania",
   more: "Mehr Fotos von",
+  price: "Preis",
+  perPerson: "pro Person",
+  special: "Sonderangebote",
+  learnMore: "Lern Mehr",
+  travel: "reisen wie ",
+  home: "Heimat",
+  with: "mit uns",
+  beach: "Strand zu Strand",
+  menu: "Unser Menü",
+
+  Amazing: "Erstaunliche Preise",
+  checkOut: "schau dir unsere an",
+  from: "Vom Flughafen/Fähre",
+  to: "zu",
+  services:
+    " Wir bieten auch Transferdienste auf der ganzen Insel zu einem erschwinglichen Preis an",
+  check: "Schauen Sie sich unseren erstaunlichen Katalog an",
   heading: {
     overview: "Überblick",
     tours: "Tour Markieren",
     included: "inbegriffen",
+
     expect: "Was zu erwarten ist",
     additional: "zusätzliche Information...",
     FAQ: "Häufig gestellte Fragen",
@@ -334,10 +352,48 @@ export default {
     "Alle Mitglieder der Big Five sind in verschiedenen tansanischen Parks und Reservaten zu finden, und alle fünf sind im Ngorongoro-Krater und im Serengeti-Nationalpark präsent",
     "Fast 40 % des Landes stehen unter Naturschutz, was bedeutet, dass es für Touristen einfach ist, zwei volle Wochen lang auf Tansania-Safari zu gehen und von Park zu Park zu fahren, ohne den Busch zu verlassen",
   ],
-  safaritzInfos: [],
-  safaritzIncluded: [],
-  safaritzExpect: [],
-  safaritzAdditional: [],
+
+  menuInfo: [
+    {
+      heading: "Ganztagestour kombinieren",
+      experiences:
+        "Mnemba Snorkeling ➕️ Nungwi Aquarium und Sunset dhow cruise",
+      info: "Mittagessen ausgeschlossen",
+      price: " $120",
+    },
+    {
+      heading: "Ganztagestour kombinieren",
+      experiences:
+        "Spice Tour mit Suaheli-Mittagessen ➕️ stone town tour und Prison Island",
+      info: "Mittagessen inbegriffen",
+      price: " $125",
+    },
+    {
+      heading: "Ganztagestour kombinieren",
+      experiences:
+        "Jozani Forest ➕️ Kuza cave ➕️ Mtende Beach und der Rock Restaurant",
+      info: "Mittagessen ausgeschlossen",
+      price: " $95",
+    },
+    {
+      heading: "Tour kombinieren",
+      experiences: "Stonetown ➕️ Prison Island",
+      info: "Mittagessen ausgeschlossen",
+      price: " $65",
+    },
+    {
+      heading: "Tour kombinieren",
+      experiences: "Jozani Forest ➕️ The Rock Restaurant ",
+      info: "Mittagessen ausgeschlossen",
+      price: " $75",
+    },
+    {
+      heading: "Tour kombinieren",
+      experiences: "Stonetown ➕️ Spice Tour ",
+      info: "Mittagessen ausgeschlossen",
+      price: " $65",
+    },
+  ],
   FAQ: {
     infoProvided:
       "Die nachstehenden Antworten basieren auf Antworten, die der Reiseanbieter zuvor auf die Fragen des Kunden gegeben hat",

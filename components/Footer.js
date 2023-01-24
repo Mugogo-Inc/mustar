@@ -2,8 +2,23 @@ import React from "react";
 import Image from "next/image";
 import { footerImages } from "./tours/data";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import en from "./locales/en";
+import fr from "./locales/fr";
+import de from "./locales/de";
 
 const Footer = () => {
+  const router = useRouter();
+  const { locale } = router;
+
+  const t =
+    locale === "en"
+      ? en
+      : locale === "de"
+      ? de
+      : locale === "fr"
+      ? fr
+      : locale === en;
   const date = new Date().getFullYear();
   return (
     <div className="bg-gray-900 text-white">
@@ -26,10 +41,10 @@ const Footer = () => {
         </div>
         <div className="flex gap-4 justify-center font-semibold">
           <Link href="/" className="">
-            Home
+            {t.home}
           </Link>
-          <Link href="">Experiences</Link>
-          <Link href="">Services</Link>
+          <Link href="">{t.link1}</Link>
+          <Link href="">{t.link2}</Link>
         </div>
 
         <Link

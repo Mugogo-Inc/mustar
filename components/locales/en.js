@@ -18,6 +18,22 @@ export default {
   dolphinBtn: "Experience Dolphin Tour",
   safaritzBtn: "Experience Safari Tanzania",
   more: "More Photos of ",
+  perPerson: "Per Person",
+  travel: "Travel like ",
+  home: "Home",
+  from: "From Airport/ Ferry",
+  beach: "Beach to Beach",
+  menu: "Our Menu",
+  to: "to",
+  with: "with us",
+  Amazing: "Amazing prices",
+  checkOut: "check out our",
+  services:
+    " We also offer transfer services across the island at an affordable rate",
+  price: "Price",
+  check: "Check out our Amazing Catalogue",
+  learnMore: "Learn More",
+  special: "Special Offers",
   heading: {
     overview: "Overview",
     tours: "Tour highlight",
@@ -342,4 +358,45 @@ export default {
     answer:
       "Answer: The policies on sanitization are: Hand sanitizer available to travelers and staff transportation vehicles regularly sanitized.",
   },
+  menuInfo: [
+    {
+      heading: "Combine full Day Tour",
+      experiences:
+        "Mnemba Snorkeling ➕️ Nungwi Aquarium and Sunset dhow cruise",
+      info: "Lunch Excluded",
+      price: " $120",
+    },
+    {
+      heading: "Combine full Day Tour",
+      experiences:
+        "Spice Tour with swahili lunch ➕️ stone town tour and Prison Island",
+      info: "Lunch Included",
+      price: " $125",
+    },
+    {
+      heading: "Combine full Day Tour",
+      experiences:
+        "Jozani Forest ➕️ Kuza cave ➕️ Mtende Beach and the Rock Restaurant",
+      info: "Lunch Excluded",
+      price: " $95",
+    },
+    {
+      heading: "Combine Tour",
+      experiences: "Stonetown ➕️ Prison Island",
+      info: "Lunch Excluded",
+      price: " $65",
+    },
+    {
+      heading: "Combine Tour",
+      experiences: "Jozani Forest ➕️ The Rock Restaurant ",
+      info: "Lunch Excluded",
+      price: " $75",
+    },
+    {
+      heading: "Combine Tour",
+      experiences: "Stonetown ➕️ Spice Tour ",
+      info: "Lunch Excluded",
+      price: " $65",
+    },
+  ],
 };
