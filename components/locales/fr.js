@@ -13,7 +13,7 @@ export default {
   sunsetBtn: "De l'expérience Sunset Dhowing",
   mnembaBtn: "De l'expérience Mnemba Island",
   kuzaBtn: "De l'expérience Kuza Caves",
-  villageBtn: "De l'expérience Safari Blue",
+  villageBtn: "De l'expérience Village Tour",
   deepBtn: "De l'expérience Deep Blue Fishing",
   dolphinBtn: "De l'expérience Dolphin Tour",
   safaritzBtn: "De l'expérience Safari Tanzania",
