@@ -77,7 +77,7 @@ export default {
     "Guide touristique professionnel expérimenté",
   ],
   safariExpect: [
-    "C'est une excursion d'une demi-journée. Le monde sous-marin de Nakupenda est incroyablement spectaculaire. Il existe d'innombrables poissons colorés et autres créatures marines qui survivent parmi les récifs coralliens et les plantes sous-marines qui forment ensemble l'écosystème de la barrière de corail. Les voyageurs auront également l'occasion de profiter d'un temps magnifique. de la plage, faire de la plongée avec tuba et même obtenir des fruits frais comme des bananes, des ananas, des pastèques, des mangues et d'autres fruits. Des boissons non alcoolisées et de la nourriture swahili seront également disponibles pendant la visite.",
+    "Il s'agit d'un voyage de 6 heures, le safari bleu est une journée complète de navigation autour des mangroves et de plongée en apnée le long de la baie de Menai. Les principales activités sont la visite de la magnifique île de kwale, la détente sur les bancs de sable, la natation et la plongée en apnée. Le prix du safari bleu varie en fonction sur le nombre de groupes, plus le nombre de personnes est élevé, plus la côte est basse. La visite est proposée avec deux options, soit privée, soit partagée, en fonction de vos intérêts et de votre budget.",
   ],
   safariAdditional: [
     "La confirmation sera reçue au moment de la réservation",
@@ -87,6 +87,107 @@ export default {
     "Il s'agit d'une visite/activité privée. Seul votre groupe participera.",
     "Le prix de 85 $ par adulte varie selon la taille du groupe",
     "L'âge requis est de 5 à 99 ans.",
+  ],
+  //kuza tour
+  kuzaParagraphs: [
+    "Voir Zanzibar sous un angle différent.",
+    "Nous vous invitons à visiter l'un des secrets les mieux gardés de Zanzibar - la grotte de Kuza - une ancienne grotte de jungle calcaire avec de l'eau douce turquoise cristalline. ",
+    "Nagez dans l'eau douce curative. Profitez de la jungle paisible. Découvrez des artefacts de la grotte et une chronologie de l'histoire swahili remontant au début de notre histoire en tant qu'humains originaires d'Afrique de l'Est.",
+  ],
+  kuzaInfos: [
+    "Baignade et snorkeling",
+    "Déjeuner fruits de mer",
+    "Fruits de saison",
+    "Utilisation du boutre traditionnel",
+    "Regarder les dauphins",
+  ],
+  kuzaIncluded: [
+    "Prise en charge et retour à l'hôtel",
+    " Toutes les taxes, redevances et frais de dossier",
+    "Déjeuner de fruits de mer mixtes",
+    "Boissons sans alcool et fruits frais",
+    "Matériel de plongée en apnée",
+    "Guide touristique professionnel expérimenté",
+  ],
+  kuzaExpect: [
+    "Explorez l'atmosphère incroyable de la grotte de Kuza en tant que centre culturel de Zanzibar. Visite de ce joyau caché dans le sud-est de l'île.",
+    "La visite comprend la baignade dans l'eau pure et fraîche, la leçon de cuisine avec déjeuner, la leçon de tambour et bien d'autres.",
+    "Vous pouvez mixer votre programme comme bon vous semble. Possibilité de choix entre séjour de deux heures ou de quatre heures.",
+  ],
+  kuzaAdditional: [
+    "La confirmation sera reçue au moment de la réservation",
+    "Le tarif enfant ne s'applique qu'en cas de partage avec 2 adultes payants",
+    "Pas accessible aux fauteuils roulants",
+    " La plupart des voyageurs peuvent participer",
+    "Il s'agit d'une visite/activité privée. Seul votre groupe participera.",
+    "L'âge requis est de 5 à 99 ans.",
+  ],
+
+  //sunset dhow cruise
+  dhowParagraphs: [
+    "Croisière autour de petites îles et le long de la côte sur un boutre est une expérience fantastique et mémorable. Les couchers de soleil depuis le boutre sont réminiscents et intemporels. Les boissons, les fruits et les collations servis sur le boutre sont généralement inclus.",
+    "La croisière au coucher du soleil en boutre commence à 16h30 ou 17h00 de Stone Town à n'importe quelle autre plage et se termine vers 19h00.",
+  ],
+  dhowInfos: [
+    "Belle vue sur les bâtiments historiques du front de mer de la ville en pierre.",
+    "Croisière avec un boutre arabe traditionnel en bois.",
+    "Meilleure technique pour voir la côte de Stone Town.",
+    "La meilleure façon de voir le coucher de soleil à Zanzibar.",
+    "Musique traditionnelle du littoral",
+  ],
+  dhowIncluded: [
+    "avoir la quiétude de l'océan indien en boutre traditionnel",
+    "savourez des boissons alléchantes pendant la croisière",
+    "Regarder les dauphins",
+    "les snacks rafraichissements",
+    "Le meilleur guide touristique expérimenté",
+  ],
+  dhowExpect: [
+    "La croisière au coucher du soleil à Zanzibar commence lorsque vous montez à bord d'un boutre près de la plage. Différents types de collations, d'ours et de boissons non alcoolisées sont servis. Les guides vous indiqueront les attractions depuis le bateau. Informations et différentes narrations en même temps, de plus le beau son de la musique rend la croisière en boutre sur le point.",
+    "À bord du boutre, le guide personnel vous accompagnera lors de votre croisière et vous fera également visiter la ville de pierre depuis l'eau, le guide aura également des réponses à toutes vos questions.",
+    "Faisons en sorte que votre soirée soit remarquable, en illuminant les belles vues du soleil sur votre chemin vers la ville de pierre, le kendwa et la plage avec nous.",
+  ],
+  dhowAdditional: [
+    "Tour peut-être opéré par un guide multilingue",
+    "Non recommandé aux participants souffrant de problèmes cardiaques ou d'autres problèmes médicaux graves",
+    "La réservation ne peut être acceptée que pour les personnes de moins de 15 ans accompagnées d'un adulte qui en sera responsable.",
+    "Conditions d'âge 5-79 ans",
+  ],
+  //stonetown
+  stonetownParagraphs: [
+    "Découvrez l'histoire aromatique de Zanzibar lors d'une visite à pied d'une demi-journée de Stone Town, en partant à pied pour voir les rues étroites et sans voiture de Stone Town et les coins atmosphériques.",
+    "Après une prise en charge pratique dans les hôtels de Zanzibar, vous couvrirez certains des points forts de Stone Town, des monuments coloniaux au vieux fort, la maison où Freddy Mercury est né et une cathédrale anglicane qui marque l'ancien site d'un marché aux esclaves. Stone Town visite à pied avec l'histoire du commerce des épices de Zanzibar.",
+  ],
+  stonetownInfos: [
+    "Repérez-vous dans le labyrinthe de l'UNESCO.",
+    "Site Voir les principaux monuments et les zones moins connues ",
+    "Transport porte-à-porte depuis les hôtels de Zanzibar",
+    "Le meilleur guide touristique expérimenté",
+  ],
+  stonetownIncluded: [
+    "Prise en charge et retour à l'hôtel",
+    "Guide professionnel historien de l'art",
+    "Eau en bouteille",
+    "Pas de nourriture ni de collations",
+  ],
+  stonetownExpect: [
+    "Un voyage de 3 heures",
+    "Billet d'entrée non inclus",
+    "Souvenirs du marché de la ville de Zanzibar, marché aux esclaves, chambres des esclaves, musée national de Zanzibar, bâtiment de la Haute Cour, ancien consulat allemand, Africa House (ancien club anglais), Tippu Tip House, place Kele Kele, ancien consulat britannique, orphelinat, ancien Fort, Forodhani Gardens, House of Wonders, Sultan Palace (maintenant Palace Museum), Custom House, Old Dispensary, Old Harbour, Dr. David Livingstone House, Maruhubi Palace (Ruins), sont parmi les sites intéressants de cette visite guidée de Zanzibar. ",
+    "La visite guidée de trois heures commence et se termine à votre hôtel. La visite commence au marché de la ville et couvre tous les endroits ci-dessus. Vous êtes ensuite conduit ou à pied (facultatif) jusqu'au musée naturel : une bibliothèque qui comprend des livres sur Zanzibar et l'Est. Afrique. Les expositions comprennent également des spécimens empaillés d'oiseaux locaux, un petit mais utile herbier de plantes indigènes et une collection de coquillages.",
+    "Vous partez et dirigez-vous le long du front de mer vers Shangani - l'ancien consulat britannique (le corps du défunt Dr Livingstone est resté ici et plus tard envoyé en Grande-Bretagne), le fort arabe (construit en 1700), la maison des merveilles (construite en 1883). De là, vous continuez sur une promenade de loisirs à travers les rues étroites de Stone Town (partie ancienne de la ville de Zanzibar) où la plupart des maisons datent de plus de cent cinquante ans. Dans cette partie de la ville, vous trouverez beaucoup de petits bazars exotiques et boutiques de curiosités. ",
+    "La visite se poursuit et se termine par une visite des ruines du palais de Maruhubi (1880) en route vers la maison du Dr David Livingstone (1866). Retournez à votre hôtel.",
+    "Conseillé - Veuillez vous habiller de manière conservatrice lorsque vous vous promenez dans Stone Town, les femmes doivent se couvrir les épaules et porter des jupes ou des pantalons longs. - Chaussures et pantalons de marche ou de randonnée confortables et fermés.",
+  ],
+  stonetownAdditional: [
+    "Tour peut-être opéré par un guide multilingue",
+    "La confirmation sera reçue au moment de la réservation",
+    "Un minimum de 2 personnes par réservation est requis.",
+    "Non accessible aux fauteuils roulants",
+    "Près des transports en commun Sièges bébé disponibles",
+    "La plupart des voyageurs peuvent participer Ceci est une visite/activité privée.",
+    "Seul votre groupe participera",
+    "Géré par Zanzibar Travel & Tours",
   ],
   FAQ: {
     infoProvided:

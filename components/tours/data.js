@@ -141,131 +141,22 @@ const experienceData = [
         safari9,
       ],
       safari: " Safari Blue",
-      Heading: [
-        "Experience Safari Blue",
-        "Overview",
-        "Tour highlight",
-        "Included",
-        "What to expect",
-        "Additional Info...",
-        "Frequently Asked Questions",
-      ],
-      info: [
-        "Swimming  and snorkeling",
-        "Sea food lunch",
-        "Seasonal fruits",
-        "Using of traditional dhow",
-        "Watching dolphins",
-      ],
-      paragraphs: [
-        "Safari blue tour is a boat cruise which includes the uses of snorkeling equipments, guides and instructor services, cold drinks, a buffet of delicious fish dishes (grilled fish, lobsters and squid) seasonal fruits and coffee will also be served for lunch.",
-        "When the tide is high, you will also ascertain the natural lagoon near the kwale island. This lagoon is surrounding by mangrove forest, something is going to make you live with memorable swimming experience.",
-      ],
-      included: [
-        "Exploring the menai bay conservation area iFn a traditional wooden dhow",
-        "Snorkeling",
-        "Watching dolphins",
-        "Swimming in the hidden mangrove lagoon",
-        "Enjoy sea food and soft drinks",
-      ],
-      expectparagraph: [
-        "It is a 6 hours trip,Safari blue tour is a full day seafaring around mangroves and snorkeling along menai bay. The foremost activities are visiting the beautiful island of kwale, sandbank relaxing, swimming and snorkeling. The price for safari blue tour differs based on the number of group, the higher number of people makes the coast low. The tour comes with two options either private or sharing that depends on your interest and budget.",
-      ],
-      additional: [
-        "Confirmation will be received at time of booking",
-        "Most travelers can participate",
-        "This experience requires good weather. If it’s cancelled due to bad weather condition, it will be full refund or another date will be planning.",
-        "This experience requires a minimum number of travelers. If the number did not reach the target, there will be cancellation and refund will be available or another date will be setting.",
-        "This trip will have 15 maximum numbers of travelers.",
-        "Age requirements 5-79 years old",
-      ],
+
+      //kuza caves
     },
     kuza: {
       images: [kuza1, kuza3, kuza4],
       gallery: [kuza1, kuza2, kuza5, kuza6],
       safari: " Kuza Caves",
-      Heading: [
-        "Experience Kuza Caves",
-        "Overview",
-        "Tour highlight",
-        "Included",
-        "What to expect",
-        "Additional Info...",
-        "Frequently Asked Questions",
-      ],
-      info: [
-        "Swimming  and snorkeling",
-        "Sea food lunch",
-        "Seasonal fruits",
-        "Using of traditional dhow",
-        "Watching dolphins",
-      ],
-      paragraphs: [
-        "Safari blue tour is a boat cruise which includes the uses of snorkeling equipments, guides and instructor services, cold drinks, a buffet of delicious fish dishes (grilled fish, lobsters and squid) seasonal fruits and coffee will also be served for lunch.",
-        "When the tide is high, you will also ascertain the natural lagoon near the kwale island. This lagoon is surrounding by mangrove forest, something is going to make you live with memorable swimming experience.",
-      ],
-      included: [
-        "Exploring the menai bay conservation area in a traditional wooden dhow",
-        "Snorkeling",
-        "Watching dolphins",
-        "Swimming in the hidden mangrove lagoon",
-        "Enjoy sea food and soft drinks",
-      ],
-      expectparagraph: [
-        "It is a 6 hours trip,Safari blue tour is a full day seafaring around mangroves and snorkeling along menai bay. The foremost activities are visiting the beautiful island of kwale, sandbank relaxing, swimming and snorkeling. The price for safari blue tour differs based on the number of group, the higher number of people makes the coast low. The tour comes with two options either private or sharing that depends on your interest and budget.",
-      ],
-      additional: [
-        "Confirmation will be received at time of booking",
-        "Most travelers can participate",
-        "This experience requires good weather. If it’s cancelled due to bad weather condition, it will be full refund or another date will be planning.",
-        "This experience requires a minimum number of travelers. If the number did not reach the target, there will be cancellation and refund will be available or another date will be setting.",
-        "This trip will have 15 maximum numbers of travelers.",
-        "Age requirements 5-79 years old",
-      ],
     },
+    //sunset cruise
     sunset: {
       images: [dhow1, dhow3, dhow4],
       gallery: [dhow1, dhow5, dhow6, dhow2],
       sunset: " Sunset Dhowing",
-      Heading: [
-        "Experience Sunset Dhowing",
-        "Overview",
-        "Tour highlight",
-        "Included",
-        "What to expect",
-        "Additional Info...",
-        "Frequently Asked Questions",
-      ],
-      info: [
-        "Beautiful view of stone town waterfront historical buildings.",
-        "Cruising with wooden traditional Arabian dhow.",
-        "Best technique to view the coast of stone town.",
-        "Finest way to see the sunset in Zanzibar.",
-        "Traditional coastal music",
-      ],
-      paragraphs: [
-        "Cruising around small islands and along the coast line on a dhow is a fantastic and memorable experience. The sunset views from the dhow are reminiscent and timeless. Beverages, fruits and snacks served on the dhow are usually included.",
-        "Dhow sunset cruise starts at 4:30 or 5:00 pm from stone town to any other beach and end around 7:00 pm.",
-      ],
-      included: [
-        "have the peacefulness of the Indian ocean in traditional dhow ",
-        "enjoy mouthwatering drinks while cruising",
-        "Watching dolphins",
-        "the snacks refreshments",
-        "The very best experienced tour guide",
-      ],
-      expectparagraph: [
-        "The Zanzibar sunset cruise begins when you board a dhow near the beach. Different kinds of snacks, bear and soft drinks are served.  The guides will point attractions from the boat. Information and different narrations at the same time, moreover the beautiful sound of music makes the dhow cruise on point.",
-        "On the board of dhow the personal guide will accompany you on your cruise and give you a tour of stone town from the water as well, the guide also will have answers for all of your questions.",
-        "Let’s make your evening remarkable, enlightening the lovely views of the sun on your way to stone town, kendwa and beach with us.",
-      ],
-      additional: [
-        "Tour maybe operated by a multilingual guide",
-        "Not recommended for participants with heart problems or other serious medical condition",
-        "Booking can only be accepted for person under 15 years of age when accompanied by an adult who will be responsible for them.",
-        "Age requirements 5-79 years old",
-      ],
     },
+
+    //stonetowwn
     stonetown: {
       images: [stonetown1, stonetown6, stonetown4],
       gallery: [
@@ -313,7 +204,7 @@ const experienceData = [
         "No Food or Snacks",
       ],
       expectparagraph: [
-        "3 hours",
+        "A 3 hours trip",
         "Admission Ticket Not Included ",
         "Memories of Zanzibar Town Market, Slave Market, Slave Chambers, National Museum of Zanzibar, High Court Building, Old German Consulate, Africa House (former English Club), Tippu Tip House, Kele Kele Square, Old British Consulate, Orphanage Home, Old Fort, Forodhani Gardens, House of Wonders, Sultan Palace (now Palace Museum), Custom House, Old Dispensary, Old Harbour, Dr. David Livingstone House, Maruhubi Palace (Ruins), are among the interesting sites on this guided tour of Zanzibar.",
         "The Three hours guided tour begins and ends at your hotel. The tour commences at the City Market and covers all the above places. You are then driven or walk (optional) to the Natural Museum: a library that includes books on Zanzibar and East Africa. The exhibits also include stuffed specimens of local birds, a small but useful herbarium of native plants, and a collection of shells.",

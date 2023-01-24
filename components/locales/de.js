@@ -21,7 +21,7 @@ export default {
   more: "Mehr Fotos von",
   heading: {
     overview: "Überblick",
-    tour: "Tour Markieren",
+    tours: "Tour Markieren",
     included: "inbegriffen",
     expect: "Was zu erwarten ist",
     additional: "zusätzliche Information...",
@@ -78,11 +78,7 @@ export default {
     "Erfahrener professioneller Reiseleiter",
   ],
   safariExpect: [
-    "Erkunden des Naturschutzgebiets Menai Bay in einer traditionellen hölzernen Dau",
-    "Schnorcheln",
-    " Delfine beobachten",
-    "Schwimmen in der versteckten Mangrovenlagune",
-    "Genießen Sie Meeresfrüchte und alkoholfreie Getränke",
+    "Es ist eine 6-stündige Reise, die Safari Blue Tour ist eine ganztägige Seefahrt um Mangroven und Schnorcheln entlang der Menai Bay. Die wichtigsten Aktivitäten sind der Besuch der wunderschönen Insel Kwale, das Entspannen auf der Sandbank, Schwimmen und Schnorcheln. Der Preis für die Safari Blue Tour ist unterschiedlich Je nach Anzahl der Gruppe macht die höhere Anzahl von Personen die Küste niedrig. Die Tour bietet zwei Optionen, entweder privat oder zum Teilen, je nach Interesse und Budget.",
   ],
   safariAdditional: [
     "Bestätigung wird zum Zeitpunkt der Buchung erhalten",
@@ -92,6 +88,106 @@ export default {
     "Dies ist eine private Tour/Aktivität. Nur Ihre Gruppe wird teilnehmen.",
     "Der Preis von 85 $ pro Erwachsenem variiert je nach Gruppengröße",
     "Altersanforderung ist 5-99 Jahre.",
+  ],
+  kuzaParagraphs: [
+    "Sehen Sie Sansibar aus einer anderen Perspektive.",
+    " Wir laden Sie ein, eines der bestgehüteten Geheimnisse Sansibars zu besuchen – die Kuza-Höhle – eine uralte Kalkstein-Dschungelhöhle mit kristallklarem, türkisfarbenem Süßwasser.",
+    " Schwimmen Sie im heilenden Süßwasser. Genießen Sie den friedlichen Dschungel. Sehen Sie Artefakte aus der Höhle und eine Zeitleiste der Suaheli-Geschichte, die bis zum Beginn unserer Geschichte als Menschen mit Ursprung in Ostafrika zurückreicht.",
+  ],
+  kuzaInfos: [
+    "Schwimmen und Schnorcheln",
+    "Mittagessen mit Meeresfrüchten",
+    "Obst der Saison",
+    "Nutzung traditioneller Daus",
+    " Delfine beobachten",
+  ],
+  kuzaIncluded: [
+    "Abholung und Rückgabe vom Hotel",
+    " Alle Steuern, Gebühren und Bearbeitungsgebühren",
+    "Gemischtes Meeresfrüchte-Mittagessen",
+    "Erfrischungsgetränke und frisches Obst",
+    "Schnorchelausrüstung",
+    "Erfahrener professioneller Reiseleiter",
+  ],
+  kuzaExpect: [
+    "Erkunden Sie die erstaunliche Atmosphäre der Kuza-Höhle als Kulturzentrum von Sansibar. Besuchen Sie dieses versteckte Juwel im Südosten der Insel.",
+    "Der Besuch beinhaltet Schwimmen im reinen und frischen Wasser, Kochkurs mit Mittagessen, Trommelunterricht und vieles mehr.",
+    "Sie können Ihr Programm nach Belieben zusammenstellen. Wahlmöglichkeit zwischen zwei oder vier Stunden Aufenthalt.",
+  ],
+  kuzaAdditional: [
+    "Bestätigung wird zum Zeitpunkt der Buchung erhalten",
+    "Kindertarif gilt nur im Zimmer mit 2 zahlenden Erwachsenen",
+    "Nicht rollstuhlgerecht",
+    "Die meisten Reisenden können teilnehmen",
+    "Dies ist eine private Tour/Aktivität. Nur Ihre Gruppe wird teilnehmen.",
+    "Der Preis von 85 $ pro Erwachsenem variiert je nach Gruppengröße",
+    "Altersanforderung ist 5-99 Jahre.",
+  ],
+  dhowParagraphs: [
+    "Mit einer Dau um kleine Inseln und entlang der Küste zu fahren, ist ein fantastisches und unvergessliches Erlebnis. Die Aussicht auf den Sonnenuntergang von der Dau ist unvergesslich und zeitlos. Getränke, Obst und Snacks, die auf der Dau serviert werden, sind normalerweise inbegriffen.",
+    "Die Dhau-Sonnenuntergangsfahrt beginnt um 16:30 oder 17:00 Uhr von Stone Town zu jedem anderen Strand und endet gegen 19:00 Uhr.",
+  ],
+  dhowInfos: [
+    "Wunderschöne Aussicht auf die historischen Gebäude der Stone Town am Wasser.",
+    "Kreuzfahrt mit traditioneller arabischer Dau aus Holz.",
+    "Beste Methode, um die Küste von Stone Town zu sehen.",
+    "Die schönste Art, den Sonnenuntergang auf Sansibar zu sehen.",
+    "Traditionelle Küstenmusik",
+  ],
+  dhowIncluded: [
+    "die Ruhe des Indischen Ozeans in einer traditionellen Dhow erleben",
+    "Genießen Sie köstliche Getränke während der Kreuzfahrt",
+    "Delfine beobachten",
+    "die Snacks Erfrischungen",
+    "Der allerbeste erfahrene Reiseleiter",
+  ],
+  dhowExpect: [
+    "Die Sansibar-Sonnenuntergangskreuzfahrt beginnt, wenn Sie an Bord einer Dau in Strandnähe gehen. Verschiedene Arten von Snacks, Bären und alkoholfreien Getränken werden serviert. Die Guides zeigen Attraktionen vom Boot aus. Informationen und verschiedene Erzählungen gleichzeitig, außerdem der schöne Klang von Musik macht die Dau-Kreuzfahrt auf den Punkt.",
+    "An Bord der Dau begleitet Sie der persönliche Guide auf Ihrer Kreuzfahrt und führt Sie auch vom Wasser aus durch Stone Town. Der Guide hat auch Antworten auf alle Ihre Fragen.",
+    "Lassen Sie uns Ihren Abend unvergesslich machen, indem Sie mit uns die schöne Aussicht auf die Sonne auf Ihrem Weg nach Stone Town, Kendwa und Strand erhellen.",
+  ],
+  dhowAdditional: [
+    "Tour kann von einem mehrsprachigen Guide durchgeführt werden",
+    "Nicht empfohlen für Teilnehmer mit Herzproblemen oder anderen schweren Erkrankungen",
+    "Die Buchung kann nur für Personen unter 15 Jahren akzeptiert werden, wenn sie von einem Erwachsenen begleitet werden, der für sie verantwortlich ist.",
+    "Altersanforderungen 5-79 Jahre alt",
+  ],
+
+  //stonetown
+  stonetownParagraphs: [
+    "Entdecken Sie die aromatische Geschichte von Sansibar bei einem halbtägigen Rundgang durch Stone Town. Machen Sie sich zu Fuß auf den Weg, um die engen, autofreien Straßen und stimmungsvollen Ecken von Stone Town zu sehen.",
+    "Nach der bequemen Abholung in den Hotels von Sansibar werden Sie einige der Highlights von Stone Town abdecken, von kolonialen Wahrzeichen bis zum Old Fort, dem Geburtshaus von Freddy Mercury und einer anglikanischen Kathedrale, die den ehemaligen Standort eines Sklavenmarktes markiert. Stone Town Rundgang mit der Geschichte des Gewürzhandels in Sansibar.",
+  ],
+  stonetownInfos: [
+    "Orientiere dich im labyrinthartigen UNESCO.",
+    "Site Siehe Top-Sehenswürdigkeiten und weniger bekannte Gebiete ",
+    "Transport von Tür zu Tür von Hotels in Sansibar",
+    "Der allerbeste erfahrene Reiseleiter",
+  ],
+  stonetownIncluded: [
+    "Abholung und Rückgabe vom Hotel",
+    "Professioneller Kunsthistoriker-Führer",
+    "In Flaschen abgefülltes Wasser",
+    "Kein Essen oder Snacks",
+  ],
+  stonetownExpect: [
+    "Eine 3-stündige Fahrt",
+    "Eintrittskarte nicht inbegriffen",
+    "Erinnerungen an Sansibar Town Market, Sklavenmarkt, Sklavenkammern, Nationalmuseum von Sansibar, High Court Building, Old German Consulate, Africa House (ehemals English Club), Tippu Tip House, Kele Kele Square, Old British Consulate, Waisenhaus, Old Fort, Forodhani Gardens, House of Wonders, Sultan Palace (heute Palace Museum), Custom House, Old Dispensary, Old Harbour, Dr. David Livingstone House, Maruhubi Palace (Ruinen) gehören zu den interessanten Sehenswürdigkeiten dieser geführten Tour durch Sansibar. ",
+    "Die dreistündige geführte Tour beginnt und endet in Ihrem Hotel. Die Tour beginnt am Stadtmarkt und deckt alle oben genannten Orte ab. Sie werden dann zum Naturmuseum gefahren oder gehen (optional) zu Fuß: eine Bibliothek, die Bücher über Sansibar und den Osten enthält Afrika. Zu den Exponaten gehören auch ausgestopfte Exemplare einheimischer Vögel, ein kleines, aber nützliches Herbarium einheimischer Pflanzen und eine Sammlung von Muscheln.",
+    "Sie verlassen das Haus und fahren entlang der Uferpromenade nach Shangani – dem alten britischen Konsulat (die verstorbene Leiche von Dr. Livingstone blieb hier und wurde später nach Großbritannien geschickt), dem arabischen Fort (erbaut im Jahr 1700), dem Haus der Wunder (erbaut 1883). Von hier aus machen Sie einen gemütlichen Spaziergang durch die engen Gassen von Stone Town (Altstadt von Sansibar), wo die meisten Häuser mehr als 150 Jahre alt sind.In diesem Teil der Stadt finden Sie viele kleine und exotische Basare und Kuriositätenläden.",
+    "Die Tour geht weiter und endet mit einem Besuch der Maruhubi Palace Ruins (1880) auf dem Weg zum Dr. David Livingstone House (1866). Kehren Sie zu Ihrem Hotel zurück.",
+    "Empfehlenswert – Bitte kleiden Sie sich beim Spaziergang durch Stone Town konservativ, Frauen sollten ihre Schultern bedecken und lange Röcke oder Hosen tragen. – Bequeme geschlossene Wander- oder Wanderschuhe und Hosen.",
+  ],
+  stonetownAdditional: [
+    "Tour kann von einem mehrsprachigen Guide durchgeführt werden",
+    "Bestätigung wird zum Zeitpunkt der Buchung erhalten",
+    "Pro Buchung sind mindestens 2 Personen erforderlich.",
+    "Nicht rollstuhlgerecht",
+    "In der Nähe von öffentlichen Verkehrsmitteln Kindersitze verfügbar",
+    "Die meisten Reisenden können teilnehmen. Dies ist eine private Tour/Aktivität.",
+    "Nur Ihre Gruppe wird teilnehmen",
+    "Durchgeführt von Zanzibar Travel & Tours",
   ],
   FAQ: {
     infoProvided:

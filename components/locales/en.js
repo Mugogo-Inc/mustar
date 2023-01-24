@@ -87,6 +87,108 @@ export default {
     "This trip will have 15 maximum numbers of travelers.",
     "Age requirements 5-79 years old",
   ],
+
+  //kuza tour
+  kuzaParagraphs: [
+    "See Zanzibar from different perspective.",
+    "We invite you to visit one of Zanzibar’s best kept secrets – Kuza Cave – an ancient limestone jungle cave with crystal clear turquoise fresh water.  ",
+    "Swim in the healing fresh water. Enjoy the peaceful jungle. See artefacts from the cave and a timeline of Swahili history going back to the beginning of our story as humans originating in East Africa.",
+  ],
+  kuzaInfos: [
+    "Swimming  and snorkeling",
+    "Sea food lunch",
+    "Seasonal fruits",
+    "Using of traditional dhow",
+    "Watching dolphins",
+  ],
+  kuzaIncluded: [
+    "Exploring the menai bay conservation area in a traditional wooden dhow",
+    "Snorkeling",
+    "Watching dolphins",
+    "Swimming in the hidden mangrove lagoon",
+    "Enjoy sea food and soft drinks",
+  ],
+  kuzaExpect: [
+    "Explore amazing atmosphere of Kuza cave as Culture Centre of Zanzibar. Visit of this hidden gem in the South East of the Island.",
+    "Visit includes swimming in the pure and fresh water, cooking lesson with lunch, drumming lesson and many others.",
+    "You can mix your program as you wish. Possibility of choice between two hour or four hour stay.",
+  ],
+  kuzaAdditional: [
+    "Confirmation will be received at time of booking",
+    "Most travelers can participate",
+    "This experience requires good weather. If it’s cancelled due to bad weather condition, it will be full refund or another date will be planning.",
+    "This experience requires a minimum number of travelers. If the number did not reach the target, there will be cancellation and refund will be available or another date will be setting.",
+    "This trip will have 15 maximum numbers of travelers.",
+    "Age requirements 5-79 years old",
+  ],
+
+  //sunset dhow cruise
+  dhowParagraphs: [
+    "Cruising around small islands and along the coast line on a dhow is a fantastic and memorable experience. The sunset views from the dhow are reminiscent and timeless. Beverages, fruits and snacks served on the dhow are usually included.",
+    "Dhow sunset cruise starts at 4:30 or 5:00 pm from stone town to any other beach and end around 7:00 pm.",
+  ],
+  dhowInfos: [
+    "Beautiful view of stone town waterfront historical buildings.",
+    "Cruising with wooden traditional Arabian dhow.",
+    "Best technique to view the coast of stone town.",
+    "Finest way to see the sunset in Zanzibar.",
+    "Traditional coastal music",
+  ],
+  dhowIncluded: [
+    "have the peacefulness of the Indian ocean in traditional dhow ",
+    "enjoy mouthwatering drinks while cruising",
+    "Watching dolphins",
+    "the snacks refreshments",
+    "The very best experienced tour guide",
+  ],
+  dhowExpect: [
+    "The Zanzibar sunset cruise begins when you board a dhow near the beach. Different kinds of snacks, bear and soft drinks are served.  The guides will point attractions from the boat. Information and different narrations at the same time, moreover the beautiful sound of music makes the dhow cruise on point.",
+    "On the board of dhow the personal guide will accompany you on your cruise and give you a tour of stone town from the water as well, the guide also will have answers for all of your questions.",
+    "Let’s make your evening remarkable, enlightening the lovely views of the sun on your way to stone town, kendwa and beach with us.",
+  ],
+  dhowAdditional: [
+    "Tour maybe operated by a multilingual guide",
+    "Not recommended for participants with heart problems or other serious medical condition",
+    "Booking can only be accepted for person under 15 years of age when accompanied by an adult who will be responsible for them.",
+    "Age requirements 5-79 years old",
+  ],
+
+  //stonetown tour
+  stonetownParagraphs: [
+    "Discover Zanzibar’s aromatic history on a half-day walking tour of Stone Town, setting out on foot so you can see Stone Town’s narrow, car-free streets and atmospheric corners.",
+    "After convenient pickup at Zanzibar hotels, you’ll cover some of Stone Town’s highlights, from colonial landmarks to the Old Fort, the house where Freddy Mercury was born, and an Anglican Cathedral that marks the former site of a slave market. Stone Town walking tour with Zanzibar spice trade history .",
+  ],
+  stonetownInfos: [
+    "Get your bearings in the maze-like UNESCO.",
+    "Site See top landmarks and lesser-known areas ",
+    "Door-to-door transport from hotels in Zanzibar",
+    "The very best experienced tour guide",
+  ],
+  stonetownIncluded: [
+    "Hotel pickup and drop-off",
+    "Professional art historian guide",
+    "Bottled water",
+    "No Food or Snacks",
+  ],
+  stonetownExpect: [
+    "A 3 hours trip",
+    "Admission Ticket Not Included ",
+    "Memories of Zanzibar Town Market, Slave Market, Slave Chambers, National Museum of Zanzibar, High Court Building, Old German Consulate, Africa House (former English Club), Tippu Tip House, Kele Kele Square, Old British Consulate, Orphanage Home, Old Fort, Forodhani Gardens, House of Wonders, Sultan Palace (now Palace Museum), Custom House, Old Dispensary, Old Harbour, Dr. David Livingstone House, Maruhubi Palace (Ruins), are among the interesting sites on this guided tour of Zanzibar.",
+    "The Three hours guided tour begins and ends at your hotel. The tour commences at the City Market and covers all the above places. You are then driven or walk (optional) to the Natural Museum: a library that includes books on Zanzibar and East Africa. The exhibits also include stuffed specimens of local birds, a small but useful herbarium of native plants, and a collection of shells.",
+    "You leave and head along the waterfront to Shangani – Old British Consulate (the late Dr. Livingstone body remained here and later sent to Britain), the Arab Fort (built in the 1700), the House of Wonders (built in 1883). From here, you proceed on a leisure walk through the Narrow Streets of Stone Town (old part of Zanzibar town) where most houses date back to more than one hundred and fifty years. In this part of the town, you will find a lot of small and exotic bazaars and curio shops. ",
+    "The tour continuous and ends with a visit to Maruhubi Palace Ruins (1880) en-route Dr. David Livingstone House (1866). Return to your hotel.",
+    "Advisable – Please dress conservatively when walking through Stone Town, women should cover their shoulders and wear long skirts or trousers. – Comfortable closed walking or hiking shoes and pants.",
+  ],
+  stonetownAdditional: [
+    "Tour maybe operated by a multilingual guide",
+    "Confirmation will be received at time of booking",
+    "A minimum of 2 people per booking is required.",
+    "Not wheelchair accessible ",
+    "Near public transportation Infant seats available",
+    "Most travelers can participate This is a private tour/activity.",
+    "Only your group will participate",
+    "Operated by Zanzibar Travel &  Tours",
+  ],
   FAQ: {
     infoProvided:
       "The answers provided below are based on answers  previously given by the tour provider to customer’s  questions",

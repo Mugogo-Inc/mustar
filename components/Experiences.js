@@ -81,13 +81,12 @@ const Experiences = ({ experienceData }) => {
           <div key={index}>
             <Gallery data={experience.kuza.images} key={experience} />
             <MyModal
-              info={experience.kuza.info}
+              info={t.kuzaInfos}
               data={experience.kuza.images}
-              heading={experience.kuza.Heading}
-              paragraphs={experience.safari.paragraphs}
-              included={experience.safari.included}
-              expect={experience.safari.expectparagraph}
-              additional={experience.safari.additional}
+              paragraphs={t.kuzaParagraphs}
+              included={t.kuzaIncluded}
+              expect={t.kuzaExpect}
+              additional={t.kuzaAdditional}
               tour={experience.safari.safari}
               gallery={experience.kuza.gallery}
               modalBtn={kuzaBtn}
@@ -101,13 +100,12 @@ const Experiences = ({ experienceData }) => {
           <div key={index}>
             <Gallery data={experience.sunset.images} key={experience} />
             <MyModal
-              info={experience.sunset.info}
+              info={t.dhowInfos}
               data={experience.sunset.images}
-              heading={experience.sunset.Heading}
-              paragraphs={experience.sunset.paragraphs}
-              included={experience.sunset.included}
-              expect={experience.sunset.expectparagraph}
-              additional={experience.sunset.additional}
+              paragraphs={t.dhowParagraphs}
+              included={t.dhowIncluded}
+              expect={t.dhowExpect}
+              additional={t.dhowAdditional}
               tour={experience.sunset.sunset}
               gallery={experience.sunset.gallery}
               modalBtn={sunsetBtn}
@@ -121,13 +119,12 @@ const Experiences = ({ experienceData }) => {
           <div key={index}>
             <Gallery data={experience.stonetown.images} key={experience} />
             <MyModal
-              info={experience.stonetown.info}
+              info={t.stonetownInfos}
               data={experience.stonetown.images}
-              heading={experience.stonetown.Heading}
-              paragraphs={experience.stonetown.paragraphs}
-              included={experience.stonetown.included}
-              expect={experience.stonetown.expectparagraph}
-              additional={experience.stonetown.additional}
+              paragraphs={t.stonetownParagraphs}
+              included={t.stonetownIncluded}
+              expect={t.stonetownExpect}
+              additional={t.stonetownAdditional}
               tour={experience.stonetown.stonetown}
               gallery={experience.stonetown.gallery}
               modalBtn={stonetownBtn}
