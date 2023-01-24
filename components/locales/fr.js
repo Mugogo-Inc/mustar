@@ -189,6 +189,151 @@ export default {
     "Seul votre groupe participera",
     "Géré par Zanzibar Travel & Tours",
   ],
+  //mnemba
+  mnembaParagraphs: [
+    "Mnemba est une petite île située à environ 3 km de la côte nord-est. Elle est entourée d'un récif ovale de sept kilomètres sur quatre. Ces récifs ont été déclarés zone de conservation marine. Il compte environ 600 catégories de poissons de récif corallien. Dauphins , crabes, étoiles de mer, poissons-papillons, homards, crevettes, etc. sont les espèces les plus courantes que vous pouvez observer lors de la plongée en apnée sur l'île de Mnemba.",
+    "C'est l'endroit le plus populaire pour la plongée en apnée à Zanzibar. Vous pouvez rejoindre Mnemba en bateau, principalement depuis la plage de Nungwi et le débarcadère de Muyuni. C'est à 1 heure de Nungwi.",
+    "Mnemba est une île privée dont l'accès est réservé aux clients du somptueux et au-delà de l'île de Mnemba. Le bateau vous déposera directement au récif, qui se trouve à quelques dizaines de mètres de la petite île.",
+  ],
+  mnembaInfos: [
+    "C'est une réserve marine à péage",
+    "C'est la zone la plus populaire pour nager et plonger",
+    "Ses opportunités de voir des vivaneaux jaunes, des barracudas, des tortues et bien plus encore ",
+    "Prise en charge et retour à l'hôtel inclus",
+    "collations de fruits frais incluses",
+  ],
+  mnembaIncluded: [
+    " Toutes les taxes, redevances et frais de dossier",
+    "Prise en charge et retour à l'hôtel",
+    "Utilisation des équipements de plongée en apnée",
+    "Des fruits frais seront servis",
+    "Une bouteille d'eau sera également incluse",
+    "Guide touristique professionnel",
+    "Déjeuner et collations",
+  ],
+  mnembaExpect: [
+    "La plongée en apnée est une activité amusante pour les jeunes et les moins jeunes, et elle ne nécessite aucune expérience préalable.",
+    "Il y a différentes vies marines à explorer lors de la visite de Mnemba, comme des poissons, d'énormes coraux et des dauphins.",
+    "De plus, la natation est l'une des activités les plus importantes lors de votre visite sur place. En plus de la marée basse, cela vous donne la possibilité de visiter le banc de sable voisin de Mnemba.",
+    "De plus, pendant le voyage, le déjeuner sera servi. De l'eau, des collations et des fruits frais seront disponibles pour rendre votre journée très excitante.",
+  ],
+  mnembaAdditional: [
+    "La confirmation sera reçue au moment de la réservation",
+    "Pas accessible aux fauteuils roulants",
+    "L'âge requis est de 2 à 90 ans.",
+    "Un minimum de 2 adultes par réservation est requis.",
+    "Les enfants doivent être accompagnés par un adulte.",
+    "La plupart des voyageurs peuvent participer",
+    "Il s'agit d'une visite privée, seul votre groupe participera",
+  ],
+
+  //Village
+  villageParagraphs: [
+    "La visite du village : c'est un voyage dans les villages de Zanzibar, pour découvrir la vie des gens qui vivent dans les villages.",
+    " La visite vous emmène au village de Jambian. Au cours de cette visite, vous visiterez des écoles, rencontrerez des habitants et marcherez dans une ferme d'algues.",
+    "Dans ce voyage, vous apprendrez également à fabriquer de la corde à partir de fibre de coco, les groupes de femmes potières sont très célèbres dans le village comme Jambiani, vous découvrirez leurs travaux manuels.",
+    " De plus, après la visite, vous dégusterez avec beaucoup de goût la cuisine traditionnelle de Zanzibar pour le déjeuner.",
+  ],
+  villageInfos: [
+    "Le guide vous racontera des histoires et des indications sur la vie du village de Zanzibar.",
+    "Visite d'une ferme d'algues.",
+    "Leçon de fabrication de cordes par les indigènes.",
+    "Savourez la cuisine traditionnelle de Zanzibar",
+  ],
+  villageIncluded: [
+    "Guide local",
+    "Déjeuner",
+    "Une bouteille d'eau",
+    "Dons aux lieux visités",
+    "Prise en charge et retour à l'hôtel",
+    "Pourboires",
+  ],
+  villageExpect: [
+    "C'est une visite de 3 à 4 heures",
+    "Lors de cette visite, vous pourrez voir tout en vous promenant dans le village et en capitalisant sur la vie de village des habitants poursuivant leurs activités quotidiennes comme le broyage du mil avec des pilons de mortier, le chaume des cocotiers et la préparation du pain pour le repas du soir.",
+    "Pendant la visite du village de Jambiani, nous pouvons également voir des habitants grimper aux cocotiers, les visiteurs peuvent boire du lait de noix de coco madafu s'ils sont intéressés, peuvent également repérer des produits à base de noix de coco comme des paniers, des cordes, des poteaux, des casquettes de cocotier.",
+    "Au cours de cette visite de village, nous visitons également des plantations de manioc et des bananeraies pour voir et goûter leurs produits. Comme il s'agit d'une visite du village de Jambiani, il peut être difficile de s'éloigner du clapotis doux des vagues et du sable blanc doux de l'est de Zanzibar, ce littoral est merveilleux endroit pour se détendre.",
+  ],
+  villageAdditional: [
+    "La confirmation sera reçue au moment de la réservation.",
+    "Les voyageurs doivent avoir une condition physique modérée.",
+    "Pas accessible aux fauteuils roulants.",
+    "Les enfants doivent être accompagnés d'un adulte.",
+    "Il s'agit d'une visite/activité privée. Seul votre groupe participera.",
+    "Veuillez indiquer toute exigence alimentaire spécifique au moment de la réservation.",
+    "L'âge requis est de 1 à 99 ans, maximum de 10 personnes par groupe.",
+  ],
+
+  //Deep Game
+  deepParagraphs: [
+    "Zanzibar a la chance d'avoir une pêche superbe presque toute l'année. La pêche à Zanzibar est synonyme de pêche en haute mer parmi les plus exaltantes et les plus stimulantes. Cela devient plus intéressant lorsque la mousson du nord-est souffle, les istiophoridés arrivent en grand nombre. ",
+    "La pêche en haute mer à Zanzibar est située à la pointe nord de Nungwi, un village de pêcheurs, qui est la zone de pêche la plus importante de Zanzibar.",
+    "Explorez les eaux profondes de Zanzibar depuis le bateau et profitez des activités de pêche, de voile et de détente à bord.",
+    "La pêche est une expérience merveilleuse pendant que vous êtes à Zanzibar pour les pêcheurs professionnels et non professionnels ; choisissez parmi différents types et tailles de bateaux. Différents types d'équipements sont inclus dans le tableau. Les bateaux sont disponibles pour une excursion d'une demi-journée et d'une journée complète.",
+  ],
+  deepInfos: [
+    "Aventure de pêche en haute mer au large des villages de pêcheurs de Nungwi et Bwejuu.",
+    "Une grande variété de poissons peut être pêchée, y compris le carangue, le thon, le marlin, le barracuda et le porte-épée.",
+    "Bière, soda et équipement de pêche tout compris.",
+    "Prise en charge et retour à l'hôtel",
+  ],
+  deepIncluded: [
+    "Prise en charge et retour à l'hôtel",
+    "Une bouteille d'eau",
+    "Tous les frais d'entrée",
+    "Les boissons gazeuses comme les sodas, le café, le thé, etc.",
+    "Des fruits et quelques collations",
+  ],
+  deepExpect: [
+    "Tour de pêche en haute mer, c'est un tour merveilleux qui vous donnera une expérience de pêche pas comme les autres",
+    "Pour la pêche matinale dans les eaux de Zanzibar, vous partirez sur un bateau local depuis l'île, le capitaine local connaît bien la région et les pêcheurs professionnels. Marlin noir et bleu, voilier acrobatique, Dorado, thon jaune et carangue , tous offrent des heures interminables de pêche sportive active dans l'océan Indien.",
+    "Vous traînerez une combinaison de leurres, d'appâts naturellement morts ou vivants. Février à avril est un excellent moment pour attraper des carangues, du thon et du marlin bleu, juin à août c'est le meilleur moment pour voir des baleines, août à octobre est la haute saison pour le thon, et de novembre à mars pour le marlin et le voilier, suivant le schéma de la mousson.",
+  ],
+  deepAdditional: [
+    "Tour peut-être opéré par un guide multilingue",
+    "Il est recommandé d'apporter des équipements comme de la crème solaire, des serviettes, un maillot de bain, des chaussures de sport nautique et un appareil photo étanche.",
+    "Non recommandé pour les personnes souffrant de problèmes de santé graves.",
+    "La réservation ne peut être acceptée que pour les personnes de moins de 15 ans accompagnées d'un adulte qui en sera responsable",
+  ],
+  //dolphin
+  dolphinParagraphs: [
+    "La visite des dauphins à Zanzibar est une visite unique préméditée pour que les visiteurs découvrent le meilleur environnement du village de kizimkazi, voient des mammifères, nagent, font de la plongée en apnée, dégustent les meilleurs fruits de mer et boissons gazeuses préparés, observent les oiseaux et autres plaisirs qui pourraient les laisser avoir la meilleure familiarité de leur tournée à Zanzibar.",
+    "Cette excursion d'observation des dauphins est une excursion matinale en bateau dans le célèbre vieux village de kizimkazi, l'excursion dure 2 à 3 heures dans la mer, la plongée en apnée également incluse. L'excursion avec les dauphins vous offre l'expérience de repérer les dauphins, les dauphins sont officiellement protégés par la zone de conservation de 420 km2 de la baie de Menai, qui a été créée en 1997 pour arrêter l'affaiblissement rapide des stocks de poissons.",
+  ],
+  dolphinInfos: [
+    "Voir les dauphins dans leur milieu naturel",
+    "Visitez la plus ancienne mosquée d'Afrique de l'Est",
+    "Nager avec les dauphins si c'est possible",
+  ],
+  dolphinIncluded: [
+    "Lunch",
+    "Private transportation",
+    "Uses of snorkeling tools",
+    "Menai bay entrances fee",
+    "Age requirement  is 5-79 years old",
+  ],
+  dolphinExpect: [
+    "C'est une excursion d'une demi-journée",
+    "Le tour des dauphins est l'une des excursions les plus tendances des îles. Le voyage vous amènera à nager aux côtés des dauphins.",
+    "La visite se déroule dans la partie la plus méridionale de l'île, dans cette partie les dauphins respirent joyeusement dans un cadre naturel. Les visiteurs pourront les voir dans le meilleur scénario possible. Les dauphins peuvent simplement être vus pendant que vous naviguez sur le bateau du village.",
+    "La visite s'effectue tôt le matin et l'après-midi, en raison des conditions météorologiques. La visite vous amènera également au village de Kizimkazi pour voir l'ancienne mosquée historique de Kizimkazi. De plus, le village de Kizimkazi offre la meilleure attraction culturelle.",
+  ],
+  dolphinAdditional: [
+    "La confirmation sera reçue au moment de la réservation",
+    "Déconseillé aux voyageurs ayant des problèmes de dos",
+    "Pas accessible aux fauteuils roulants.",
+    "Déconseillé aux voyageuses enceintes",
+    "La plupart des voyageurs peuvent participer.",
+    "Il s'agit d'une visite / activité privée que seul votre groupe participera",
+    "Non recommandé pour toute personne ayant des cas médicaux graves.",
+  ],
+  //safari tanzania
+  safaritzParagraphs: [
+    "La Tanzanie est l'une des meilleures destinations de safari en Afrique. L'observation de la faune est hors de ce monde et les grands félins sont particulièrement faciles à voir.",
+    "Tous les membres des cinq grands se trouvent dans divers parcs et réserves tanzaniens, et tous les cinq sont présents dans le cratère du Ngorongoro et le parc national du Serengeti",
+    "Près de 40 % du pays est protégé et destiné à la conservation, ce qui signifie qu'il est facile pour les touristes de faire un safari en Tanzanie pendant 2 semaines complètes et de conduire de parc en parc en quittant rarement la brousse",
+  ],
+
   FAQ: {
     infoProvided:
       "Les réponses fournies ci-dessous sont basées sur les réponses précédemment données par le voyagiste aux questions des clients.",

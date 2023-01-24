@@ -189,6 +189,155 @@ export default {
     "Nur Ihre Gruppe wird teilnehmen",
     "Durchgeführt von Zanzibar Travel & Tours",
   ],
+
+  //mnemba
+  mnembaParagraphs: [
+    "Mnemba ist eine einzelne kleine Insel, die etwa 3 km von der Nordostküste entfernt liegt. Sie ist von einem sieben mal vier Kilometer langen ovalen Riff umgeben. Diese Riffe wurden zum Meeresschutzgebiet erklärt. Es hat ungefähr 600 Arten von Korallenrifffischen. Delfine , Krabben, Seesterne, Schmetterlingsfische, Hummer, Garnelen und so weiter sind die häufigsten Arten, die Sie beim Schnorcheln auf der Insel Mnemba beobachten können.",
+    "Es ist der beliebteste Schnorchelplatz in Sansibar. Sie können Mnemba mit dem Boot erreichen, hauptsächlich vom Nungwi-Strand und dem Muyuni-Landeplatz. Es ist 1 Stunde von Nungwi entfernt.",
+    "Mnemba ist eine private Insel, deren Zugang Gästen der üppigen Insel Mnemba und darüber hinaus vorbehalten ist. Das Boot setzt Sie direkt am Riff ab, das einige Dutzend Meter von der kleinen Insel entfernt liegt.",
+  ],
+  mnembaInfos: [
+    "Es ist ein gebührenpflichtiges Meeresschutzgebiet",
+    "Es ist das beliebteste Gebiet zum Schwimmen und Schnorcheln",
+    "Seine Möglichkeiten, Yellow Snapper, Barrakudas, Schildkröten und vieles mehr zu sehen ",
+    "Abhol- und Bringservice vom Hotel inbegriffen",
+    "frische Obstsnacks inklusive",
+  ],
+  mnembaIncluded: [
+    "Alle Steuern, Gebühren und Bearbeitungsgebühren",
+    "Abholung und Rückgabe vom Hotel",
+    "Benutzung von Schnorchelausrüstung",
+    "Frisches Obst wird serviert",
+    "Eine Flasche Wasser wird auch enthalten sein",
+    "Professioneller Reiseleiter",
+    "Mittagessen und Snacks",
+  ],
+  mnembaExpect: [
+    "Schnorcheln ist eine unterhaltsame Aktivität für Jung und Alt und erfordert keine Vorkenntnisse.",
+    "Während der Mnemba-Tour gibt es verschiedene Meereslebewesen zu entdecken, darunter Fische, riesige Korallen und Delfine.",
+    "Auch Schwimmen gehört zu den aktivsten Aktivitäten während Ihrer Tour zum Spot. Außerdem haben Sie bei Ebbe die Möglichkeit, die Sandbank neben Mnemba zu besuchen.",
+    "Außerdem wird während der Fahrt ein Mittagessen serviert. Wasser, Snacks und einige frische Früchte werden zur Verfügung stehen, um Ihren Tag sehr spannend zu machen.",
+  ],
+  mnembaAdditional: [
+    "Bestätigung wird zum Zeitpunkt der Buchung erhalten",
+    "Nicht rollstuhlgerecht",
+    "Altersanforderung ist 2-90 Jahre.",
+    "Mindestens 2 Erwachsene pro Buchung sind erforderlich.",
+    "Kinder müssen von einem Erwachsenen begleitet werden.",
+    "Die meisten Reisenden können teilnehmen",
+    "Dies ist eine private Tour, an der nur Ihre Gruppe teilnehmen wird",
+  ],
+
+  //Village
+  villageParagraphs: [
+    "Die Dorftour: ist eine Reise durch die Dörfer von Sansibar, um das Leben der Menschen zu erleben, die in den Dörfern leben.",
+    " Die Tour führt Sie in das Dorf Jambian. Während dieser Tour besuchen Sie Schulen, treffen Einheimische und gehen auf einer Algenfarm spazieren.",
+    "Auf dieser Reise lernen Sie auch, wie man Seile aus Kokosfasern herstellt, die Töpferinnengruppen sind im Dorf sehr berühmt, wie Jambiani, Sie werden ihre Handarbeit erkunden.",
+    " Darüber hinaus werden Sie nach der Tour die traditionelle Küche Sansibars mit sehr viel Geschmack zum Mittagessen genießen.",
+  ],
+  villageInfos: [
+    "Der Guide gibt Ihnen Geschichten und Anweisungen über das Dorfleben in Sansibar.",
+    "Besuchen Sie eine Algenfarm.",
+    "Seilmacherstunde von den Ureinwohnern.",
+    "Genießen Sie die traditionelle Sansibar-Küche",
+  ],
+  villageIncluded: [
+    "Lokaler Führer",
+    "Mittagessen",
+    "Flasche Wasser",
+    "Spenden an besuchte Orte",
+    "Abholung und Rückgabe vom Hotel",
+    "Trinkgelder",
+  ],
+  villageExpect: [
+    "Die Tour dauert 3 bis 4 Stunden",
+    "Auf dieser Tour können Sie beim Spaziergang durch das Dorf sehen und das Dorfleben der Einheimischen nutzen, die ihren täglichen Aktivitäten nachgehen, wie Hirse mit Mörserstößeln mahlen, Kokospalmen decken und Brot für das Abendessen zubereiten.",
+    "Während der Tour durch das Dorf Jambiani sehen wir vielleicht auch Einheimische, die auf Kokospalmen klettern, die Besucher können Kokosnuss-Madafu-Milch trinken, wenn sie interessiert sind, und können auch Kokosnussprodukte wie Körbe, Seile, Stangen, Kokospalmenkappen sehen.",
+    "Auch bei dieser Dorftour besuchen wir Maniok-Plantagen und Bananenplantagen, um ihre Produkte zu sehen und zu probieren. Da dies eine Dorftour in Jambiani ist, kann es schwierig sein, sich von den sanft plätschernden Wellen und dem weichen weißen Sand im Osten von Sansibar loszureißen wunderbarer Ort zum Entspannen.",
+  ],
+  villageAdditional: [
+    "Bestätigung erhalten Sie zum Zeitpunkt der Buchung.",
+    "Reisende sollten über eine moderate körperliche Fitness verfügen.",
+    "Nicht rollstuhlgerecht.",
+    "Kinder müssen von einem Erwachsenen begleitet werden.",
+    "Dies ist eine private Tour/Aktivität. Nur Ihre Gruppe wird daran teilnehmen.",
+    "Bitte geben Sie bei der Buchung etwaige spezielle Ernährungsbedürfnisse an.",
+    "Altersvoraussetzung ist 1-99 Jahre, maximal 10 Personen pro Gruppe.",
+  ],
+
+  //Deep Game
+  deepParagraphs: [
+    "Sansibar hat das Glück, fast das ganze Jahr über hervorragende Angelmöglichkeiten zu haben. Das Fischen in Sansibar ist ein Synonym für einige der aufregendsten und herausforderndsten Hochseefischereien, die es gibt. Es wird interessanter, wenn der Nordostmonsun weht und die Schwertfische in großer Zahl ankommen. ",
+    "Die Hochseefischerei in Sansibar befindet sich an der Nordspitze in Nungwi, einem Fischerdorf, das die meisten Fischgründe von Sansibar darstellt.",
+    "Erkunden Sie das tiefe Wasser in Sansibar vom Boot aus und genießen Sie Angelaktivitäten, Segeln und entspannen Sie sich an Bord.",
+    " Angeln ist eine wunderbare Erfahrung, während Sie in Sansibar sind, sowohl für professionelle als auch für nicht professionelle Fischer; wählen Sie aus verschiedenen Bootstypen und -größen. Verschiedene Arten von Ausrüstung sind im Board enthalten. Boote sind für Halbtages- und Ganztagestouren verfügbar.",
+  ],
+  deepInfos: [
+    "Hochseeangelabenteuer vor der Küste der Fischerdörfer Nungwi und Bwejuu.",
+    "Es kann eine große Vielfalt an Fischen gefangen werden, darunter Königsfisch, Thunfisch, Marlin, Barrakuda und Schwertfisch.",
+    "Bier, Limonade und Angelausrüstung inklusive.",
+    "Abholung und Rückgabe vom Hotel",
+  ],
+  deepIncluded: [
+    "Abholung und Rückgabe vom Hotel",
+    "Flasche Wasser",
+    "Alle Eintrittspreise",
+    "Erfrischungsgetränke wie Limonade, Kaffee, Tee etc.",
+    "Obst und ein paar Snacks",
+  ],
+  deepExpect: [
+    "Hochseeangeltour ist eine wunderbare Tour, die Ihnen ein unvergleichliches Angelerlebnis bietet",
+    "Zum Angeln am frühen Morgen im Wasser von Sansibar fahren Sie mit einem lokalen Boot von der Insel aus, der örtliche Kapitän kennt die Gegend gut und professionelle Angler. Schwarzer und Blauer Marlin, akrobatischer Segelfisch, Dorado, Gelbflossen-Thunfisch und Königsfisch , bieten alle endlose Stunden aktiven Sportfischens aus dem Indischen Ozean.",
+    "Sie werden eine Kombination aus Ködern, natürlich toten oder lebenden Ködern verfolgen. Februar bis April ist eine ausgezeichnete Zeit, um Königsfische, Thunfische und Blaue Marline zu fangen, Juni bis August ist die beste Zeit, um Wale zu sehen, August bis Oktober ist die Hauptsaison für Thunfisch und von November bis März für Marlin und Segelfisch, dem Muster des Monsuns folgend.",
+  ],
+  deepAdditional: [
+    "Tour kann von einem mehrsprachigen Guide durchgeführt werden",
+    "Es wird empfohlen, einige Ausrüstungsgegenstände wie Sonnencreme, Handtücher, Badeanzug, Wassersportschuhe und eine wasserdichte Kamera mitzubringen.",
+    "Nicht empfohlen für Menschen mit schweren Erkrankungen.",
+    "Die Buchung kann nur für Personen unter 15 Jahren in Begleitung eines für sie verantwortlichen Erwachsenen akzeptiert werden",
+  ],
+  //dolphin
+  dolphinParagraphs: [
+    "Die Delfintour auf Sansibar ist eine einzigartige Tour, die für Besucher gedacht ist, um die beste Umgebung des Dorfes Kizimkazi zu erleben, Säugetiere zu sehen, zu schwimmen, zu schnorcheln, die besten zubereiteten Meeresfrüchte und Erfrischungsgetränke zu genießen, Vögel zu beobachten und andere Freuden zu haben, die sie haben könnten die beste Vertrautheit auf ihrer Sansibar-Tour.",
+    "Diese Delfinbeobachtungstour ist eine morgendliche Bootsfahrt im berühmten alten Dorf Kizimkazi, die Tour dauert 2 bis 3 Stunden im Meer, das Schnorcheln ist ebenfalls inbegriffen. Die Delfintour bietet Ihnen die Erfahrung, Delfine zu sehen, die Delfine offiziell geschützt sind das 420 km2 große Naturschutzgebiet Menai Bay, das 1997 eingerichtet wurde, um die rasche Schwächung der Fischbestände zu stoppen.",
+  ],
+  dolphinInfos: [
+    "Sehen Sie die Delfine in ihrer natürlichen Umgebung",
+    "Besuchen Sie die älteste Moschee Ostafrikas",
+    "Schwimme mit Delphinen, wenn es möglich ist",
+  ],
+  dolphinIncluded: [
+    "Mittagessen",
+    "Privater Transport",
+    "Verwendung von Schnorchelwerkzeugen",
+    "Eintrittsgebühr für die Bucht von Menai",
+    "Altersanforderung ist 5-79 Jahre alt",
+  ],
+  dolphinExpect: [
+    "Dies ist ein halbtägiger Ausflug,",
+    "Die Delfintour ist einer der angesagtesten Ausflüge auf den Inseln. Die Reise bringt Sie dazu, neben Delfinen zu schwimmen.",
+    "Die Tour findet im südlichsten Teil der Insel statt, in diesem Teil atmen die Delfine glücklich in einer natürlichen Umgebung. Die Besucher können sie in der bestmöglichen Umgebung sehen. Die Delfine können einfach gesehen werden, während Sie mit dem Boot fahren aus dem Dorf.",
+    "Die Tour wird je nach Wetterlage am frühen Morgen und am Nachmittag durchgeführt. Die Tour bringt Sie auch in das Dorf Kizimkazi, um die alte historische Moschee von Kizimkazi zu sehen, darüber hinaus bietet das Dorf Kizimkazi die beste kulturelle Attraktion.",
+  ],
+  dolphinAdditional: [
+    "Bestätigung wird zum Zeitpunkt der Buchung erhalten",
+    "Nicht empfehlenswert für Reisende mit Rückenproblemen",
+    "Nicht rollstuhlgerecht.",
+    "Nicht für schwangere Reisende empfohlen",
+    "Die meisten Reisenden können teilnehmen.",
+    "Dies ist eine private Tour/Aktivität, an der nur Ihre Gruppe teilnehmen wird",
+    "Nicht empfohlen für Personen mit schwerwiegenden Erkrankungen.",
+  ],
+  //safari tanzania
+  safaritzParagraphs: [
+    "Tansania ist eines der besten Safariziele in Afrika. Die Tierbeobachtungen sind nicht von dieser Welt und Großkatzen sind besonders leicht zu sehen.",
+    "Alle Mitglieder der Big Five sind in verschiedenen tansanischen Parks und Reservaten zu finden, und alle fünf sind im Ngorongoro-Krater und im Serengeti-Nationalpark präsent",
+    "Fast 40 % des Landes stehen unter Naturschutz, was bedeutet, dass es für Touristen einfach ist, zwei volle Wochen lang auf Tansania-Safari zu gehen und von Park zu Park zu fahren, ohne den Busch zu verlassen",
+  ],
+  safaritzInfos: [],
+  safaritzIncluded: [],
+  safaritzExpect: [],
+  safaritzAdditional: [],
   FAQ: {
     infoProvided:
       "Die nachstehenden Antworten basieren auf Antworten, die der Reiseanbieter zuvor auf die Fragen des Kunden gegeben hat",

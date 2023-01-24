@@ -138,13 +138,12 @@ const Experiences = ({ experienceData }) => {
           <div key={index}>
             <Gallery data={experience.mnemba.images} key={experience} />
             <MyModal
-              info={experience.mnemba.info}
+              info={t.mnembaInfos}
               data={experience.mnemba.images}
-              heading={experience.mnemba.Heading}
-              paragraphs={experience.mnemba.paragraphs}
-              included={experience.mnemba.included}
-              expect={experience.mnemba.expectparagraph}
-              additional={experience.mnemba.additional}
+              paragraphs={t.mnembaParagraphs}
+              included={t.mnembaIncluded}
+              expect={t.mnembaExpect}
+              additional={t.mnembaAdditional}
               tour={experience.mnemba.mnemba}
               gallery={experience.mnemba.gallery}
               modalBtn={mnembaBtn}
@@ -158,13 +157,12 @@ const Experiences = ({ experienceData }) => {
           <div key={index}>
             <Gallery data={experience.village.images} key={experience} />
             <MyModal
-              info={experience.village.info}
+              info={t.villageInfos}
               data={experience.village.images}
-              heading={experience.village.Heading}
-              paragraphs={experience.village.paragraphs}
-              included={experience.village.included}
-              expect={experience.village.expectparagraph}
-              additional={experience.village.additional}
+              paragraphs={t.villageParagraphs}
+              included={t.villageIncluded}
+              expect={t.villageExpect}
+              additional={t.villageAdditional}
               tour={experience.village.village}
               gallery={experience.village.gallery}
               modalBtn={villageBtn}
@@ -178,13 +176,12 @@ const Experiences = ({ experienceData }) => {
           <div key={index}>
             <Gallery data={experience.game.images} key={experience} />
             <MyModal
-              info={experience.game.info}
+              info={t.gameInfos}
               data={experience.game.images}
-              heading={experience.game.Heading}
-              paragraphs={experience.game.paragraphs}
-              included={experience.game.included}
-              expect={experience.game.expectparagraph}
-              additional={experience.game.additional}
+              paragraphs={t.gameParagraphs}
+              included={t.gameIncluded}
+              expect={t.gameExpect}
+              additional={t.gameAdditional}
               tour={experience.game.game}
               gallery={experience.village.gallery}
               modalBtn={deepBtn}
@@ -197,13 +194,11 @@ const Experiences = ({ experienceData }) => {
           <div key={index}>
             <Gallery data={experience.dolphin.images} key={experience} />
             <MyModal
-              info={experience.dolphin.info}
+              info={t.dolphinInfos}
               data={experience.dolphin.images}
-              heading={experience.dolphin.Heading}
-              paragraphs={experience.dolphin.paragraphs}
-              included={experience.dolphin.included}
-              expect={experience.dolphin.expectparagraph}
-              additional={experience.dolphin.additional}
+              paragraphs={t.dolphinParagraphs}
+              included={t.dolphinIncluded}
+              expect={t.dolphinExpect}
               tour={experience.dolphin.dolphin}
               gallery={experience.dolphin.gallery}
               modalBtn={dolphinBtn}
@@ -219,7 +214,7 @@ const Experiences = ({ experienceData }) => {
             <MyModal
               data={experience.tanzania.images}
               heading={experience.tanzania.Heading}
-              paragraphs={experience.tanzania.paragraphs}
+              paragraphs={t.safaritzParagraphs}
               tour={experience.tanzania.tanzania}
               gallery={experience.tanzania.gallery}
               modalBtn={safaritzBtn}
