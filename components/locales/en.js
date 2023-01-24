@@ -17,6 +17,7 @@ export default {
   deepBtn: "Experience Deep Blue Fishing",
   dolphinBtn: "Experience Dolphin Tour",
   safaritzBtn: "Experience Safari Tanzania",
+  more: "More Photos of ",
   heading: {
     overview: "Overview",
     tours: "Tour highlight",
@@ -54,6 +55,37 @@ export default {
     "This is a private tour /activity. Only your group will participate.",
     "$85 per adult price varies by group size",
     "Age requirement is 5-99 years old.",
+  ],
+
+  // safari blue
+  safariParagraphs: [
+    "Safari blue tour is a boat cruise which includes the uses of snorkeling equipments, guides and instructor services, cold drinks, a buffet of delicious fish dishes (grilled fish, lobsters and squid) seasonal fruits and coffee will also be served for lunch.",
+    "When the tide is high, you will also ascertain the natural lagoon near the kwale island. This lagoon is surrounding by mangrove forest, something is going to make you live with memorable swimming experience.",
+  ],
+  safariInfos: [
+    "Swimming  and snorkeling",
+    "Sea food lunch",
+    "Seasonal fruits",
+    "Using of traditional dhow",
+    "Watching dolphins",
+  ],
+  safariIncluded: [
+    "Exploring the menai bay conservation area iFn a traditional wooden dhow",
+    "Snorkeling",
+    "Watching dolphins",
+    "Swimming in the hidden mangrove lagoon",
+    "Enjoy sea food and soft drinks",
+  ],
+  safariExpect: [
+    "It is a 6 hours trip,Safari blue tour is a full day seafaring around mangroves and snorkeling along menai bay. The foremost activities are visiting the beautiful island of kwale, sandbank relaxing, swimming and snorkeling. The price for safari blue tour differs based on the number of group, the higher number of people makes the coast low. The tour comes with two options either private or sharing that depends on your interest and budget.",
+  ],
+  safariAdditional: [
+    "Confirmation will be received at time of booking",
+    "Most travelers can participate",
+    "This experience requires good weather. If it’s cancelled due to bad weather condition, it will be full refund or another date will be planning.",
+    "This experience requires a minimum number of travelers. If the number did not reach the target, there will be cancellation and refund will be available or another date will be setting.",
+    "This trip will have 15 maximum numbers of travelers.",
+    "Age requirements 5-79 years old",
   ],
   FAQ: {
     infoProvided:

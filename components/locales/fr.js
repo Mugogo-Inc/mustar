@@ -17,6 +17,7 @@ export default {
   deepBtn: "De l'expérience Deep Blue Fishing",
   dolphinBtn: "De l'expérience Dolphin Tour",
   safaritzBtn: "De l'expérience Safari Tanzania",
+  more: "Plus de photos de",
   heading: {
     overview: "Aperçu",
     tours: "Point culminant de la visite",
@@ -47,6 +48,38 @@ export default {
     "C'est une excursion d'une demi-journée. Le monde sous-marin de Nakupenda est incroyablement spectaculaire. Il existe d'innombrables poissons colorés et autres créatures marines qui survivent parmi les récifs coralliens et les plantes sous-marines qui forment ensemble l'écosystème de la barrière de corail. Les voyageurs auront également l'occasion de profiter d'un temps magnifique. de la plage, faire de la plongée avec tuba et même obtenir des fruits frais comme des bananes, des ananas, des pastèques, des mangues et d'autres fruits. Des boissons non alcoolisées et de la nourriture swahili seront également disponibles pendant la visite.",
   ],
   nakupendaAdditional: [
+    "La confirmation sera reçue au moment de la réservation",
+    "Le tarif enfant ne s'applique qu'en cas de partage avec 2 adultes payants",
+    "Pas accessible aux fauteuils roulants",
+    " La plupart des voyageurs peuvent participer",
+    "Il s'agit d'une visite/activité privée. Seul votre groupe participera.",
+    "Le prix de 85 $ par adulte varie selon la taille du groupe",
+    "L'âge requis est de 5 à 99 ans.",
+  ],
+  //safari blue
+  safariParagraphs: [
+    "Safari blue tour est une croisière en bateau qui comprend l'utilisation d'équipements de plongée en apnée, des services de guides et d'instructeurs, des boissons fraîches, un buffet de délicieux plats de poisson (poissons grillés, homards et calamars), des fruits de saison et du café seront également servis pour le déjeuner.",
+    "Lorsque la marée est haute, vous découvrirez également le lagon naturel près de l'île de kwale. Ce lagon est entouré d'une forêt de mangroves, quelque chose va vous faire vivre une expérience de baignade mémorable.",
+  ],
+  safariInfos: [
+    "Baignade et snorkeling",
+    "Déjeuner fruits de mer",
+    "Fruits de saison",
+    "Utilisation du boutre traditionnel",
+    "Regarder les dauphins",
+  ],
+  safariIncluded: [
+    "Prise en charge et retour à l'hôtel",
+    " Toutes les taxes, redevances et frais de dossier",
+    "Déjeuner de fruits de mer mixtes",
+    "Boissons sans alcool et fruits frais",
+    "Matériel de plongée en apnée",
+    "Guide touristique professionnel expérimenté",
+  ],
+  safariExpect: [
+    "C'est une excursion d'une demi-journée. Le monde sous-marin de Nakupenda est incroyablement spectaculaire. Il existe d'innombrables poissons colorés et autres créatures marines qui survivent parmi les récifs coralliens et les plantes sous-marines qui forment ensemble l'écosystème de la barrière de corail. Les voyageurs auront également l'occasion de profiter d'un temps magnifique. de la plage, faire de la plongée avec tuba et même obtenir des fruits frais comme des bananes, des ananas, des pastèques, des mangues et d'autres fruits. Des boissons non alcoolisées et de la nourriture swahili seront également disponibles pendant la visite.",
+  ],
+  safariAdditional: [
     "La confirmation sera reçue au moment de la réservation",
     "Le tarif enfant ne s'applique qu'en cas de partage avec 2 adultes payants",
     "Pas accessible aux fauteuils roulants",

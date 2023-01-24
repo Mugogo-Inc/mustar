@@ -62,13 +62,12 @@ const Experiences = ({ experienceData }) => {
           <div key={index}>
             <Gallery data={experience.safari.images} key={experience} />
             <MyModal
-              info={experience.safari.info}
+              info={t.safariInfos}
               data={experience.safari.images}
-              heading={experience.safari.Heading}
-              paragraphs={experience.safari.paragraphs}
-              included={experience.safari.included}
-              expect={experience.safari.expectparagraph}
-              additional={experience.safari.additional}
+              paragraphs={t.safariParagraphs}
+              included={t.safariIncluded}
+              expect={t.safariExpect}
+              additional={t.safariAdditional}
               tour={experience.safari.safari}
               gallery={experience.safari.gallery}
               modalBtn={safariBtn}

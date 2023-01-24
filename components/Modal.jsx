@@ -127,7 +127,7 @@ export default function MyModal({
                       </div>
                       <div className="block m-auto text-center ">
                         <h1 className="text-3xl font-bold p-3">
-                          More Photos of {tour} Tour
+                          {t.more} {tour} Tour
                         </h1>
                         <ModalGallery data={gallery} />
                       </div>

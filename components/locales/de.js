@@ -18,6 +18,7 @@ export default {
   deepBtn: "Erfahrungen Deep Blue Fishing",
   dolphinBtn: "Erfahrungen Dolphin Tour",
   safaritzBtn: "Erfahrungen Safari Tanzania",
+  more: "Mehr Fotos von",
   heading: {
     overview: "Überblick",
     tour: "Tour Markieren",
@@ -48,6 +49,42 @@ export default {
     "Es ist eine halbtägige Tour. Die Unterwasserwelt von Nakupenda ist unglaublich spektakulär. Es gibt unzählige bunte Fische und andere Meeresbewohner, die zwischen den Korallenriffen und Unterwasserpflanzen überleben, die zusammen das Barriereriff-Ökosystem bilden. Die Reisenden werden auch Gelegenheit haben, wunderbares Wetter zu genießen vom Strand, Schnorcheln und sogar frisches Obst wie Bananen, Ananas, Wassermelone, Mangos und andere Früchte. Auch Erfrischungsgetränke und Suaheli-Essen werden während der Tour erhältlich sein.",
   ],
   nakupendaAdditional: [
+    "Bestätigung wird zum Zeitpunkt der Buchung erhalten",
+    "Kindertarif gilt nur im Zimmer mit 2 zahlenden Erwachsenen",
+    "Nicht rollstuhlgerecht",
+    "Die meisten Reisenden können teilnehmen",
+    "Dies ist eine private Tour/Aktivität. Nur Ihre Gruppe wird teilnehmen.",
+    "Der Preis von 85 $ pro Erwachsenem variiert je nach Gruppengröße",
+    "Altersanforderung ist 5-99 Jahre.",
+  ],
+  // safari blue
+  safariParagraphs: [
+    "Safari Blue Tour ist eine Bootsfahrt, die die Verwendung von Schnorchelausrüstung, Guides und Instruktoren, kalte Getränke, ein Buffet mit köstlichen Fischgerichten (gegrillter Fisch, Hummer und Tintenfisch), Obst der Saison und Kaffee zum Mittagessen umfasst.",
+    "Bei Flut werden Sie auch die natürliche Lagune in der Nähe der Kwale-Insel entdecken. Diese Lagune ist von Mangrovenwäldern umgeben, etwas, das Ihnen ein unvergessliches Schwimmerlebnis bescheren wird.",
+  ],
+  safariInfos: [
+    "Schwimmen und Schnorcheln",
+    "Mittagessen mit Meeresfrüchten",
+    "Obst der Saison",
+    "Nutzung traditioneller Daus",
+    " Delfine beobachten",
+  ],
+  safariIncluded: [
+    "Abholung und Rückgabe vom Hotel",
+    " Alle Steuern, Gebühren und Bearbeitungsgebühren",
+    "Gemischtes Meeresfrüchte-Mittagessen",
+    "Erfrischungsgetränke und frisches Obst",
+    "Schnorchelausrüstung",
+    "Erfahrener professioneller Reiseleiter",
+  ],
+  safariExpect: [
+    "Erkunden des Naturschutzgebiets Menai Bay in einer traditionellen hölzernen Dau",
+    "Schnorcheln",
+    " Delfine beobachten",
+    "Schwimmen in der versteckten Mangrovenlagune",
+    "Genießen Sie Meeresfrüchte und alkoholfreie Getränke",
+  ],
+  safariAdditional: [
     "Bestätigung wird zum Zeitpunkt der Buchung erhalten",
     "Kindertarif gilt nur im Zimmer mit 2 zahlenden Erwachsenen",
     "Nicht rollstuhlgerecht",
