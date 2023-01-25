@@ -3,18 +3,13 @@ import Image from "next/image";
 
 const WorkCard = ({ img }) => {
   return (
-    <div className="p-3 m-3  sm:flex">
-      <div className="block text-center m-auto relative">
-        <div className="flex md:w-1/2 gap-2">
+    <div className="p-3  ">
+      <div className=" m-auto relative">
+        <div className="flex  gap-2">
           <Image
             src={img}
             alt="tatoo"
-            className="md:rounded-none rounded h-60 sm:w-96 sm:h-fit w-full "
-          />
-          <Image
-            src={img}
-            alt="tatoo"
-            className="md:rounded-none rounded h-60 sm:h-fit w-full md:w-96 hidden md:block"
+            className="md:rounded-none rounded h-60 sm:h-96  sm:w-96 w-80 md:w-96 block m-auto  object-cover "
           />
         </div>
       </div>

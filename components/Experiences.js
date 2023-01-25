@@ -1,191 +1,223 @@
 import React from "react";
 import MyModal from "./Modal";
 import Gallery from "./Gallery";
+import { useRouter } from "next/router";
+import en from "./locales/en";
+import fr from "./locales/fr";
+import de from "./locales/de";
 
 const Experiences = ({ experienceData }) => {
+  const router = useRouter();
+  const { locale } = router;
+
+  const t =
+    locale === "en"
+      ? en
+      : locale === "de"
+      ? de
+      : locale === "fr"
+      ? fr
+      : locale === en;
+  const {
+    safariBtn,
+    nakupendaBtn,
+    mnembaBtn,
+    kuzaBtn,
+    villageBtn,
+    stonetownBtn,
+    deepBtn,
+    safaritzBtn,
+    dolphinBtn,
+    sunsetBtn,
+    nakupendaParagraphs,
+    nakupendaInfos,
+    nakupendaIncluded,
+    nakupendaExpect,
+    nakupendaAdditional,
+  } = t;
   return (
     <>
       {/* nakupenda tour */}
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.nakupenda.images} key={experience} />
             <MyModal
-              info={experience.nakupenda.info}
+              info={nakupendaInfos}
               data={experience.nakupenda.images}
-              heading={experience.nakupenda.Heading}
-              paragraphs={experience.nakupenda.paragraphs}
-              included={experience.nakupenda.included}
-              expect={experience.nakupenda.expectparagraph}
-              additional={experience.nakupenda.additional}
+              paragraphs={nakupendaParagraphs}
+              included={nakupendaIncluded}
+              expect={nakupendaExpect}
+              additional={nakupendaAdditional}
               tour={experience.nakupenda.nakupenda}
               gallery={experience.nakupenda.gallery}
+              modalBtn={nakupendaBtn}
             />
           </div>
         ))}
       </div>
       {/* Safari Blue Island */}
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.safari.images} key={experience} />
             <MyModal
-              info={experience.safari.info}
+              info={t.safariInfos}
               data={experience.safari.images}
-              heading={experience.safari.Heading}
-              paragraphs={experience.safari.paragraphs}
-              included={experience.safari.included}
-              expect={experience.safari.expectparagraph}
-              additional={experience.safari.additional}
+              paragraphs={t.safariParagraphs}
+              included={t.safariIncluded}
+              expect={t.safariExpect}
+              additional={t.safariAdditional}
               tour={experience.safari.safari}
               gallery={experience.safari.gallery}
+              modalBtn={safariBtn}
             />
           </div>
         ))}
       </div>
       {/* Kuza Caves */}
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.kuza.images} key={experience} />
             <MyModal
-              info={experience.kuza.info}
+              info={t.kuzaInfos}
               data={experience.kuza.images}
-              heading={experience.kuza.Heading}
-              paragraphs={experience.safari.paragraphs}
-              included={experience.safari.included}
-              expect={experience.safari.expectparagraph}
-              additional={experience.safari.additional}
+              paragraphs={t.kuzaParagraphs}
+              included={t.kuzaIncluded}
+              expect={t.kuzaExpect}
+              additional={t.kuzaAdditional}
               tour={experience.safari.safari}
               gallery={experience.kuza.gallery}
+              modalBtn={kuzaBtn}
             />
           </div>
         ))}
       </div>
       {/* sunset Dhow */}
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.sunset.images} key={experience} />
             <MyModal
-              info={experience.sunset.info}
+              info={t.dhowInfos}
               data={experience.sunset.images}
-              heading={experience.sunset.Heading}
-              paragraphs={experience.sunset.paragraphs}
-              included={experience.sunset.included}
-              expect={experience.sunset.expectparagraph}
-              additional={experience.sunset.additional}
+              paragraphs={t.dhowParagraphs}
+              included={t.dhowIncluded}
+              expect={t.dhowExpect}
+              additional={t.dhowAdditional}
               tour={experience.sunset.sunset}
               gallery={experience.sunset.gallery}
+              modalBtn={sunsetBtn}
             />
           </div>
         ))}
       </div>
       {/* stonetown */}
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.stonetown.images} key={experience} />
             <MyModal
-              info={experience.stonetown.info}
+              info={t.stonetownInfos}
               data={experience.stonetown.images}
-              heading={experience.stonetown.Heading}
-              paragraphs={experience.stonetown.paragraphs}
-              included={experience.stonetown.included}
-              expect={experience.stonetown.expectparagraph}
-              additional={experience.stonetown.additional}
+              paragraphs={t.stonetownParagraphs}
+              included={t.stonetownIncluded}
+              expect={t.stonetownExpect}
+              additional={t.stonetownAdditional}
               tour={experience.stonetown.stonetown}
               gallery={experience.stonetown.gallery}
+              modalBtn={stonetownBtn}
             />
           </div>
         ))}
       </div>
       {/* Mnemba experience */}
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.mnemba.images} key={experience} />
             <MyModal
-              info={experience.mnemba.info}
+              info={t.mnembaInfos}
               data={experience.mnemba.images}
-              heading={experience.mnemba.Heading}
-              paragraphs={experience.mnemba.paragraphs}
-              included={experience.mnemba.included}
-              expect={experience.mnemba.expectparagraph}
-              additional={experience.mnemba.additional}
+              paragraphs={t.mnembaParagraphs}
+              included={t.mnembaIncluded}
+              expect={t.mnembaExpect}
+              additional={t.mnembaAdditional}
               tour={experience.mnemba.mnemba}
               gallery={experience.mnemba.gallery}
+              modalBtn={mnembaBtn}
             />
           </div>
         ))}
       </div>
       {/* village */}
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData?.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.village.images} key={experience} />
             <MyModal
-              info={experience.village.info}
+              info={t.villageInfos}
               data={experience.village.images}
-              heading={experience.village.Heading}
-              paragraphs={experience.village.paragraphs}
-              included={experience.village.included}
-              expect={experience.village.expectparagraph}
-              additional={experience.village.additional}
+              paragraphs={t.villageParagraphs}
+              included={t.villageIncluded}
+              expect={t.villageExpect}
+              additional={t.villageAdditional}
               tour={experience.village.village}
               gallery={experience.village.gallery}
+              modalBtn={villageBtn}
             />
           </div>
         ))}
       </div>
       {/* game deep diving */}
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.game.images} key={experience} />
             <MyModal
-              info={experience.game.info}
+              info={t.gameInfos}
               data={experience.game.images}
-              heading={experience.game.Heading}
-              paragraphs={experience.game.paragraphs}
-              included={experience.game.included}
-              expect={experience.game.expectparagraph}
-              additional={experience.game.additional}
+              paragraphs={t.gameParagraphs}
+              included={t.gameIncluded}
+              expect={t.gameExpect}
+              additional={t.gameAdditional}
               tour={experience.game.game}
               gallery={experience.village.gallery}
+              modalBtn={deepBtn}
             />
           </div>
         ))}
       </div>
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.dolphin.images} key={experience} />
             <MyModal
-              info={experience.dolphin.info}
+              info={t.dolphinInfos}
               data={experience.dolphin.images}
-              heading={experience.dolphin.Heading}
-              paragraphs={experience.dolphin.paragraphs}
-              included={experience.dolphin.included}
-              expect={experience.dolphin.expectparagraph}
-              additional={experience.dolphin.additional}
+              paragraphs={t.dolphinParagraphs}
+              included={t.dolphinIncluded}
+              expect={t.dolphinExpect}
               tour={experience.dolphin.dolphin}
               gallery={experience.dolphin.gallery}
+              modalBtn={dolphinBtn}
             />
           </div>
         ))}
       </div>
       {/* safari Tanzania */}
-      <div className="relative">
+      <div className="relative w-full p-6 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.tanzania.images} key={experience} />
             <MyModal
               data={experience.tanzania.images}
               heading={experience.tanzania.Heading}
-              paragraphs={experience.tanzania.paragraphs}
+              paragraphs={t.safaritzParagraphs}
               tour={experience.tanzania.tanzania}
               gallery={experience.tanzania.gallery}
+              modalBtn={safaritzBtn}
             />
           </div>
         ))}
