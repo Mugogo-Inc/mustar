@@ -28,7 +28,7 @@ export default {
   with: "mit uns",
   beach: "Strand zu Strand",
   menu: "Unser Menü",
-
+  ourExperiences: "Unsere Erfahrungen",
   Amazing: "Erstaunliche Preise",
   checkOut: "schau dir unsere an",
   from: "Vom Flughafen/Fähre",

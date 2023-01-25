@@ -34,6 +34,7 @@ export default {
   check: "Check out our Amazing Catalogue",
   learnMore: "Learn More",
   special: "Special Offers",
+  ourExperiences: "Our Experiences",
   heading: {
     overview: "Overview",
     tours: "Tour highlight",
@@ -388,7 +389,7 @@ export default {
     },
     {
       heading: "Combine Tour",
-      experiences: "Spice Tour ➕️  Jozani Forest",
+      experiences: "Spice Tour ➕️ Jozani Forest",
       info: "Lunch Excluded",
       price: " $70",
     },

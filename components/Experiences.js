@@ -38,7 +38,7 @@ const Experiences = ({ experienceData }) => {
   return (
     <>
       {/* nakupenda tour */}
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.nakupenda.images} key={experience} />
@@ -57,7 +57,7 @@ const Experiences = ({ experienceData }) => {
         ))}
       </div>
       {/* Safari Blue Island */}
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.safari.images} key={experience} />
@@ -76,7 +76,7 @@ const Experiences = ({ experienceData }) => {
         ))}
       </div>
       {/* Kuza Caves */}
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.kuza.images} key={experience} />
@@ -95,7 +95,7 @@ const Experiences = ({ experienceData }) => {
         ))}
       </div>
       {/* sunset Dhow */}
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.sunset.images} key={experience} />
@@ -114,7 +114,7 @@ const Experiences = ({ experienceData }) => {
         ))}
       </div>
       {/* stonetown */}
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.stonetown.images} key={experience} />
@@ -133,7 +133,7 @@ const Experiences = ({ experienceData }) => {
         ))}
       </div>
       {/* Mnemba experience */}
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.mnemba.images} key={experience} />
@@ -152,7 +152,7 @@ const Experiences = ({ experienceData }) => {
         ))}
       </div>
       {/* village */}
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData?.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.village.images} key={experience} />
@@ -171,7 +171,7 @@ const Experiences = ({ experienceData }) => {
         ))}
       </div>
       {/* game deep diving */}
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.game.images} key={experience} />
@@ -189,7 +189,7 @@ const Experiences = ({ experienceData }) => {
           </div>
         ))}
       </div>
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.dolphin.images} key={experience} />
@@ -207,7 +207,7 @@ const Experiences = ({ experienceData }) => {
         ))}
       </div>
       {/* safari Tanzania */}
-      <div className="relative">
+      <div className="relative w-80 block m-auto">
         {experienceData.map((experience, index) => (
           <div key={index}>
             <Gallery data={experience.tanzania.images} key={experience} />

@@ -34,6 +34,7 @@ export default {
   with: "avec nous",
   Amazing: "prix incroyable",
   checkOut: "consultez notre",
+  ourExperiences: "Nos expériences",
   heading: {
     overview: "Aperçu",
     tours: "Point culminant de la visite",
