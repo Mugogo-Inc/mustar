@@ -383,6 +383,12 @@ export default {
     },
     {
       heading: "Tour kombinieren",
+      experiences: "Spice Tour ➕️ Jozani Forest",
+      info: "Mittagessen ausgeschlossen",
+      price: " $70",
+    },
+    {
+      heading: "Tour kombinieren",
       experiences: "Jozani Forest ➕️ The Rock Restaurant ",
       info: "Mittagessen ausgeschlossen",
       price: " $75",

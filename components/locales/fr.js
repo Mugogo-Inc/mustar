@@ -379,6 +379,12 @@ export default {
     },
     {
       heading: "Circuit combiné",
+      experiences: "Spice Tour ➕️ Jozani Forest",
+      info: "Déjeuner exclu",
+      price: " 70$",
+    },
+    {
+      heading: "Circuit combiné",
       experiences: "Jozani Forest ➕️ The Rock Restaurant ",
       info: "Déjeuner exclu",
       price: " 75$",
