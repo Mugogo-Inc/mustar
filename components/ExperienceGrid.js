@@ -19,17 +19,14 @@ const ExperienceGrid = () => {
       ? fr
       : locale === en;
   return (
-    <>
-      <div
-        className="sm:grid sm:grid-cols-3 sm:gap-3 bg-gray-900 p-3 "
-        id="experiences"
-      >
-        <h1 className="p-4 text-4xl text-orange-500 block m-auto text-center font-semibold">
-          {t.ourExperiences}
-        </h1>
+    <div id="experiences" className="bg-gray-900">
+      <h1 className="block m-auto text-center text-base-100 text-5xl p-2 font-semibold">
+        {t.ourExperiences}
+      </h1>
+      <div className="sm:grid sm:grid-cols-3 sm:gap-3 bg-gray-900 p-1 ">
         <Experiences experienceData={experienceData} />
       </div>
-    </>
+    </div>
   );
 };
 

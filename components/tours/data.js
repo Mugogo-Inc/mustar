@@ -216,13 +216,6 @@ const experienceData = [
         tanzania1,
       ],
       tanzania: "Safari Tanzania ",
-      Heading: ["Experience Safari Tanzania", "Overview"],
-
-      paragraphs: [
-        "Tanzania is one of Africa top safari destinations. The wildlife viewing is out of this world and big cats are especially easy to see.",
-        "All members of the big five can be found in various Tanzanian parks and reserves, and all five are present in the Ngorongoro crater and Serengeti National Park",
-        "Almost 40% of the country is protected and set for conservation, which means that its easy for tourists to go on a tanzania safari for 2 full weeks and drive from park to park while rarely leaving the bush",
-      ],
     },
   },
 ];
@@ -237,49 +230,8 @@ const tours = [
   { img: nakupenda2, tour: "Prison Island", price: "$70" },
   { img: dolphin3, tour: "Dolphin Tour", price: "$90" },
   { img: rock, tour: "The Rock Restaurant", price: "$60" },
-  { img: spice, tour: "Combined Spice Tour & Jozani Forest", price: "$70" },
 ];
 
-const menuInfo = [
-  {
-    heading: "Combine full Day Tour",
-    experiences: "Mnemba Snorkeling ➕️ Nungwi Aquarium and Sunset dhow cruise",
-    info: "Lunch Excluded",
-    price: " $120",
-  },
-  {
-    heading: "Combine full Day Tour",
-    experiences:
-      "Spice Tour with swahili lunch ➕️ stone town tour and Prison Island",
-    info: "Lunch Included",
-    price: " $125",
-  },
-  {
-    heading: "Combine full Day Tour",
-    experiences:
-      "Jozani Forest ➕️ Kuza cave ➕️ Mtende Beach and the Rock Restaurant",
-    info: "Lunch Excluded",
-    price: " $95",
-  },
-  {
-    heading: "Combine Tour",
-    experiences: "Stonetown ➕️ Prison Island",
-    info: "Lunch Excluded",
-    price: " $65",
-  },
-  {
-    heading: "Combine Tour",
-    experiences: "Jozani Forest ➕️ The Rock Restaurant ",
-    info: "Lunch Excluded",
-    price: " $75",
-  },
-  {
-    heading: "Combine Tour",
-    experiences: "Stonetown ➕️ Spice Tour ",
-    info: "Lunch Excluded",
-    price: " $65",
-  },
-];
 const transfers = [
   {
     to: "Stone Town / Bububu",
@@ -376,4 +328,4 @@ const beaches = [
 
 const footerImages = [nakupenda1, dhow2, safari1, kuza1];
 
-export { footerImages, experienceData, menuInfo, tours, transfers, beaches };
+export { footerImages, experienceData, tours, transfers, beaches };

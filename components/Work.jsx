@@ -28,10 +28,10 @@ const Work = () => {
         {tours.map((item, index) => (
           <div
             key={index}
-            className="sm:flex flex-row-reverse sm:justify-center sm:items-center"
+            className="sm:flex flex-row sm:justify-center sm:items-center items-center justify-center md:m-5"
           >
             <WorkCard key={index} heading={item.btnInfo} img={item.img} />
-            <div className="block  m-auto text-center  w-1/2">
+            <div className="block  m-auto text-center ">
               <h1 className="block m-auto text-center text-2xl ">
                 {item.tour}
               </h1>
