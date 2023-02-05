@@ -27,7 +27,7 @@ export default function Home({}) {
       <Menu />
 
       <Work />
-      <Transfers />
+      {/* <Transfers /> */}
       <Contact />
       <Footer />
     </div>
