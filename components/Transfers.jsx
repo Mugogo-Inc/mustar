@@ -19,8 +19,8 @@ const Transfers = () => {
       ? fr
       : locale === en;
   return (
-    <div className="block m-auto text-center p-6" id="transfer">
-      <h1 className="p-2 text-gray-800  text-4xl font-semibold">
+    <div className="block p-6 m-auto text-center" id="transfer">
+      <h1 className="p-2 text-4xl font-semibold text-gray-800">
         {t.travel} <span className="font-bold text-orange-500">{t.home}</span>{" "}
         {t.with}
         <br />
@@ -31,10 +31,10 @@ const Transfers = () => {
         <h1 className="text-3xl font-semibold">
           {t.from} <br /> {t.to}
         </h1>
-        <TransferComponent transfers={transfers} price={t.price} />
-        <h1 className="text-3xl font-semibold p-3">{t.beach}</h1>
+        <TransferComponent transfers={transfers} />
+        <h1 className="p-3 text-3xl font-semibold">{t.beach}</h1>
 
-        <TransferComponent transfers={beaches} width={true} price={t.price} />
+        <TransferComponent transfers={beaches} width={true} />
       </div>
     </div>
   );

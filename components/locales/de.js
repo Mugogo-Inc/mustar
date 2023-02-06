@@ -19,7 +19,6 @@ export default {
   dolphinBtn: "Erfahrungen Dolphin Tour",
   safaritzBtn: "Erfahrungen Safari Tanzania",
   more: "Mehr Fotos von",
-  price: "Preis",
   perPerson: "pro Person",
   special: "Sonderangebote",
   learnMore: "Lern Mehr",
@@ -359,45 +358,38 @@ export default {
       experiences:
         "Mnemba Snorkeling ➕️ Nungwi Aquarium und Sunset dhow cruise",
       info: "Mittagessen ausgeschlossen",
-      price: " $120",
     },
     {
       heading: "Ganztagestour kombinieren",
       experiences:
         "Spice Tour mit Suaheli-Mittagessen ➕️ stone town tour und Prison Island",
       info: "Mittagessen inbegriffen",
-      price: " $125",
     },
     {
       heading: "Ganztagestour kombinieren",
       experiences:
         "Jozani Forest ➕️ Kuza cave ➕️ Mtende Beach und der Rock Restaurant",
       info: "Mittagessen ausgeschlossen",
-      price: " $95",
     },
     {
       heading: "Tour kombinieren",
       experiences: "Stonetown ➕️ Prison Island",
       info: "Mittagessen ausgeschlossen",
-      price: " $65",
     },
     {
       heading: "Tour kombinieren",
       experiences: "Spice Tour ➕️ Jozani Forest",
       info: "Mittagessen ausgeschlossen",
-      price: " $70",
     },
     {
       heading: "Tour kombinieren",
       experiences: "Jozani Forest ➕️ The Rock Restaurant ",
       info: "Mittagessen ausgeschlossen",
-      price: " $75",
     },
     {
       heading: "Tour kombinieren",
       experiences: "Stonetown ➕️ Spice Tour ",
       info: "Mittagessen ausgeschlossen",
-      price: " $65",
     },
   ],
   FAQ: {

@@ -20,27 +20,21 @@ const Work = () => {
       ? fr
       : locale === en;
   return (
-    <div className=" mt-4 p-4" id="work">
+    <div className="p-4 mt-4 " id="work">
       <Heading>
-        <span className="text-gray-900 text-4xl font-bold"> {t.menu} </span>
+        <span className="text-4xl font-bold text-gray-900"> {t.menu} </span>
       </Heading>
       <div className="">
         {tours.map((item, index) => (
           <div
             key={index}
-            className="sm:flex flex-row sm:justify-center sm:items-center items-center justify-center md:m-5"
+            className="flex-row items-center justify-center sm:flex sm:justify-center sm:items-center md:m-5"
           >
             <WorkCard key={index} heading={item.btnInfo} img={item.img} />
-            <div className="block  m-auto text-center ">
-              <h1 className="block m-auto text-center text-2xl ">
+            <div className="block m-auto text-center ">
+              <h1 className="block m-auto text-2xl text-center ">
                 {item.tour}
               </h1>
-              <p className="p-4 text-xl font-semibold text-orange-500">
-                {item.price} {t.perPerson}
-              </p>
-              <button className="text-white bg-gray-900  sm:block hidden text-center m-auto  shadow-2xl p-3 border border-white hover:border-orange-500 button-animation">
-                {t.learnMore}
-              </button>
             </div>
           </div>
         ))}
