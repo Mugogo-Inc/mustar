@@ -19,7 +19,6 @@ export default {
   safaritzBtn: "De l'expérience Safari Tanzania",
   more: "Plus de photos de",
   special: "Offres spéciales",
-  price: "Prix",
   perPerson: "par personne",
   learnMore: "apprendre encore plus",
   from: "Depuis l'aéroport/ferry",
@@ -356,45 +355,38 @@ export default {
       experiences:
         "Mnemba Snorkeling ➕️ Nungwi Aquarium et Sunset dhow cruise",
       info: "Déjeuner exclu",
-      price: " 120$",
     },
     {
       heading: "Combinez une journée complète",
       experiences:
         "Spice Tour avec déjeuner swahili ➕️ stone town tour en Prison Island",
       info: "Déjeuner inclus",
-      price: " 125$",
     },
     {
       heading: "Combinez une journée complète",
       experiences:
         "Jozani Forest ➕️ Kuza cave ➕️ Mtende Beach et le Rock Restaurant",
       info: "Déjeuner exclu",
-      price: " 95$",
     },
     {
       heading: "Circuit combiné",
       experiences: "Stonetown ➕️ Prison Island",
       info: "Déjeuner exclu",
-      price: " 65$",
     },
     {
       heading: "Circuit combiné",
       experiences: "Spice Tour ➕️ Jozani Forest",
       info: "Déjeuner exclu",
-      price: " 70$",
     },
     {
       heading: "Circuit combiné",
       experiences: "Jozani Forest ➕️ The Rock Restaurant ",
       info: "Déjeuner exclu",
-      price: " 75$",
     },
     {
       heading: "Circuit combiné",
       experiences: "Stonetown ➕️ Spice Tour ",
       info: "Déjeuner exclu",
-      price: " 65$",
     },
   ],
 

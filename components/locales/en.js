@@ -30,7 +30,7 @@ export default {
   checkOut: "check out our",
   services:
     " We also offer transfer services across the island at an affordable rate",
-  price: "Price",
+
   check: "Check out our Amazing Catalogue",
   learnMore: "Learn More",
   special: "Special Offers",
@@ -365,45 +365,38 @@ export default {
       experiences:
         "Mnemba Snorkeling ➕️ Nungwi Aquarium and Sunset dhow cruise",
       info: "Lunch Excluded",
-      price: " $120",
     },
     {
       heading: "Combine full Day Tour",
       experiences:
         "Spice Tour with swahili lunch ➕️ stone town tour and Prison Island",
       info: "Lunch Included",
-      price: " $125",
     },
     {
       heading: "Combine full Day Tour",
       experiences:
         "Jozani Forest ➕️ Kuza cave ➕️ Mtende Beach and the Rock Restaurant",
       info: "Lunch Excluded",
-      price: " $95",
     },
     {
       heading: "Combine Tour",
       experiences: "Stonetown ➕️ Prison Island",
       info: "Lunch Excluded",
-      price: " $65",
     },
     {
       heading: "Combine Tour",
       experiences: "Spice Tour ➕️ Jozani Forest",
       info: "Lunch Excluded",
-      price: " $70",
     },
     {
       heading: "Combine Tour",
       experiences: "Jozani Forest ➕️ The Rock Restaurant ",
       info: "Lunch Excluded",
-      price: " $75",
     },
     {
       heading: "Combine Tour",
       experiences: "Stonetown ➕️ Spice Tour ",
       info: "Lunch Excluded",
-      price: " $65",
     },
   ],
 };

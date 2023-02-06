@@ -12,7 +12,7 @@ import jozani from "./mnemba/forest.jpeg";
 
 //rock restaurant
 import rock from "./rock/rock1.jpg";
-import rock2 from "./rock/rock2.jpeg";
+
 //safari imports
 import safari1 from "./safari/safari1.jpg";
 import safari2 from "./safari/safari2.jpg";
@@ -221,108 +221,86 @@ const experienceData = [
 ];
 
 const tours = [
-  { img: spice, tour: "Spice Tour", price: "$40" },
-  { img: nakupenda1, tour: "Nakupenda Tour", price: "$85" },
-  { img: village1, tour: "Village Tour", price: "$55" },
-  { img: mnemba3, tour: "Mnemba Snorkeling", price: "$85" },
-  { img: safari4, tour: "Safari Blue", price: "$90" },
-  { img: jozani, tour: "Jozani Forest", price: "$55" },
-  { img: nakupenda2, tour: "Prison Island", price: "$70" },
-  { img: dolphin3, tour: "Dolphin Tour", price: "$90" },
-  { img: rock, tour: "The Rock Restaurant", price: "$60" },
+  { img: spice, tour: "Spice Tour" },
+  { img: nakupenda1, tour: "Nakupenda Tour" },
+  { img: village1, tour: "Village Tour" },
+  { img: mnemba3, tour: "Mnemba Snorkeling" },
+  { img: safari4, tour: "Safari Blue" },
+  { img: jozani, tour: "Jozani Forest" },
+  { img: nakupenda2, tour: "Prison Island" },
+  { img: dolphin3, tour: "Dolphin Tour" },
+  { img: rock, tour: "The Rock Restaurant" },
 ];
 
 const transfers = [
   {
     to: "Stone Town / Bububu",
-    price: " $20",
   },
   {
     to: "Manga Pwani",
-    price: " $30",
   },
   {
     to: "Kendwa",
-    price: " $50",
   },
   {
     to: "Nungwi Bay",
-    price: " $50",
   },
   {
     to: "Matemwe",
-    price: " $45",
   },
   {
     to: "Pwani Mchangani",
-    price: " $45",
   },
   {
     to: "Kiwengwa/ Matemwe",
-    price: " $45",
   },
   {
     to: "Uroa/ Pongwe",
-    price: " $45",
   },
   {
     to: "Michamvi",
-    price: " $50",
   },
   {
     to: "Bwejuu/ Paje/ Jambiani",
-    price: " $50",
   },
   {
     to: "Kizimkazi",
-    price: " $50",
   },
   {
     to: "Makunduchi",
-    price: " $50",
   },
 ];
 
 const beaches = [
   {
     to: "Paje to Nungwi",
-    price: " $50",
   },
   {
     to: "Paje to Kendwa",
-    price: " $50",
   },
   {
     to: "Jambiani to Nungwi",
-    price: " $50",
   },
   {
     to: "Matemwe to Nungwi",
-    price: " $30",
   },
   {
     to: "Stone Town to Nungwi",
-    price: " $50",
   },
   {
     to: "Stone Town to Paje",
-    price: " $50",
   },
   {
     to: "Kizimkazi to Kendwa",
-    price: " $60",
   },
   {
     to: "Kizimkazi to Nungwi",
-    price: " $50",
   },
   {
     to: "Stone Town to Kendwa",
-    price: " $50",
   },
   {
     to: "Kendwa to Michamvi",
-    price: " $50",
   },
 ];
 
