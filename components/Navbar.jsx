@@ -31,7 +31,7 @@ const Navbar = () => {
     <div className="relative navbar bg-base-100">
       <div className={isOpen ? "hidden" : "flex-1"}>
         <Link href="/" className="flex items-center justify-center gap-2 mr-5">
-          <div className="flex w-10">
+          <div className="flex h-24 w-28">
             <Image alt="ge" src={img} className="object-cover w-full" />
           </div>
           <h1 className="font-bold">Tours Zanzibar</h1>
