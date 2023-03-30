@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from "../components/assets/tourszanzibarlogo.jpeg";
+import img from "../components/assets/logo.png";
 import Link from "next/link";
 import Image from "next/image";
 import { RxCross2 } from "react-icons/rx";
