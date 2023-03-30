@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import img from "../components/assets/tourszanzibarlogo.jpeg";
 import Link from "next/link";
+import Image from "next/image";
 import { RxCross2 } from "react-icons/rx";
 import { useRouter } from "next/router";
 import en from "./locales/en";
@@ -26,13 +28,15 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar bg-base-100 relative">
+    <div className="relative navbar bg-base-100">
       <div className={isOpen ? "hidden" : "flex-1"}>
-        <button
-          className={isOpen ? "hidden" : "btn btn-ghost normal-case text-xl"}
-        >
-          Tours Zanzibar
-        </button>
+        <Link href="/" className="flex items-center justify-center gap-2 mr-5">
+          <div className="flex w-10">
+            <Image alt="ge" src={img} className="object-cover w-full" />
+          </div>
+          <h1 className="font-bold">Tours Zanzibar</h1>
+        </Link>
+
         <select name="" id="" className="select" onChange={handleChange}>
           <option value="en" className="">
             EN
@@ -56,7 +60,7 @@ const Navbar = () => {
               : "hidden sm:flex"
           }
         >
-          <button className=" btn-ghost :hover: shadow-inner sm:hidden absolute bottom-10">
+          <button className="absolute shadow-inner btn-ghost :hover: sm:hidden bottom-10">
             {" "}
             <RxCross2 onClick={() => setIsOpen(!isOpen)} />
           </button>
